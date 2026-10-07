@@ -2,6 +2,13 @@
   {
     "id": "ai-coding",
     "name": "AI·코딩",
-    "emoji": "🤖"
+    "emoji": "🤖",
+    "mode": "digest"
+  },
+  {
+    "id": "novel-anime",
+    "name": "소설·애니",
+    "emoji": "📚",
+    "mode": "event"
   }
 ]

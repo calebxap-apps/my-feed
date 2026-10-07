@@ -1,0 +1,38 @@
+{
+  "channel": "novel-anime",
+  "mode": "event",
+  "date": "2026-10-07",
+  "generatedAt": "2026-10-07T09:30:34.980Z",
+  "summarizer": "claude",
+  "candidateCount": 7,
+  "headline": "윙페더 사가 공식 채널에 영상 7편이 올라왔어요.",
+  "items": [
+    {
+      "title": "FeatherFest 2026",
+      "summary": "윙페더 사가 공식 유튜브에 'FeatherFest 2026' 영상이 2026년 9월 29일에 올라왔어요. 제목으로 보아 2026년 팬 행사인 페더페스트를 다룬 영상으로 보여요. 행사 일정과 내용 같은 자세한 정보는 영상에서 확인할 수 있어요.",
+      "tag": "영상",
+      "source": "윙페더 공식 유튜브",
+      "originalTitle": "FeatherFest 2026 #WingfeatherSaga",
+      "url": "https://www.youtube.com/shorts/GrgY9hzcIbc",
+      "at": "2026-10-07T09:30:34.980Z"
+    },
+    {
+      "title": "온와의 기원 (#InsideWingfeather)",
+      "summary": "공식 유튜브가 2026년 9월 30일에 'The Origins of Onwaa'를 올렸어요. 제작 뒷이야기 시리즈 '#InsideWingfeather'의 한 편이에요. 제목으로 보아 온와라는 대상이 어떻게 만들어졌는지를 다루는 것으로 보여요.",
+      "tag": "영상",
+      "source": "윙페더 공식 유튜브",
+      "originalTitle": "The Origins of Onwaa #InsideWingfeather",
+      "url": "https://www.youtube.com/shorts/NY-vmYH3-Z0",
+      "at": "2026-10-07T09:30:34.980Z"
+    },
+    {
+      "title": "얼음 애니메이션의 어려움 (#InsideWingfeather)",
+      "summary": "공식 유튜브가 2026년 10월 5일에 'Icy Animation Challenges'를 올렸어요. 제작 뒷이야기 시리즈 '#InsideWingfeather'의 한 편이에요. 제목으로 보아 얼음 표현을 애니메이션으로 만들 때 겪은 어려움을 다루는 것으로 보여요.",
+      "tag": "제작",
+      "source": "윙페더 공식 유튜브",
+      "originalTitle": "Icy Animation Challenges 🥶 #InsideWingfeather",
+      "url": "https://www.youtube.com/shorts/-6k3ZQslo6w",
+      "at": "2026-10-07T09:30:34.980Z"
+    }
+  ]
+}
