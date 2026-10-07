@@ -7,17 +7,6 @@ const $ = (id) => document.getElementById(id);
 const params = new URLSearchParams(location.search);
 const state = { channel: params.get('channel'), date: params.get('date'), channels: [], index: [] };
 
-// 시안 비교용: ?v=post 또는 ?v=leaf
-const variant = params.get('v') || store('variant');
-if (variant) { document.documentElement.dataset.variant = variant; store('variant', variant); }
-
-function store(key, value) {
-  try {
-    if (value === undefined) return localStorage.getItem(key);
-    localStorage.setItem(key, value);
-  } catch { return null; }
-}
-
 function el(tag, attrs = {}, ...children) {
   const node = document.createElement(tag);
   for (const [k, v] of Object.entries(attrs)) {
@@ -77,8 +66,7 @@ async function renderDay() {
   const longDate = fmt(d.date, { month: 'long', day: 'numeric', weekday: 'short' });
   day.replaceChildren(...[
     postmark(channel, d.date),
-    el('p', { class: 'dateline' }, `${longDate} · 낮 12:00`),
-    el('h2', { class: 'headline' }, el('span', {}, d.headline || '오늘은 새 소식이 없어요')),
+    el('h2', { class: 'headline' }, d.headline || '오늘은 새 소식이 없어요'),
     el('p', { class: 'meta' }, d.items.length
       ? `후보 ${d.candidateCount}개 중 ${d.items.length}개를 골랐어요`
       : '내일 낮 12시에 다시 확인해요.'),

@@ -1,6 +1,6 @@
-/* ── 색·글꼴 (시안별) ─────────────────────────────── */
-/* 시안 A '우편': 항공우편 종이 + 우체통 빨강 소인 */
-:root, [data-variant="post"] {
+/* ── 색·글꼴 ─────────────────────────────────── */
+/* 우편: 항공우편 종이 + 우체통 빨강 소인 */
+:root {
   --paper: #EEF1F5;
   --surface: #EEF1F5;
   --ink: #1A2233;
@@ -8,33 +8,15 @@
   --line: #CDD4DE;
   --accent: #D52B2B;   /* 우체통 빨강: 소인과 꼬리표에만 */
   --link: #2F5BA8;     /* 항공우편 파랑 */
-  --mark: transparent;
   --radius: 4px;
   --display: "Hahmlet", "Nanum Myeongjo", serif;
   --body: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, monospace;
 }
-/* 시안 B '쪽지': 세이지색 바탕 + 형광펜 헤드라인 */
-[data-variant="leaf"] {
-  --paper: #E4EBE6;
-  --surface: #F8FBF8;
-  --ink: #12302A;
-  --muted: #50665F;
-  --line: #C9D6CE;
-  --accent: #B5761A;
-  --link: #1F6B57;
-  --mark: #F2C66B;
-  --radius: 18px;
-  --display: "Gothic A1", "Apple SD Gothic Neo", sans-serif;
-}
 @media (prefers-color-scheme: dark) {
-  :root, [data-variant="post"] {
+  :root {
     --paper: #12161E; --surface: #12161E; --ink: #E6EAF1; --muted: #98A2B3;
     --line: #2A3140; --accent: #FF6B6B; --link: #8AB0F0;
-  }
-  [data-variant="leaf"] {
-    --paper: #0F1915; --surface: #17241F; --ink: #E4EEE9; --muted: #93A89F;
-    --line: #26372F; --accent: #E2A54B; --link: #7FCFB5; --mark: rgba(226, 165, 75, .35);
   }
 }
 
@@ -72,34 +54,20 @@ main { padding-bottom: calc(48px + env(safe-area-inset-bottom)); outline: none; 
 .pm-arc { font: 700 10.5px var(--body); letter-spacing: .18em; fill: currentColor; }
 .pm-date { font: 500 19px var(--mono); fill: currentColor; }
 .pm-time { font: 500 10px var(--mono); fill: currentColor; letter-spacing: .1em; }
-[data-variant="leaf"] .postmark { display: none; }
 
-.dateline { display: none; font: 500 13px var(--mono); color: var(--muted); margin: 0 0 10px; }
-[data-variant="leaf"] .dateline { display: block; }
 
 .headline { margin: 0 0 6px; font: 700 26px/1.38 var(--display); letter-spacing: -.01em; }
-[data-variant="leaf"] .headline { font-weight: 800; font-size: 28px; letter-spacing: -.03em; }
-.headline span {
-  background: linear-gradient(transparent 58%, var(--mark) 58%, var(--mark) 92%, transparent 92%);
-  -webkit-box-decoration-break: clone; box-decoration-break: clone;
-}
 .meta { margin: 0 0 22px; color: var(--muted); font-size: 13px; }
 
 /* ── 소식 하나 ────────────────────────────────────── */
 .items { list-style: none; margin: 0; padding: 0; }
 .item { padding: 20px 0; border-top: 1px solid var(--line); }
-[data-variant="leaf"] .item {
-  border: 0; background: var(--surface); border-radius: var(--radius);
-  padding: 18px 18px 16px; margin-bottom: 10px;
-}
 .tag {
   display: inline-block; font: 600 11.5px/1 var(--body); letter-spacing: .04em;
   color: var(--accent); border: 1px solid currentColor; border-radius: var(--radius);
   padding: 4px 6px 3px; margin-bottom: 9px;
 }
-[data-variant="leaf"] .tag { border: 0; background: var(--paper); padding: 5px 9px; }
 .item h3 { margin: 0 0 6px; font: 700 19px/1.42 var(--display); letter-spacing: -.01em; }
-[data-variant="leaf"] .item h3 { font-weight: 800; font-size: 18px; letter-spacing: -.02em; }
 .item h3 a { color: inherit; text-decoration: none; }
 .item h3 a:hover { text-decoration: underline; text-decoration-color: var(--line); }
 .item p { margin: 0 0 10px; font-size: 15.5px; }
