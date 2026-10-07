@@ -1,7 +1,11 @@
 import { VAPID_PUBLIC_KEY } from './config.js';
 
-// 아직 안 만든 채널 (탭에 '준비 중'으로 보여줌)
-const UPCOMING = [{ id: 'novel-anime', name: '소설·애니', emoji: '📚' }];
+// 채널 방식별 안내 문구 (digest: 매일 낮 12시 묶음 / event: 소식이 생길 때만)
+const EMPTY = {
+  digest: '아직 도착한 소식이 없어요. 매일 낮 12시에 첫 묶음이 와요.',
+  event: '아직 새 소식이 없어요. 공식 사이트를 3시간마다 확인하다가 소식이 생기면 알려 드려요.',
+};
+const time = (iso) => new Intl.DateTimeFormat('ko-KR', { timeZone: 'Asia/Seoul', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(iso));
 
 const $ = (id) => document.getElementById(id);
 const params = new URLSearchParams(location.search);
@@ -32,12 +36,10 @@ function renderTabs() {
       class: 'tab', 'aria-current': String(c.id === state.channel),
       onclick: () => go(c.id, null),
     }, `${c.emoji} ${c.name}`)),
-    ...UPCOMING.filter((u) => !state.channels.some((c) => c.id === u.id)).map((u) =>
-      el('button', { class: 'tab', disabled: true }, `${u.emoji} ${u.name}`, el('small', {}, '준비 중'))),
   );
 }
 
-function postmark(channel, date) {
+function postmark(channel, date, hhmm) {
   const svg = $('postmark').content.firstElementChild.cloneNode(true);
   const id = `pm-${Math.random().toString(36).slice(2, 7)}`;
   svg.querySelectorAll('path[id]').forEach((p) => { p.id = `${id}-${p.id}`; });
@@ -45,6 +47,7 @@ function postmark(channel, date) {
   svg.querySelector('[data-slot="top"]').textContent = '내 소식함';
   svg.querySelector('[data-slot="bot"]').textContent = channel.name;
   svg.querySelector('[data-slot="date"]').textContent = date.slice(5).replace('-', '.');
+  svg.querySelector('[data-slot="time"]').textContent = hhmm;
   return svg;
 }
 
@@ -52,7 +55,7 @@ async function renderDay() {
   const day = $('day');
   const channel = state.channels.find((c) => c.id === state.channel);
   if (!state.date) {
-    day.replaceChildren(el('p', { class: 'empty' }, '아직 도착한 소식이 없어요. 매일 낮 12시에 첫 묶음이 와요.'));
+    day.replaceChildren(el('p', { class: 'empty' }, EMPTY[channel?.mode || 'digest']));
     return;
   }
   let d;
@@ -63,22 +66,24 @@ async function renderDay() {
     return;
   }
 
-  const longDate = fmt(d.date, { month: 'long', day: 'numeric', weekday: 'short' });
+  const event = d.mode === 'event';
   day.replaceChildren(...[
-    postmark(channel, d.date),
+    postmark(channel, d.date, event ? time(d.generatedAt) : '12:00'),
     el('h2', { class: 'headline' }, d.headline || '오늘은 새 소식이 없어요'),
-    el('p', { class: 'meta' }, d.items.length
-      ? `후보 ${d.candidateCount}개 중 ${d.items.length}개를 골랐어요`
-      : '내일 낮 12시에 다시 확인해요.'),
+    el('p', { class: 'meta' }, event
+      ? `이날 새 소식 ${d.items.length}개 · 마지막 도착 ${time(d.generatedAt)}`
+      : d.items.length
+        ? `후보 ${d.candidateCount}개 중 ${d.items.length}개를 골랐어요`
+        : '내일 낮 12시에 다시 확인해요.'),
     d.summarizer === 'fallback'
-      ? el('p', { class: 'notice' }, '오늘은 요약이 실패해서 원래 제목과 첫 문장만 담았어요.')
+      ? el('p', { class: 'notice' }, '요약이 실패해서 원래 제목과 첫 문장만 담았어요.')
       : null,
     el('ol', { class: 'items' }, d.items.map((it) => el('li', { class: 'item' },
       el('span', { class: 'tag' }, it.tag),
       el('h3', {}, el('a', { href: it.url, target: '_blank', rel: 'noopener' }, it.title)),
       el('p', {}, it.summary),
       el('div', { class: 'src' },
-        el('span', {}, it.source),
+        el('span', {}, it.at && event ? `${it.source} · ${time(it.at)}` : it.source),
         el('a', { href: it.url, target: '_blank', rel: 'noopener' }, '원문'),
         it.discussion ? el('a', { href: it.discussion, target: '_blank', rel: 'noopener' }, '개발자 토론') : null,
         it.originalTitle && it.originalTitle !== it.title ? el('span', { class: 'orig' }, it.originalTitle) : null,
@@ -158,7 +163,7 @@ async function renderPush(note) {
   }
   if (!sub) {
     box.replaceChildren(
-      el('p', {}, '매일 낮 12시에 오늘의 소식을 알림으로 받아요.'),
+      el('p', {}, '새 소식이 도착하면 휴대폰 알림으로 알려 드려요.'),
       el('button', { class: 'btn', onclick: turnOn }, '알림 켜기'),
       el('p', { class: 'status', role: 'status' }, note || ''),
     );
@@ -217,5 +222,5 @@ async function turnOn(e) {
 if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
 state.channels = await getJson('data/channels.json').catch(() => []);
 if (state.channels.length) await go(state.channel || state.channels[0].id, state.date);
-else { renderTabs(); $('day').replaceChildren(el('p', { class: 'empty' }, '아직 도착한 소식이 없어요. 매일 낮 12시에 첫 묶음이 와요.')); }
+else { renderTabs(); $('day').replaceChildren(el('p', { class: 'empty' }, EMPTY.digest)); }
 renderPush();

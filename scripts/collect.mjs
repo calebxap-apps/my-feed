@@ -5,13 +5,21 @@ import { loadChannel, readJson, writeJson, STATE, TMP } from './lib/common.mjs';
 import { fetchSource } from './lib/sources.mjs';
 
 const channel = await loadChannel(process.argv[2]);
-const since = new Date(Date.now() - channel.lookbackHours * 3600e3);
 const seenPath = join(STATE, `${channel.id}-seen.json`);
 const seen = await readJson(seenPath, null); // { url: '처음 본 날짜' }
 const firstRun = seen === null;
+const lookback = firstRun && channel.firstRunLookbackHours ? channel.firstRunLookbackHours : channel.lookbackHours;
+const since = new Date(Date.now() - lookback * 3600e3);
+const pages = await readJson(join(STATE, `${channel.id}-pages.json`), {}); // 페이지 감시용: 지난번 문장들
+const pagesNext = { ...pages };
 
 const results = await Promise.allSettled(
-  channel.sources.map((src) => fetchSource(src, { since, alreadySeen: (url) => Boolean(seen?.[url]) }))
+  channel.sources.map((src) => fetchSource(src, {
+    since,
+    alreadySeen: (url) => Boolean(seen?.[url]),
+    pages,
+    pagesNext,
+  }))
 );
 
 const candidates = [];
@@ -31,7 +39,7 @@ results.forEach((r, i) => {
   for (const it of items) candidates.push({ ...it, source: src.name, kind: src.kind });
 });
 
-// 날짜 없는 출처(Anthropic, GitHub 프로젝트)는 지금 받은 목록 전체를 '본 글'로 기록해야 다음 날 다시 안 나온다
+// 날짜 없는 출처는 지금 받은 목록 전체를 '본 글'로 기록해야 다음에 다시 안 나온다
 const allSeen = { ...(seen || {}) };
 const today = new Date().toISOString().slice(0, 10);
 results.forEach((r) => {
@@ -40,6 +48,7 @@ results.forEach((r) => {
 
 await writeJson(join(TMP, `${channel.id}-candidates.json`), { channel: channel.id, collectedAt: new Date().toISOString(), candidates });
 await writeJson(join(TMP, `${channel.id}-seen-next.json`), allSeen);
+await writeJson(join(TMP, `${channel.id}-pages-next.json`), pagesNext);
 
 console.log(`[${channel.name}] 후보 ${candidates.length}개 모음${firstRun ? ' (첫 실행)' : ''}`);
 console.log(report.join('\n'));

@@ -1,10 +1,12 @@
-# 매일 낮 12시: 소식 모으기 → Claude 로 요약 → 앱에 올리기 → 휴대폰 알림
-# GitHub 예약 실행은 보통 5~20분 늦게 시작해서, 11:45 에 걸어두면 12시 무렵 도착한다.
+# 소식 모으기 → Claude 로 요약·번역 → 앱에 올리기 → 휴대폰 알림
+#   🤖 AI·코딩:   매일 낮 12시 무렵 하루 묶음 (예약 실행이 늦게 시작하는 편이라 11:45 에 건다)
+#   📚 소설·애니: 3시간마다 확인, 새 소식이 있을 때만 올리고 알림
 name: daily
 
 on:
   schedule:
-    - cron: '45 2 * * *' # UTC 02:45 = 한국 11:45
+    - cron: '45 2 * * *'   # UTC 02:45 = 한국 11:45 → AI·코딩
+    - cron: '15 */3 * * *' # 3시간마다 → 소설·애니
   workflow_dispatch: # Actions 탭에서 '지금 실행' 버튼
     inputs:
       mode:
@@ -12,6 +14,11 @@ on:
         type: choice
         options: [full, deploy]
         default: full
+      channel:
+        description: '어느 채널을 돌릴까요'
+        type: choice
+        options: [all, ai-coding, novel-anime]
+        default: all
   push:
     branches: [main]
     paths: ['docs/**'] # 화면 코드만 바뀌었을 땐 올리기만
@@ -29,6 +36,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    outputs:
+      changed: ${{ steps.save.outputs.changed }}
+      channels: ${{ steps.pick.outputs.channels }}
     env:
       FULL: ${{ github.event_name == 'schedule' || inputs.mode == 'full' }}
     steps:
@@ -39,39 +49,65 @@ jobs:
           cache: npm
       - run: npm ci
 
+      - name: 돌릴 채널 고르기
+        id: pick
+        run: |
+          case "${{ github.event.schedule }}" in
+            '45 2 * * *')   CH="ai-coding" ;;
+            '15 */3 * * *') CH="novel-anime" ;;
+            *) if [ "${{ inputs.channel }}" = "all" ] || [ -z "${{ inputs.channel }}" ]; then CH="ai-coding novel-anime"; else CH="${{ inputs.channel }}"; fi ;;
+          esac
+          echo "channels=$CH" >> "$GITHUB_OUTPUT"
+          echo "이번에 돌릴 채널: $CH"
+
       - name: Claude 설치
         if: env.FULL == 'true'
         run: npm install -g @anthropic-ai/claude-code
 
-      - name: AI·코딩 소식 모으기
-        if: env.FULL == 'true'
-        run: node scripts/collect.mjs ai-coding
-
-      - name: AI·코딩 소식 요약
+      - name: 모으기 + 요약
         if: env.FULL == 'true'
         env:
           RAW_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: |
           # 복사할 때 딸려 들어간 빈칸·줄바꿈 제거
           export CLAUDE_CODE_OAUTH_TOKEN="$(printf '%s' "$RAW_TOKEN" | tr -d '[:space:]')"
-          node scripts/summarize.mjs ai-coding
+          for ch in ${{ steps.pick.outputs.channels }}; do
+            node scripts/collect.mjs "$ch"
+            node scripts/summarize.mjs "$ch"
+          done
 
-      - name: 오늘 결과 저장
-        if: env.FULL == 'true'
+      - name: 결과 저장
+        id: save
         run: |
+          if [ "$FULL" != "true" ]; then echo "changed=true" >> "$GITHUB_OUTPUT"; exit 0; fi
           git config user.name "my-feed bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/data state
-          git diff --cached --quiet || git commit -m "소식: $(TZ=Asia/Seoul date +%F)"
-          git push
+          if git diff --cached --quiet; then echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          git commit -m "소식: $(TZ=Asia/Seoul date '+%F %H:%M') (${{ steps.pick.outputs.channels }})"
+          git pull --rebase -q && git push
+          # 화면에 보이는 내용(docs)이 바뀌었을 때만 다시 올린다 (state 만 바뀐 경우 제외)
+          if git diff --quiet HEAD~1 HEAD -- docs; then echo "changed=false" >> "$GITHUB_OUTPUT"; else echo "changed=true" >> "$GITHUB_OUTPUT"; fi
 
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - name: 알림할 소식 넘기기
+        if: env.FULL == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: notify
+          path: tmp/*-notify.json
+          if-no-files-found: ignore
+          retention-days: 1
+
+      - if: steps.save.outputs.changed == 'true'
+        uses: actions/configure-pages@v5
+      - if: steps.save.outputs.changed == 'true'
+        uses: actions/upload-pages-artifact@v3
         with:
           path: docs
 
   deploy:
     needs: build
+    if: needs.build.outputs.changed == 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -81,21 +117,27 @@ jobs:
         uses: actions/deploy-pages@v4
 
   notify:
-    needs: deploy
-    if: github.event_name == 'schedule' || inputs.mode == 'full'
+    needs: [build, deploy]
+    if: needs.deploy.result == 'success' && (github.event_name == 'schedule' || inputs.mode == 'full')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: main # 방금 저장한 오늘 결과까지 받기
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
       - run: npm ci
+      - uses: actions/download-artifact@v4
+        continue-on-error: true # 알릴 소식이 없으면 넘겨받은 파일도 없다
+        with:
+          name: notify
+          path: tmp
       - name: 휴대폰 알림
         env:
           VAPID_PUBLIC_KEY: ${{ secrets.VAPID_PUBLIC_KEY }}
           VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
           PUSH_SUBSCRIPTIONS: ${{ secrets.PUSH_SUBSCRIPTIONS }}
-        run: node scripts/notify.mjs ai-coding
+        run: |
+          for ch in ${{ needs.build.outputs.channels }}; do
+            node scripts/notify.mjs "$ch"
+          done

@@ -1,18 +1,18 @@
-// 3단계: 오늘 정리한 소식을 휴대폰 알림으로 보낸다.
+// 3단계: 이번에 새로 정리한 소식을 휴대폰 알림으로 보낸다.
+// summarize 가 남긴 tmp/<채널>-notify.json 이 있을 때만 보낸다 (새 소식이 없으면 조용히).
 // 사용법: node scripts/notify.mjs ai-coding
 // 필요한 비밀값 (GitHub Secrets):
 //   VAPID_PUBLIC_KEY, VAPID_PRIVATE_KEY  — 알림 보내는 쪽 신분증
 //   PUSH_SUBSCRIPTIONS                    — 앱의 '알림 켜기'에서 복사한 값 (여러 기기면 [ ] 로 묶기)
 import { join } from 'node:path';
 import webpush from 'web-push';
-import { loadChannel, readJson, kstDate, SITE_DATA } from './lib/common.mjs';
+import { loadChannel, readJson, TMP } from './lib/common.mjs';
 
 const channel = await loadChannel(process.argv[2]);
-const date = kstDate();
-const digest = await readJson(join(SITE_DATA, channel.id, `${date}.json`), null);
+const news = await readJson(join(TMP, `${channel.id}-notify.json`), null);
 
-if (!digest || digest.items.length === 0) {
-  console.log(`[${channel.name}] 오늘은 새 소식이 없어 알림을 보내지 않아요.`);
+if (!news || news.items.length === 0) {
+  console.log(`[${channel.name}] 새 소식이 없어 알림을 보내지 않아요.`);
   process.exit(0);
 }
 
@@ -28,9 +28,9 @@ const subs = Array.isArray(parsed) ? parsed : [parsed];
 
 const payload = JSON.stringify({
   title: channel.notify.title,
-  body: `${digest.headline || `새 소식 ${digest.items.length}개`}\n${digest.items.slice(0, 3).map((i) => '· ' + i.title).join('\n')}`,
-  url: `./?channel=${channel.id}&date=${date}`,
-  tag: `${channel.id}-${date}`,
+  body: `${news.headline || `새 소식 ${news.items.length}개`}\n${news.items.slice(0, 3).map((i) => '· ' + i.title).join('\n')}`,
+  url: `./?channel=${channel.id}&date=${news.date}`,
+  tag: `${channel.id}-${news.items[0].at || news.date}`,
 });
 
 let failed = 0;

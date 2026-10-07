@@ -1,0 +1,29 @@
+{
+  "id": "novel-anime",
+  "name": "소설·애니",
+  "emoji": "📚",
+  "mode": "event",
+  "schedule": "3시간마다 확인, 새 소식이 있을 때만 알림 — 시각은 .github/workflows/daily.yml 의 cron 에서 정함",
+  "lookbackHours": 72,
+  "firstRunLookbackHours": 240,
+  "maxCandidatesPerSource": 10,
+  "maxItems": 8,
+  "tags": ["방영", "제작", "영상", "출판", "기타"],
+  "notify": {
+    "title": "📚 윙페더 사가 새 소식"
+  },
+  "works": [
+    {
+      "name": "윙페더 사가 (The Wingfeather Saga)",
+      "note": "앤드루 피터슨 원작 소설. 애니는 Angel(엔젤 스튜디오)에서 영어로 먼저 공개되고, 약 1년 뒤 한국 OTT '퐁당'에 한국어 더빙·자막판이 올라온다."
+    }
+  ],
+  "guide": "공식 출처에서 '확실하게 공개된' 정보만 고른다: 시즌·에피소드 방영 일정, 제작 발표(새 시즌 확정, 캐스팅, 제작 과정), 예고편·인터뷰·제작 뒷이야기 영상, 원작 소설·작가 소식, 한국 공개(퐁당) 소식. 영어 내용은 한국어로 자연스럽게 번역해서 전한다. 소문·추측·팬 이론, 굿즈 판매·후원 요청만 있는 글, 이미 방영된 장면을 잘라 올린 단순 클립 영상은 뺀다.",
+  "sources": [
+    { "type": "link-list", "name": "Angel 공식 보도자료", "kind": "공식", "url": "https://www.angel.com/press", "linkPattern": "/press/release/[a-z0-9-]+", "base": "https://www.angel.com", "keywords": ["wingfeather"] },
+    { "type": "feed", "name": "윙페더 공식 유튜브", "kind": "공식", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCu1RRBwFcHLYFpbrI-F852Q", "cleanLinks": true, "cutFrom": ["ABOUT THE WINGFEATHER SAGA"], "remove": ["Read the Books!", "Support the Show:", "Follow The Wingfeather Saga on Social Media:"] },
+    { "type": "page-watch", "name": "윙페더 공식 사이트", "kind": "공식", "url": "https://www.wingfeathersaga.com/" },
+    { "type": "page-watch", "name": "작가 앤드루 피터슨", "kind": "공식", "url": "https://www.andrew-peterson.com/the-wingfeather-saga" },
+    { "type": "feed", "name": "Cartoon Brew", "kind": "업계 언론", "url": "https://www.cartoonbrew.com/feed", "keywords": ["wingfeather"] }
+  ]
+}

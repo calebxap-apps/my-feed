@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>내 소식함</title>
-  <meta name="description" content="매일 낮 12시, 골라서 요약한 소식">
+  <meta name="description" content="관심 있는 소식을 골라 요약하고 알려주는 소식함">
   <meta name="theme-color" content="#EEF1F5">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icons/icon-192.png">
@@ -31,7 +31,7 @@
       <div id="push"></div>
       <pre class="diag" id="diag" aria-label="알림 점검 정보"></pre>
     </section>
-    <p class="version">화면 버전 6</p>
+    <p class="version">화면 버전 7</p>
   </main>
 
   <template id="postmark">
@@ -42,7 +42,7 @@
       <text class="pm-arc"><textPath href="#pm-top" startOffset="50%" text-anchor="middle" data-slot="top"></textPath></text>
       <text class="pm-arc"><textPath href="#pm-bot" startOffset="50%" text-anchor="middle" data-slot="bot"></textPath></text>
       <text x="60" y="58" text-anchor="middle" class="pm-date" data-slot="date"></text>
-      <text x="60" y="73" text-anchor="middle" class="pm-time">12:00</text>
+      <text x="60" y="73" text-anchor="middle" class="pm-time" data-slot="time">12:00</text>
       <g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
         <path d="M112,40 q12,-7 24,0 t24,0 t24,0 t24,0"/>
         <path d="M112,60 q12,-7 24,0 t24,0 t24,0 t24,0"/>
@@ -51,6 +51,6 @@
     </svg>
   </template>
 
-  <script type="module" src="app.js?v=6"></script>
+  <script type="module" src="app.js?v=7"></script>
 </body>
 </html>
