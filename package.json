@@ -1,0 +1,17 @@
+{
+  "name": "my-feed",
+  "private": true,
+  "type": "module",
+  "description": "내 소식함 — 채널별로 소식을 모아 요약하고 알려주는 개인 PWA",
+  "scripts": {
+    "collect": "node scripts/collect.mjs",
+    "summarize": "node scripts/summarize.mjs",
+    "notify": "node scripts/notify.mjs",
+    "daily": "node scripts/collect.mjs ai-coding && node scripts/summarize.mjs ai-coding",
+    "icons": "node scripts/make-icons.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "dependencies": {
+    "web-push": "^3.6.7"
+  }
+}

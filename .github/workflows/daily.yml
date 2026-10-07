@@ -1,0 +1,90 @@
+# 매일 낮 12시: 소식 모으기 → Claude 로 요약 → 앱에 올리기 → 휴대폰 알림
+# GitHub 예약 실행은 보통 5~20분 늦게 시작해서, 11:45 에 걸어두면 12시 무렵 도착한다.
+name: daily
+
+on:
+  schedule:
+    - cron: '45 2 * * *' # UTC 02:45 = 한국 11:45
+  workflow_dispatch: # Actions 탭에서 '지금 실행' 버튼
+  push:
+    branches: [main]
+    paths: ['docs/**'] # 화면 코드만 바뀌었을 땐 올리기만
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      - name: Claude 설치
+        if: github.event_name != 'push'
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: AI·코딩 소식 모으기
+        if: github.event_name != 'push'
+        run: node scripts/collect.mjs ai-coding
+
+      - name: AI·코딩 소식 요약
+        if: github.event_name != 'push'
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: node scripts/summarize.mjs ai-coding
+
+      - name: 오늘 결과 저장
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "my-feed bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data state
+          git diff --cached --quiet || git commit -m "소식: $(TZ=Asia/Seoul date +%F)"
+          git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4
+
+  notify:
+    needs: deploy
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main # 방금 저장한 오늘 결과까지 받기
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: 휴대폰 알림
+        env:
+          VAPID_PUBLIC_KEY: ${{ secrets.VAPID_PUBLIC_KEY }}
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          PUSH_SUBSCRIPTIONS: ${{ secrets.PUSH_SUBSCRIPTIONS }}
+        run: node scripts/notify.mjs ai-coding

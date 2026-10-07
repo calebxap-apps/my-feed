@@ -1,0 +1,24 @@
+{
+  "id": "ai-coding",
+  "name": "AI·코딩",
+  "emoji": "🤖",
+  "schedule": "매일 낮 12시 (한국 시간) — 시각은 .github/workflows/daily.yml 의 cron 에서 정함",
+  "lookbackHours": 36,
+  "maxCandidatesPerSource": 15,
+  "maxItems": 10,
+  "notify": {
+    "title": "🤖 오늘의 AI·코딩 소식"
+  },
+  "guide": "AI 모델·도구 발표, 개발자 도구, 프로그래밍 실무에 도움이 되는 소식을 고른다. 투자·인사·기업 제휴·고객 사례 홍보 글, 정치·사회 일반 뉴스, 자극적인 제목의 글은 뺀다. 같은 사건을 다룬 글이 여러 개면 공식 출처 하나로 합친다.",
+  "sources": [
+    { "type": "anthropic-news", "name": "Anthropic", "kind": "공식" },
+    { "type": "feed", "name": "OpenAI", "kind": "공식", "url": "https://openai.com/news/rss.xml" },
+    { "type": "feed", "name": "Google DeepMind", "kind": "공식", "url": "https://deepmind.google/blog/rss.xml" },
+    { "type": "feed", "name": "Hugging Face", "kind": "공식", "url": "https://huggingface.co/blog/feed.xml" },
+    { "type": "feed", "name": "GitHub 블로그", "kind": "공식", "url": "https://github.blog/ai-and-ml/feed/" },
+    { "type": "feed", "name": "Simon Willison", "kind": "개인", "url": "https://simonwillison.net/atom/entries/" },
+    { "type": "feed", "name": "GeekNews", "kind": "커뮤니티", "url": "https://news.hada.io/rss/news" },
+    { "type": "hackernews", "name": "Hacker News", "kind": "커뮤니티", "minPoints": 150 },
+    { "type": "github-new-repos", "name": "GitHub 인기 프로젝트", "kind": "프로젝트", "days": 7, "minStars": 300 }
+  ]
+}

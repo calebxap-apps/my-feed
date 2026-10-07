@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ko" data-variant="post">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>내 소식함</title>
+  <meta name="description" content="매일 낮 12시, 골라서 요약한 소식">
+  <meta name="theme-color" content="#EEF1F5">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@500;700&family=Gothic+A1:wght@400;600;800&family=IBM+Plex+Mono:wght@500&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <h1 class="brand">내 소식함</h1>
+    <nav class="tabs" id="tabs" aria-label="채널"></nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="day" id="day" aria-live="polite"></section>
+    <section class="archive" aria-labelledby="archive-h">
+      <h2 id="archive-h" class="section-h">지난 소식</h2>
+      <ol class="archive-list" id="archive"></ol>
+    </section>
+    <section class="push" aria-labelledby="push-h">
+      <h2 id="push-h" class="section-h">알림</h2>
+      <div id="push"></div>
+    </section>
+  </main>
+
+  <template id="postmark">
+    <svg class="postmark" viewBox="0 0 220 120" aria-hidden="true">
+      <defs><path id="pm-top" d="M26,60 a34,34 0 0 1 68,0"/><path id="pm-bot" d="M20,60 a40,40 0 0 0 80,0"/></defs>
+      <circle cx="60" cy="60" r="46" fill="none" stroke="currentColor" stroke-width="2.5"/>
+      <circle cx="60" cy="60" r="30" fill="none" stroke="currentColor" stroke-width="1"/>
+      <text class="pm-arc"><textPath href="#pm-top" startOffset="50%" text-anchor="middle" data-slot="top"></textPath></text>
+      <text class="pm-arc"><textPath href="#pm-bot" startOffset="50%" text-anchor="middle" data-slot="bot"></textPath></text>
+      <text x="60" y="58" text-anchor="middle" class="pm-date" data-slot="date"></text>
+      <text x="60" y="73" text-anchor="middle" class="pm-time">12:00</text>
+      <g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+        <path d="M112,40 q12,-7 24,0 t24,0 t24,0 t24,0"/>
+        <path d="M112,60 q12,-7 24,0 t24,0 t24,0 t24,0"/>
+        <path d="M112,80 q12,-7 24,0 t24,0 t24,0 t24,0"/>
+      </g>
+    </svg>
+  </template>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

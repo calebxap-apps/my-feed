@@ -1,0 +1,141 @@
+/* ── 색·글꼴 (시안별) ─────────────────────────────── */
+/* 시안 A '우편': 항공우편 종이 + 우체통 빨강 소인 */
+:root, [data-variant="post"] {
+  --paper: #EEF1F5;
+  --surface: #EEF1F5;
+  --ink: #1A2233;
+  --muted: #5B6577;
+  --line: #CDD4DE;
+  --accent: #D52B2B;   /* 우체통 빨강: 소인과 꼬리표에만 */
+  --link: #2F5BA8;     /* 항공우편 파랑 */
+  --mark: transparent;
+  --radius: 4px;
+  --display: "Hahmlet", "Nanum Myeongjo", serif;
+  --body: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+/* 시안 B '쪽지': 세이지색 바탕 + 형광펜 헤드라인 */
+[data-variant="leaf"] {
+  --paper: #E4EBE6;
+  --surface: #F8FBF8;
+  --ink: #12302A;
+  --muted: #50665F;
+  --line: #C9D6CE;
+  --accent: #B5761A;
+  --link: #1F6B57;
+  --mark: #F2C66B;
+  --radius: 18px;
+  --display: "Gothic A1", "Apple SD Gothic Neo", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root, [data-variant="post"] {
+    --paper: #12161E; --surface: #12161E; --ink: #E6EAF1; --muted: #98A2B3;
+    --line: #2A3140; --accent: #FF6B6B; --link: #8AB0F0;
+  }
+  [data-variant="leaf"] {
+    --paper: #0F1915; --surface: #17241F; --ink: #E4EEE9; --muted: #93A89F;
+    --line: #26372F; --accent: #E2A54B; --link: #7FCFB5; --mark: rgba(226, 165, 75, .35);
+  }
+}
+
+/* ── 기본 ─────────────────────────────────────────── */
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 400 16px/1.65 var(--body);
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+a { color: var(--link); text-underline-offset: 3px; }
+:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; border-radius: 2px; }
+main, .top { max-width: 640px; margin: 0 auto; padding-inline: 16px; }
+main { padding-bottom: calc(48px + env(safe-area-inset-bottom)); outline: none; }
+
+/* ── 머리 + 채널 탭 ───────────────────────────────── */
+.top { padding-top: calc(14px + env(safe-area-inset-top)); }
+.brand { margin: 0; font: 600 13px/1 var(--body); letter-spacing: .08em; color: var(--muted); }
+.tabs { display: flex; gap: 6px; margin: 12px 0 0; overflow-x: auto; scrollbar-width: none; }
+.tab {
+  flex: none; border: 1px solid var(--line); background: transparent; color: var(--muted);
+  font: 600 14px/1 var(--body); padding: 9px 14px; border-radius: 999px; cursor: pointer;
+}
+.tab[aria-current="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.tab:disabled { cursor: default; opacity: .55; }
+.tab small { font-weight: 400; font-size: 11px; margin-left: 4px; }
+
+/* ── 오늘 묶음 ────────────────────────────────────── */
+.day { padding: 22px 0 8px; }
+.postmark { display: block; width: 200px; height: auto; color: var(--accent); transform: rotate(-7deg); margin: 0 0 6px -6px; opacity: .92; }
+.pm-arc { font: 700 10.5px var(--body); letter-spacing: .18em; fill: currentColor; }
+.pm-date { font: 500 19px var(--mono); fill: currentColor; }
+.pm-time { font: 500 10px var(--mono); fill: currentColor; letter-spacing: .1em; }
+[data-variant="leaf"] .postmark { display: none; }
+
+.dateline { display: none; font: 500 13px var(--mono); color: var(--muted); margin: 0 0 10px; }
+[data-variant="leaf"] .dateline { display: block; }
+
+.headline { margin: 0 0 6px; font: 700 26px/1.38 var(--display); letter-spacing: -.01em; }
+[data-variant="leaf"] .headline { font-weight: 800; font-size: 28px; letter-spacing: -.03em; }
+.headline span {
+  background: linear-gradient(transparent 58%, var(--mark) 58%, var(--mark) 92%, transparent 92%);
+  -webkit-box-decoration-break: clone; box-decoration-break: clone;
+}
+.meta { margin: 0 0 22px; color: var(--muted); font-size: 13px; }
+
+/* ── 소식 하나 ────────────────────────────────────── */
+.items { list-style: none; margin: 0; padding: 0; }
+.item { padding: 20px 0; border-top: 1px solid var(--line); }
+[data-variant="leaf"] .item {
+  border: 0; background: var(--surface); border-radius: var(--radius);
+  padding: 18px 18px 16px; margin-bottom: 10px;
+}
+.tag {
+  display: inline-block; font: 600 11.5px/1 var(--body); letter-spacing: .04em;
+  color: var(--accent); border: 1px solid currentColor; border-radius: var(--radius);
+  padding: 4px 6px 3px; margin-bottom: 9px;
+}
+[data-variant="leaf"] .tag { border: 0; background: var(--paper); padding: 5px 9px; }
+.item h3 { margin: 0 0 6px; font: 700 19px/1.42 var(--display); letter-spacing: -.01em; }
+[data-variant="leaf"] .item h3 { font-weight: 800; font-size: 18px; letter-spacing: -.02em; }
+.item h3 a { color: inherit; text-decoration: none; }
+.item h3 a:hover { text-decoration: underline; text-decoration-color: var(--line); }
+.item p { margin: 0 0 10px; font-size: 15.5px; }
+.src { font: 500 12.5px/1.5 var(--mono); color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 12px; }
+.src a { color: var(--link); font-family: var(--body); font-size: 13px; }
+.orig { display: block; width: 100%; font-family: var(--body); font-size: 12px; opacity: .85; }
+
+.notice, .empty { color: var(--muted); font-size: 14px; padding: 16px 0; }
+.notice { border-left: 3px solid var(--accent); padding: 8px 12px; margin: 0 0 16px; }
+
+/* ── 지난 소식 · 알림 ─────────────────────────────── */
+.section-h { font: 600 13px/1 var(--body); letter-spacing: .08em; color: var(--muted); margin: 36px 0 8px; }
+.archive-list { list-style: none; margin: 0; padding: 0; }
+.archive-list button {
+  all: unset; box-sizing: border-box; cursor: pointer; display: grid;
+  grid-template-columns: 92px 1fr; gap: 10px; width: 100%; padding: 12px 0;
+  border-bottom: 1px solid var(--line); font-size: 14.5px;
+}
+.archive-list button:focus-visible { outline: 2px solid var(--link); }
+.archive-list .d { font: 500 13px/1.6 var(--mono); color: var(--muted); }
+.archive-list [aria-current="true"] .d { color: var(--accent); }
+.archive-list .h { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.btn {
+  font: 600 15px/1 var(--body); padding: 13px 18px; border-radius: var(--radius);
+  border: 0; background: var(--ink); color: var(--paper); cursor: pointer;
+}
+.btn.ghost { background: transparent; color: var(--ink); border: 1px solid var(--line); }
+.push p { margin: 0 0 12px; font-size: 14.5px; }
+.push textarea {
+  width: 100%; height: 110px; font: 12px/1.4 var(--mono); color: var(--ink);
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 10px;
+}
+.push .row { display: flex; gap: 8px; margin-top: 8px; flex-wrap: wrap; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .day.enter .postmark { animation: stamp .45s cubic-bezier(.2, .9, .3, 1.3) both; }
+  @keyframes stamp { from { transform: rotate(-7deg) scale(1.25); opacity: 0; } }
+}
