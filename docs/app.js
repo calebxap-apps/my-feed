@@ -130,13 +130,14 @@ async function renderPush() {
   const reg = await navigator.serviceWorker.ready;
   const sub = await reg.pushManager.getSubscription();
   if (Notification.permission === 'denied') {
-    box.replaceChildren(el('p', {}, '알림이 차단돼 있어요. 휴대폰 설정 → 앱 → 내 소식함 → 알림에서 허용해 주세요.'));
+    box.replaceChildren(el('p', {}, '알림이 차단돼 있어요. 크롬 주소창 왼쪽 아이콘 → 권한 → 알림을 허용으로 바꾼 뒤 새로고침해 주세요. 그래도 안 되면 휴대폰 설정 → 애플리케이션 → Chrome → 알림이 켜져 있는지 확인해 주세요.'));
     return;
   }
   if (!sub) {
     box.replaceChildren(
       el('p', {}, '매일 낮 12시에 오늘의 소식을 알림으로 받아요.'),
       el('button', { class: 'btn', onclick: turnOn }, '알림 켜기'),
+      el('p', { class: 'status', role: 'status' }),
     );
     return;
   }
@@ -159,13 +160,28 @@ async function renderPush() {
   );
 }
 
-async function turnOn() {
-  const permission = await Notification.requestPermission();
-  if (permission === 'granted') {
-    const reg = await navigator.serviceWorker.ready;
-    await reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: b64ToBytes(VAPID_PUBLIC_KEY) });
+async function turnOn(e) {
+  const btn = e.currentTarget;
+  const status = btn.nextElementSibling;
+  btn.disabled = true;
+  status.textContent = '허용 창을 띄우는 중이에요…';
+  try {
+    const permission = await Notification.requestPermission();
+    if (permission === 'default') {
+      status.textContent = '허용 창이 닫혔거나 뜨지 않았어요. 주소창 옆에 종 🔔 모양이 보이면 눌러서 허용해 주세요. 없으면 주소창 왼쪽 아이콘 → 권한 → 알림을 허용으로 바꿔 주세요.';
+      btn.disabled = false;
+      return;
+    }
+    if (permission === 'granted') {
+      status.textContent = '알림 주소를 만드는 중이에요…';
+      const reg = await navigator.serviceWorker.ready;
+      await reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: b64ToBytes(VAPID_PUBLIC_KEY) });
+    }
+    renderPush();
+  } catch (err) {
+    status.textContent = `알림을 켜지 못했어요 (${err.name}: ${err.message}). 이 문구를 Claude 에게 알려 주세요.`;
+    btn.disabled = false;
   }
-  renderPush();
 }
 
 // ── 시작 ───────────────────────────────────────────

@@ -1,5 +1,5 @@
 // 앱이 꺼져 있어도 알림을 받고, 인터넷이 약할 때도 마지막 소식을 보여주는 일꾼
-const SHELL = 'shell-v1';
+const SHELL = 'shell-v2';
 const DATA = 'data-v1';
 const SHELL_FILES = ['./', 'index.html', 'style.css', 'app.js', 'config.js', 'manifest.webmanifest', 'icons/icon-192.png'];
 

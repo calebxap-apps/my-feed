@@ -101,6 +101,8 @@ main { padding-bottom: calc(48px + env(safe-area-inset-bottom)); outline: none; 
   width: 100%; height: 110px; font: 12px/1.4 var(--mono); color: var(--ink);
   background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 10px;
 }
+.push .status { margin: 10px 0 0; color: var(--muted); font-size: 13.5px; }
+.push .status:empty { display: none; }
 .push .row { display: flex; gap: 8px; margin-top: 8px; flex-wrap: wrap; }
 
 @media (prefers-reduced-motion: no-preference) {
