@@ -3,6 +3,7 @@
   "short_name": "소식함",
   "description": "매일 낮 12시, 골라서 요약한 소식",
   "lang": "ko",
+  "id": "/my-feed/",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
