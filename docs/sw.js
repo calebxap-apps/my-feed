@@ -1,7 +1,7 @@
 // 앱이 꺼져 있어도 알림을 받고, 인터넷이 약할 때도 마지막 소식을 보여주는 일꾼
-const SHELL = 'shell-v2';
+const SHELL = 'shell-v3';
 const DATA = 'data-v1';
-const SHELL_FILES = ['./', 'index.html', 'style.css', 'app.js', 'config.js', 'manifest.webmanifest', 'icons/icon-192.png'];
+const SHELL_FILES = ['./', 'index.html', 'style.css', 'app.js?v=3', 'config.js', 'manifest.webmanifest', 'icons/icon-192.png'];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(SHELL).then((c) => c.addAll(SHELL_FILES)).then(() => self.skipWaiting()));
@@ -19,7 +19,7 @@ self.addEventListener('fetch', (e) => {
   if (e.request.method !== 'GET' || url.origin !== location.origin) return;
   const bucket = url.pathname.includes('/data/') ? DATA : SHELL;
   e.respondWith(
-    fetch(e.request)
+    fetch(e.request, { cache: 'no-cache' }) // GitHub 의 10분 보관본 대신 항상 새 파일 확인
       .then((res) => {
         if (res.ok) { const copy = res.clone(); caches.open(bucket).then((c) => c.put(e.request, copy)); }
         return res;
