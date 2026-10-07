@@ -121,7 +121,7 @@ function b64ToBytes(s) {
   return Uint8Array.from(atob((s + pad).replace(/-/g, '+').replace(/_/g, '/')), (c) => c.charCodeAt(0));
 }
 
-async function renderPush() {
+async function renderPush(note) {
   const box = $('push');
   if (!('serviceWorker' in navigator) || !('PushManager' in window)) {
     box.replaceChildren(el('p', {}, '이 브라우저는 알림을 지원하지 않아요. 크롬에서 열어 홈 화면에 추가해 주세요.'));
@@ -137,7 +137,8 @@ async function renderPush() {
     box.replaceChildren(
       el('p', {}, '매일 낮 12시에 오늘의 소식을 알림으로 받아요.'),
       el('button', { class: 'btn', onclick: turnOn }, '알림 켜기'),
-      el('p', { class: 'status', role: 'status' }),
+      el('p', { class: 'status', role: 'status' }, note || ''),
+      el('p', { class: 'diag' }, `지금 상태: 알림 권한 ${Notification.permission} · 등록 없음`),
     );
     return;
   }
@@ -172,12 +173,14 @@ async function turnOn(e) {
       btn.disabled = false;
       return;
     }
-    if (permission === 'granted') {
-      status.textContent = '알림 주소를 만드는 중이에요…';
-      const reg = await navigator.serviceWorker.ready;
-      await reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: b64ToBytes(VAPID_PUBLIC_KEY) });
+    if (permission !== 'granted') {
+      renderPush(`크롬이 알림을 허용하지 않았어요 (결과: ${permission}). 주소창 왼쪽 아이콘 → 권한(또는 사이트 설정) → 알림을 '허용'으로 바꾸고 새로고침해 주세요.`);
+      return;
     }
-    renderPush();
+    status.textContent = '알림 주소를 만드는 중이에요…';
+    const reg = await navigator.serviceWorker.ready;
+    const sub = await reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: b64ToBytes(VAPID_PUBLIC_KEY) });
+    renderPush(sub ? '' : '허용은 됐지만 알림 주소를 받지 못했어요. 이 문구를 Claude 에게 알려 주세요.');
   } catch (err) {
     status.textContent = `알림을 켜지 못했어요 (${err.name}: ${err.message}). 이 문구를 Claude 에게 알려 주세요.`;
     btn.disabled = false;

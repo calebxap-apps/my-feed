@@ -103,6 +103,7 @@ main { padding-bottom: calc(48px + env(safe-area-inset-bottom)); outline: none; 
 }
 .push .status { margin: 10px 0 0; color: var(--muted); font-size: 13.5px; }
 .push .status:empty { display: none; }
+.push .diag { margin: 8px 0 0; font: 500 11.5px var(--mono); color: var(--muted); opacity: .8; }
 .push .row { display: flex; gap: 8px; margin-top: 8px; flex-wrap: wrap; }
 
 @media (prefers-reduced-motion: no-preference) {
