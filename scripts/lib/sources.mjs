@@ -124,6 +124,34 @@ const fetchers = {
     }];
   },
 
+  // 한국 OTT 퐁당(fondant.kr): 검색에 걸리는 에피소드 목록. 처음 보는 에피소드 = 한국어판 새로 공개
+  async fondant(src, { alreadySeen }) {
+    const api = 'https://api.fondant.kr/v1';
+    const res = JSON.parse(await fetchText(`${api}/search/media?q=${encodeURIComponent(src.query)}&limit=100`));
+    const programs = {};
+    const items = [];
+    for (const m of res.list || []) {
+      const url = `https://www.fondant.kr/media/${m.id}/play`;
+      const programId = m.related_ids?.program_uid;
+      // 새 에피소드만 프로그램(시즌) 이름을 알아온다
+      if (programId && !alreadySeen(url) && !(programId in programs)) {
+        try {
+          programs[programId] = JSON.parse(await fetchText(`${api}/contents/program/${programId}`)).data?.info?.title || '';
+        } catch { programs[programId] = ''; }
+      }
+      const program = programs[programId] || '';
+      const ep = m.stat?.episode_no;
+      items.push({
+        title: [program, ep ? `${ep}화` : '', m.info?.title].filter(Boolean).join(' · ') || m.info?.title,
+        url,
+        link: programId ? `https://www.fondant.kr/series/${programId}` : url,
+        date: null,
+        snippet: plainText(m.info?.desc || '', 300),
+      });
+    }
+    return items;
+  },
+
   // Anthropic 뉴스 (RSS 없음) — link-list 의 한 경우
   async 'anthropic-news'(src, ctx) {
     return fetchers['link-list']({

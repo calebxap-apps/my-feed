@@ -30,6 +30,11 @@ results.forEach((r, i) => {
     report.push(`  ✗ ${src.name}: ${r.reason.message}`);
     return;
   }
+  // 기존 채널에 새로 붙인 출처: 지금 있는 글은 '기준'으로만 기록하고 소식으로 내보내지 않는다
+  if (seen && r.value.length > 3 && !r.value.some((it) => seen[it.url])) {
+    report.push(`  ◇ ${src.name}: 처음 연결 — 지금 있는 ${r.value.length}개는 기준으로만 저장`);
+    return;
+  }
   let items = r.value.filter((it) => !seen?.[it.url]);
   items = items.filter((it) => !it.date || new Date(it.date) >= since);
   // 처음 실행할 땐 '이미 본 글' 기록이 없으니, 날짜 없는 출처는 맨 위 몇 개만
