@@ -61,7 +61,11 @@ function runClaude(prompt) {
     child.stderr.on('data', (d) => (err += d));
     child.on('error', reject);
     child.on('close', (code) => {
-      if (code !== 0) return reject(new Error(`claude 종료 코드 ${code}: ${err.slice(0, 500)}`));
+      if (code !== 0) {
+        let reason = err.trim();
+        try { reason ||= JSON.parse(out).result; } catch { reason ||= out.slice(0, 300); }
+        return reject(new Error(`claude 종료 코드 ${code}: ${reason}`));
+      }
       try {
         const wrapper = JSON.parse(out);
         if (wrapper.is_error) return reject(new Error(`claude 오류: ${wrapper.result}`));
