@@ -187,7 +187,7 @@ async function turnOn(e) {
   const btn = e.currentTarget;
   const status = btn.nextElementSibling;
   btn.disabled = true;
-  status.textContent = '허용 창을 띄우는 중이에요…';
+  status.textContent = '허용 창을 띄우는 중이에요… 창이 뜨면 허용을 눌러 주세요.';
   try {
     const permission = await Notification.requestPermission();
     if (permission === 'default') {
@@ -196,7 +196,11 @@ async function turnOn(e) {
       return;
     }
     if (permission !== 'granted') {
-      renderPush(`크롬이 알림을 허용하지 않았어요 (결과: ${permission}). 주소창 왼쪽 아이콘 → 권한(또는 사이트 설정) → 알림을 '허용'으로 바꾸고 새로고침해 주세요.`);
+      // 권한은 '아직 안 물어봄'인데 거절이 오면: 크롬이 허용 창을 여러 번 닫힌 주소라 자동 거절하는 중
+      const auto = permission === 'denied' && Notification.permission === 'default';
+      renderPush(auto
+        ? '크롬이 허용 창을 띄우지 않고 자동으로 거절했어요. 이 주소에서 허용 창이 여러 번 닫히면 크롬이 한동안 묻지 않아요. 크롬 ⋮ → 설정 → 사이트 설정 → 알림에서 이 사이트를 허용하거나, 며칠 뒤 다시 눌러 주세요.'
+        : `크롬이 알림을 허용하지 않았어요 (결과: ${permission}). 주소창 왼쪽 아이콘 → 권한(또는 사이트 설정) → 알림을 '허용'으로 바꾸고 새로고침해 주세요.`);
       return;
     }
     status.textContent = '알림 주소를 만드는 중이에요…';

@@ -24,7 +24,7 @@
 ## 파일 구조 (어디에 뭐가 있나)
 - `channels/<채널>.json` — 채널별 설정: 소식 출처, 고르는 기준, 알림 문구. 새 채널은 여기 파일 하나 추가로 시작.
 - `scripts/` — 공통 부품: `collect`(모으기) → `summarize`(Claude 요약, 실패 시 제목만) → `notify`(휴대폰 알림).
-- `docs/` — 휴대폰 앱 화면(PWA). GitHub Pages 로 공개됨. `docs/data/` 는 매일 자동 생성.
+- `docs/` — 휴대폰 앱 화면(PWA). GitHub Pages 로 공개됨 (https://calebxap-apps.github.io/my-feed/ — 보관함 앱과 주소를 나눠 알림 권한·설치가 따로 되게 조직 calebxap-apps 로 이사). `docs/data/` 는 매일 자동 생성.
 - `state/` — 이미 본 글 기록 (같은 소식 반복 방지).
 - `.github/workflows/daily.yml` — 매일 11:45(한국)에 위 과정 실행. 요약은 사용자 Claude 구독 토큰(`CLAUDE_CODE_OAUTH_TOKEN`)으로 돌려 추가 비용 없음.
 - 미리 보기: `node scripts/serve.mjs` / 시험 요약: `SUMMARIZER=fallback node scripts/summarize.mjs ai-coding`

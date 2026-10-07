@@ -1,7 +1,7 @@
 // 앱이 꺼져 있어도 알림을 받고, 인터넷이 약할 때도 마지막 소식을 보여주는 일꾼
-const SHELL = 'shell-v5';
+const SHELL = 'shell-v6';
 const DATA = 'data-v1';
-const SHELL_FILES = ['./', 'index.html', 'style.css', 'app.js?v=5', 'config.js', 'manifest.webmanifest', 'icons/icon-192.png'];
+const SHELL_FILES = ['./', 'index.html', 'style.css', 'app.js?v=6', 'config.js', 'manifest.webmanifest', 'icons/icon-192.png'];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(SHELL).then((c) => c.addAll(SHELL_FILES)).then(() => self.skipWaiting()));
