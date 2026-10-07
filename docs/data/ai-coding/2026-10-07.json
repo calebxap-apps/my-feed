@@ -1,93 +1,53 @@
 {
   "channel": "ai-coding",
   "date": "2026-10-07",
-  "generatedAt": "2026-10-07T07:16:24.776Z",
-  "summarizer": "claude",
-  "candidateCount": 42,
-  "headline": "Mistral Large 4 공개, OpenAI는 수학 연구 성과 공유",
+  "generatedAt": "2026-10-07T08:11:08.040Z",
+  "summarizer": "fallback",
+  "candidateCount": 5,
+  "headline": "새 글 5개 (요약 없이 제목만)",
   "items": [
     {
-      "title": "Mistral Large 4 공개",
-      "summary": "Mistral이 새 대형 모델 Mistral Large 4를 내놨어요. Hacker News에서 추천을 1,700개 넘게 받아 오늘 개발자들 사이에서 가장 많이 이야기된 소식이에요. 성능과 사용 조건은 공식 문서에서 확인할 수 있어요.",
-      "tag": "발표",
+      "title": "Tell HN: GitHub refuses to remove cracked copies of my software after a month",
+      "summary": "I am a developer of https://www.photopea.com, a popular photo editor that runs in a web browser. Many people are asking AI models to take the Javascript code from my website, remove all ads from it, and they publish such a \"new product\" on Github for everyone to download. There exist tens of such re…",
+      "tag": "읽을거리",
       "source": "Hacker News",
-      "originalTitle": "Mistral Large 4",
-      "url": "https://mistral.ai/news/mistral-large-4/\\",
-      "discussion": "https://news.ycombinator.com/item?id=49977979"
+      "originalTitle": "Tell HN: GitHub refuses to remove cracked copies of my software after a month",
+      "url": "https://news.ycombinator.com/item?id=49982498",
+      "discussion": "https://news.ycombinator.com/item?id=49982498"
     },
     {
-      "title": "OpenAI, 수학 미해결 문제 연구 성과 공유",
-      "summary": "OpenAI가 내부 최신 모델로 수학의 열린 문제를 풀어본 결과를 공개했어요. 증명을 Lean(증명 검증 언어)으로 옮긴 자료까지 GitHub에 올려서, 결과를 누구나 직접 검증해 볼 수 있다고 해요.",
-      "tag": "연구",
-      "source": "OpenAI",
-      "originalTitle": "Sharing AI progress in mathematics",
-      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics"
-    },
-    {
-      "title": "OpenAI Decisions API 공개 베타",
-      "summary": "글이나 이미지를 평가해 긴 답변 대신 확률·선택지·점수만 돌려주는 API예요. 앱에서 바로 판단 결과로 쓰기 좋고, 기존 Responses API보다 약 10배 빠르다고 해요.",
-      "tag": "도구",
-      "source": "GeekNews",
-      "originalTitle": "OpenAI, 확률·선택지·점수를 반환하는 Decisions API 공개 베타 시작",
-      "url": "https://news.hada.io/topic?id=34923"
-    },
-    {
-      "title": "EmbeddingGemma 2 — 가벼운 공개 멀티모달 임베딩",
-      "summary": "Google DeepMind가 공개 임베딩 모델 EmbeddingGemma 2를 발표했어요. 임베딩은 글과 이미지를 검색·추천에 쓰기 좋은 숫자로 바꿔주는 모델이라, 가볍게 검색 기능을 붙일 때 쓸 만해요.",
-      "tag": "발표",
-      "source": "Google DeepMind",
-      "originalTitle": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/"
-    },
-    {
-      "title": "Reflection, 501B 공개 가중치 모델 Beam",
-      "summary": "Reflection이 5,010억 개 매개변수 규모의 공개 가중치 모델 Beam을 내놨어요. 공개 가중치라 직접 내려받아 돌려볼 수 있는 대형 모델이 하나 더 늘었어요.",
-      "tag": "발표",
+      "title": "Penguin Mail – open-source Rust email client for Linux with AI",
+      "summary": "요약 없이 제목만 가져왔어요.",
+      "tag": "읽을거리",
       "source": "Hacker News",
-      "originalTitle": "Beam: Reflection's 501B open-weight model",
-      "url": "https://reflection.ai/blog/introducing-beam",
-      "discussion": "https://news.ycombinator.com/item?id=49969183"
+      "originalTitle": "Penguin Mail – open-source Rust email client for Linux with AI",
+      "url": "https://penguin-mail.com/",
+      "discussion": "https://news.ycombinator.com/item?id=49984716"
     },
     {
-      "title": "Polars 2.0 출시",
-      "summary": "파이썬·러스트에서 표 데이터를 빠르게 다루는 라이브러리 Polars가 2.0이 됐어요. 메이저 버전이라 기존 코드를 올릴 땐 바뀐 점을 먼저 확인하는 게 좋아요.",
-      "tag": "도구",
+      "title": "Strands Decider 2B: a small, open-source, decision model",
+      "summary": "요약 없이 제목만 가져왔어요.",
+      "tag": "읽을거리",
       "source": "Hacker News",
-      "originalTitle": "Polars 2.0",
-      "url": "https://pola.rs/posts/release-polars-2/",
-      "discussion": "https://news.ycombinator.com/item?id=49977177"
+      "originalTitle": "Strands Decider 2B: a small, open-source, decision model",
+      "url": "https://strandsagents.com/blog/introducing-strands-decider/",
+      "discussion": "https://news.ycombinator.com/item?id=49987076"
     },
     {
-      "title": "Anthropic, 사이버 보안 검증 프로그램 확대",
-      "summary": "검증된 보안 전문가에게 고급 사이버 보안 기능을 열어주고 차단 필터를 줄여주는 프로그램을 넓혔어요. 보안 업무에 Claude를 쓰는 사람이라면 신청 대상인지 볼 만해요.",
-      "tag": "발표",
-      "source": "Anthropic",
-      "originalTitle": "Expanding the Cyber Verification Program",
-      "url": "https://www.anthropic.com/news/cyber-verification-program"
-    },
-    {
-      "title": "AI 에이전트로 여러 팀 시스템 이해하기 (SumUp)",
-      "summary": "저장소 66개와 조직 정보를 연결한 AI 에이전트로, 엔지니어 여럿을 모으지 않고도 시스템을 파악하게 만든 경험담이에요. 저장소를 기술이 아닌 제품·팀 단위로 묶고 도메인별 AGENTS.md를 둔 방식이 핵심이에요.",
+      "title": "Strands Decider 2B - 소형 오픈소스 의사결정 모델",
+      "summary": "Strands Decider 2B 는 텍스트 생성 대신 주어진 선택지 중 답을 고르거나 수치 점수를 매기는 20억 매개변수 모델로, 로컬 CPU/GPU 실행과 빠른 실험에 맞춰 개발됨 각 결정에 신뢰도 점수 를 제공하고 같은 프롬프트에 대한 여러 질문을 효율적으로 처리하지만, 복...",
       "tag": "읽을거리",
       "source": "GeekNews",
-      "originalTitle": "여러 팀의 시스템을 이해하기 위한 AI 집단 지성 구축하기",
-      "url": "https://news.hada.io/topic?id=34920"
+      "originalTitle": "Strands Decider 2B - 소형 오픈소스 의사결정 모델",
+      "url": "https://news.hada.io/topic?id=34934"
     },
     {
-      "title": "티켓 대신 목표를 주는 '소프트웨어 팩토리'",
-      "summary": "에이전트에게 작업을 하나씩 맡기는 대신, 프로젝트 목표와 지표를 보고 할 일을 스스로 찾게 하는 실험이에요. Linear 프로젝트를 읽고 진척을 재는 방식까지 소개해요.",
+      "title": "Tell HN: GitHub이 한 달이 지나도 제 소프트웨어의 크랙 복제본 삭제를 거부합니다",
+      "summary": "웹 브라우저용 사진 편집기 Photopea 의 JavaScript 코드에서 AI 모델로 광고를 제거하고 ‘새 제품’으로 공개한 GitHub 저장소가 수십 개 있음 안정 버전의 유일한 배포처 를 Photopea.com으로 유지하고 싶지만, 다른 복제...",
       "tag": "읽을거리",
       "source": "GeekNews",
-      "originalTitle": "소프트웨어 팩토리 패턴 시도하기",
-      "url": "https://news.hada.io/topic?id=34925"
-    },
-    {
-      "title": "answer-me-with-html — 답을 HTML 한 장으로",
-      "summary": "어려운 질문에 AI 에이전트가 읽기 쉬운 HTML 한 페이지로 답하게 해주는 Claude Code 스킬이에요. 일주일 새 별을 1,800개 넘게 받았어요.",
-      "tag": "도구",
-      "source": "GitHub 인기 프로젝트",
-      "originalTitle": "QingYunA/answer-me-with-html — Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
-      "url": "https://github.com/QingYunA/answer-me-with-html"
+      "originalTitle": "Tell HN: GitHub이 한 달이 지나도 제 소프트웨어의 크랙 복제본 삭제를 거부합니다",
+      "url": "https://news.hada.io/topic?id=34933"
     }
   ]
 }
