@@ -1,14 +1,22 @@
 {
   "channel": "ai-coding",
   "date": "2026-10-07",
-  "generatedAt": "2026-10-07T08:11:08.040Z",
-  "summarizer": "fallback",
+  "generatedAt": "2026-10-07T08:13:50.751Z",
+  "summarizer": "claude",
   "candidateCount": 5,
-  "headline": "새 글 5개 (요약 없이 제목만)",
+  "headline": "소형 의사결정 모델 Strands Decider 2B 공개",
   "items": [
     {
-      "title": "Tell HN: GitHub refuses to remove cracked copies of my software after a month",
-      "summary": "I am a developer of https://www.photopea.com, a popular photo editor that runs in a web browser. Many people are asking AI models to take the Javascript code from my website, remove all ads from it, and they publish such a \"new product\" on Github for everyone to download. There exist tens of such re…",
+      "title": "Strands Decider 2B 소형 의사결정 모델",
+      "summary": "Strands Decider 2B는 글을 만드는 대신 주어진 선택지 중 답을 고르거나 점수를 매기는 20억 매개변수 모델이에요. 로컬 CPU나 GPU에서 돌릴 수 있고, 각 결정에 신뢰도 점수를 함께 준다고 해요. 같은 프롬프트에 대한 여러 질문도 효율적으로 처리해서 빠른 실험에 쓸 수 있어요.",
+      "tag": "발표",
+      "source": "GeekNews",
+      "originalTitle": "Strands Decider 2B - 소형 오픈소스 의사결정 모델",
+      "url": "https://news.hada.io/topic?id=34934"
+    },
+    {
+      "title": "Photopea, GitHub에 크랙 복제본 삭제 요청",
+      "summary": "웹 사진 편집기 Photopea 개발자가 올린 글이에요. AI 모델로 사이트의 JavaScript 코드에서 광고를 지운 뒤 '새 제품'으로 GitHub에 올린 저장소가 수십 개 있다고 해요. 한 달이 지나도 GitHub가 삭제를 거부하고 있다고 하며, AI로 만든 복제본과 저작권 문제를 생각해 볼 만한 사례예요.",
       "tag": "읽을거리",
       "source": "Hacker News",
       "originalTitle": "Tell HN: GitHub refuses to remove cracked copies of my software after a month",
@@ -16,38 +24,13 @@
       "discussion": "https://news.ycombinator.com/item?id=49982498"
     },
     {
-      "title": "Penguin Mail – open-source Rust email client for Linux with AI",
-      "summary": "요약 없이 제목만 가져왔어요.",
-      "tag": "읽을거리",
+      "title": "Penguin Mail: Rust로 만든 AI 메일 클라이언트",
+      "summary": "Penguin Mail은 Linux용 오픈소스 이메일 클라이언트로, Rust로 만들었고 AI 기능이 들어 있다고 해요. 후보에는 제목만 있어서 자세한 기능은 확인하기 어려워요.",
+      "tag": "도구",
       "source": "Hacker News",
       "originalTitle": "Penguin Mail – open-source Rust email client for Linux with AI",
       "url": "https://penguin-mail.com/",
       "discussion": "https://news.ycombinator.com/item?id=49984716"
-    },
-    {
-      "title": "Strands Decider 2B: a small, open-source, decision model",
-      "summary": "요약 없이 제목만 가져왔어요.",
-      "tag": "읽을거리",
-      "source": "Hacker News",
-      "originalTitle": "Strands Decider 2B: a small, open-source, decision model",
-      "url": "https://strandsagents.com/blog/introducing-strands-decider/",
-      "discussion": "https://news.ycombinator.com/item?id=49987076"
-    },
-    {
-      "title": "Strands Decider 2B - 소형 오픈소스 의사결정 모델",
-      "summary": "Strands Decider 2B 는 텍스트 생성 대신 주어진 선택지 중 답을 고르거나 수치 점수를 매기는 20억 매개변수 모델로, 로컬 CPU/GPU 실행과 빠른 실험에 맞춰 개발됨 각 결정에 신뢰도 점수 를 제공하고 같은 프롬프트에 대한 여러 질문을 효율적으로 처리하지만, 복...",
-      "tag": "읽을거리",
-      "source": "GeekNews",
-      "originalTitle": "Strands Decider 2B - 소형 오픈소스 의사결정 모델",
-      "url": "https://news.hada.io/topic?id=34934"
-    },
-    {
-      "title": "Tell HN: GitHub이 한 달이 지나도 제 소프트웨어의 크랙 복제본 삭제를 거부합니다",
-      "summary": "웹 브라우저용 사진 편집기 Photopea 의 JavaScript 코드에서 AI 모델로 광고를 제거하고 ‘새 제품’으로 공개한 GitHub 저장소가 수십 개 있음 안정 버전의 유일한 배포처 를 Photopea.com으로 유지하고 싶지만, 다른 복제...",
-      "tag": "읽을거리",
-      "source": "GeekNews",
-      "originalTitle": "Tell HN: GitHub이 한 달이 지나도 제 소프트웨어의 크랙 복제본 삭제를 거부합니다",
-      "url": "https://news.hada.io/topic?id=34933"
     }
   ]
 }
