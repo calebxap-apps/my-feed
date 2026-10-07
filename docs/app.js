@@ -121,7 +121,30 @@ function b64ToBytes(s) {
   return Uint8Array.from(atob((s + pad).replace(/-/g, '+').replace(/_/g, '/')), (c) => c.charCodeAt(0));
 }
 
+// 알림이 안 될 때 원인을 찾기 위한 점검 정보 (화면 맨 아래)
+async function renderDiag() {
+  const lines = [];
+  const add = (k, v) => lines.push(`${k}: ${v}`);
+  try {
+    const chrome = navigator.userAgent.match(/Chrome\/(\d+)/)?.[1];
+    add('브라우저', chrome ? `Chrome ${chrome}` : navigator.userAgent.slice(0, 80));
+    add('앱 안 브라우저 의심', /; wv\)|KAKAOTALK|NAVER|Instagram|FBAN|Line\//i.test(navigator.userAgent) ? '예' : '아니오');
+    add('설치 앱으로 열림', matchMedia('(display-mode: standalone)').matches ? '예' : '아니오');
+    add('알림 지원', 'Notification' in window && 'PushManager' in window ? '예' : '아니오');
+    if ('Notification' in window) add('Notification.permission', Notification.permission);
+    try { add('permissions.query', (await navigator.permissions.query({ name: 'notifications' })).state); } catch (e) { add('permissions.query', e.name); }
+    const reg = await navigator.serviceWorker?.getRegistration();
+    add('서비스워커', reg?.active ? '켜짐' : '없음');
+    if (reg?.pushManager) {
+      add('push 권한', await reg.pushManager.permissionState({ userVisibleOnly: true, applicationServerKey: b64ToBytes(VAPID_PUBLIC_KEY) }).catch((e) => e.name));
+      add('등록', (await reg.pushManager.getSubscription()) ? '있음' : '없음');
+    }
+  } catch (e) { add('점검 오류', `${e.name}: ${e.message}`); }
+  $('diag').textContent = '[점검 정보]\n' + lines.join('\n');
+}
+
 async function renderPush(note) {
+  renderDiag();
   const box = $('push');
   if (!('serviceWorker' in navigator) || !('PushManager' in window)) {
     box.replaceChildren(el('p', {}, '이 브라우저는 알림을 지원하지 않아요. 크롬에서 열어 홈 화면에 추가해 주세요.'));
@@ -138,7 +161,6 @@ async function renderPush(note) {
       el('p', {}, '매일 낮 12시에 오늘의 소식을 알림으로 받아요.'),
       el('button', { class: 'btn', onclick: turnOn }, '알림 켜기'),
       el('p', { class: 'status', role: 'status' }, note || ''),
-      el('p', { class: 'diag' }, `지금 상태: 알림 권한 ${Notification.permission} · 등록 없음`),
     );
     return;
   }
