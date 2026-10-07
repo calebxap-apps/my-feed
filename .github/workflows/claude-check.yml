@@ -5,10 +5,11 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - run: npm install -g @anthropic-ai/claude-code && claude --version
+      - run: npm install -g @anthropic-ai/claude-code
       - env:
-          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          RAW: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: |
-          echo "token length: ${#CLAUDE_CODE_OAUTH_TOKEN}"
-          echo "token prefix ok: $([[ $CLAUDE_CODE_OAUTH_TOKEN == sk-ant-oat* ]] && echo yes || echo no)"
-          echo '안녕이라고만 답해' | claude -p --model sonnet --output-format json; echo "exit $?"
+          export CLAUDE_CODE_OAUTH_TOKEN="$(printf '%s' "$RAW" | tr -d '[:space:]')"
+          echo "raw length: ${#RAW} / trimmed length: ${#CLAUDE_CODE_OAUTH_TOKEN}"
+          printf '%s' "$RAW" | tail -c 3 | od -c | head -2
+          echo '안녕이라고만 답해' | claude -p --model sonnet --output-format json | grep -o '"result":"[^"]*"'

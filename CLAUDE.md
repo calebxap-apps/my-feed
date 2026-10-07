@@ -28,3 +28,11 @@
 - `state/` — 이미 본 글 기록 (같은 소식 반복 방지).
 - `.github/workflows/daily.yml` — 매일 11:45(한국)에 위 과정 실행. 요약은 사용자 Claude 구독 토큰(`CLAUDE_CODE_OAUTH_TOKEN`)으로 돌려 추가 비용 없음.
 - 미리 보기: `node scripts/serve.mjs` / 시험 요약: `SUMMARIZER=fallback node scripts/summarize.mjs ai-coding`
+
+## 답변 쓰는 방식 (읽기 쉽게)
+카파시가 소개한 ASD-STE100(쉬운 기술 문서 규칙)을 한국어에 맞게 80% 정도만 적용한다.
+1. 문장은 짧게, 한 문장에 내용 하나만 쓴다.
+2. 같은 것은 처음부터 끝까지 같은 말로 부른다.
+3. 어려운 용어는 쉬운 말로 풀어서 쓴다.
+4. 질문한 것에만 답하고, 다른 방법은 섞지 않는다.
+5. 결론을 먼저 말한다.
