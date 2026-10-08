@@ -1,0 +1,85 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-10-08",
+  "generatedAt": "2026-10-08T09:29:52.650Z",
+  "summarizer": "claude",
+  "candidateCount": 29,
+  "headline": "GPT-6 출시, Claude Haiku 5.5 공개, Chrome의 JPEG XL 지원",
+  "items": [
+    {
+      "title": "GPT-6와 Intelligent UI 출시",
+      "summary": "OpenAI가 ChatGPT에 GPT-6를 전 세계로 배포하기 시작했어요. 시각 자료와 직접 조작할 수 있는 화면을 함께 보여주는 Intelligent UI도 같이 제공된다고 해요. 응답 속도도 더 빨라졌다고 합니다.",
+      "tag": "발표",
+      "source": "OpenAI",
+      "originalTitle": "GPT-6 and Intelligent UI for everyone",
+      "url": "https://openai.com/index/gpt-6-for-everyone",
+      "at": "2026-10-08T09:29:52.650Z"
+    },
+    {
+      "title": "Claude Haiku 5.5 공개",
+      "summary": "Anthropic이 빠르고 저렴한 새 모델 Claude Haiku 5.5를 내놓았어요. 이전 Haiku 4.5는 입력 100만 토큰당 1달러, 출력 5달러로 비싼 편이었다고 해요. 새 모델은 지난달 나온 GPT-6 Luna와 가격이 같은 수준이라고 합니다.",
+      "tag": "발표",
+      "source": "Simon Willison",
+      "originalTitle": "Claude Haiku 5.5",
+      "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+      "at": "2026-10-08T09:29:52.650Z"
+    },
+    {
+      "title": "Chrome에 JPEG XL 탑재",
+      "summary": "Chrome에 JPEG XL 이미지 형식을 넣는 소식이 올라왔어요. 웹에서 이미지를 다루는 개발자가 알아둘 만한 변화예요.",
+      "tag": "발표",
+      "source": "Hacker News",
+      "originalTitle": "Shipping JPEG XL in Chrome",
+      "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
+      "discussion": "https://news.ycombinator.com/item?id=49991227",
+      "at": "2026-10-08T09:29:52.650Z"
+    },
+    {
+      "title": "Docker Agent",
+      "summary": "Docker에서 Docker Agent라는 이름의 소식이 올라왔어요. 개발 환경에서 에이전트를 다루는 도구와 관련된 것으로 보여요.",
+      "tag": "도구",
+      "source": "Hacker News",
+      "originalTitle": "Docker Agent",
+      "url": "https://github.com/docker/docker-agent",
+      "discussion": "https://news.ycombinator.com/item?id=49996259",
+      "at": "2026-10-08T09:29:52.650Z"
+    },
+    {
+      "title": "ts-rust: Rust로 만든 TypeScript 7 컴파일러",
+      "summary": "TypeScript 7 컴파일러(tsc)를 Rust로 옮기는 실험적인 프로젝트예요. pingdotgg에서 공개했고 별 572개를 받았어요. 컴파일 속도에 관심 있는 개발자가 살펴볼 만해요.",
+      "tag": "도구",
+      "source": "GitHub 인기 프로젝트",
+      "originalTitle": "pingdotgg/ts-rust — An experimental Rust port of the TypeScript 7 compiler (tsc)",
+      "url": "https://github.com/pingdotgg/ts-rust",
+      "at": "2026-10-08T09:29:52.650Z"
+    },
+    {
+      "title": "비밀 정보 보호도 소프트웨어 규모에 맞춰야",
+      "summary": "GitHub 블로그가 개발자가 부주의해진 것이 아니라 늘어난 개발 속도를 따라가지 못하는 것이라고 짚었어요. 소프트웨어를 많이 만들게 해주는 도구가 보호 작업도 더 맡아야 한다고 주장해요.",
+      "tag": "읽을거리",
+      "source": "GitHub 블로그",
+      "originalTitle": "Secret protection must scale with software",
+      "url": "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/",
+      "at": "2026-10-08T09:29:52.650Z"
+    },
+    {
+      "title": "Papermorph: 책을 웹 경험으로 바꾸는 AI 스킬",
+      "summary": "책을 애니메이션과 내레이션이 있는 인터랙티브 웹 콘텐츠로 바꿔주는 AI 스킬이에요. HTML 기반이고 별 549개를 받았어요.",
+      "tag": "도구",
+      "source": "GitHub 인기 프로젝트",
+      "originalTitle": "DozenTwelve/Papermorph — An AI skill that turns books into animated, narrated, interactive web experiences",
+      "url": "https://github.com/DozenTwelve/Papermorph",
+      "at": "2026-10-08T09:29:52.650Z"
+    },
+    {
+      "title": "Nemotron 미세조정으로 IOI·IMO 금메달급 성적",
+      "summary": "Hugging Face에서 Nemotron 모델 하나를 미세조정해 IOI와 IMO 두 대회에서 금메달 수준의 결과를 냈다는 글이 올라왔어요.",
+      "tag": "연구",
+      "source": "Hugging Face",
+      "originalTitle": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+      "at": "2026-10-08T09:29:52.650Z"
+    }
+  ]
+}
