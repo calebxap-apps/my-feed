@@ -1,0 +1,74 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-10-09",
+  "generatedAt": "2026-10-09T09:39:36.653Z",
+  "summarizer": "claude",
+  "candidateCount": 39,
+  "headline": "Anthropic 이용 정책 개정과 Bevy 0.20 등 개발 소식",
+  "items": [
+    {
+      "title": "Anthropic 2026 이용 정책 개정",
+      "summary": "Anthropic이 이용 정책(Usage Policy)의 새 버전을 공개했어요. 바뀐 내용을 요약한 글도 함께 올라왔다고 해요. Claude API나 도구를 쓰는 개발자라면 허용 범위가 달라졌는지 확인해 볼 만해요.",
+      "tag": "발표",
+      "source": "Anthropic",
+      "originalTitle": "2026 Usage Policy update",
+      "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "at": "2026-10-09T09:39:36.653Z"
+    },
+    {
+      "title": "Bevy 0.20 출시",
+      "summary": "Rust 기반 오픈소스 게임 엔진 Bevy 0.20이 나왔어요. 실시간 패스 트레이싱 렌더러 Solari의 조명 정확도와 성능이 좋아졌고 macOS도 지원해요. 장면 구성, UI, ECS 성능도 개선되었다고 해요.",
+      "tag": "발표",
+      "source": "GeekNews",
+      "originalTitle": "Bevy 0.20",
+      "url": "https://news.hada.io/topic?id=35054",
+      "at": "2026-10-09T09:39:36.653Z"
+    },
+    {
+      "title": "DuckDB DuckLake",
+      "summary": "DuckLake는 SQL과 Parquet 기반의 개방형 레이크하우스 형식이에요. 메타데이터는 카탈로그 데이터베이스에, 실제 데이터는 Parquet 파일에 나누어 저장해요. DuckDB 확장으로 데이터를 직접 읽고 쓸 수 있어요.",
+      "tag": "도구",
+      "source": "GeekNews",
+      "originalTitle": "DuckDB DuckLake",
+      "url": "https://news.hada.io/topic?id=35046",
+      "at": "2026-10-09T09:39:36.653Z"
+    },
+    {
+      "title": "Quake를 안전한 Rust로 포팅",
+      "summary": "Quake-SRP는 1996년 id Software의 Quake GPL 소스를 Rust로 옮겨 브라우저에서 실행하는 프로젝트예요. 소프트웨어 렌더링으로 동작해서 GPU나 별도 의존성 없이 플레이할 수 있어요. 셰어웨어 에피소드가 포함되어 있다고 해요.",
+      "tag": "도구",
+      "source": "GeekNews",
+      "originalTitle": "Show HN: Quake를 안전한 Rust로 포팅, 브라우저에서 플레이 가능",
+      "url": "https://news.hada.io/topic?id=35057",
+      "at": "2026-10-09T09:39:36.653Z"
+    },
+    {
+      "title": "시스템으로 사고하고, 반복 루프로 출시하기",
+      "summary": "소프트웨어 엔지니어링의 중심이 직접 코드를 쓰는 일에서, AI가 올바른 코드를 쓰도록 시스템을 설계하는 일로 옮겨간다는 글이에요. Artemis 플랫폼은 모든 코드를 에이전트가 작성하고, 엔지니어는 시스템 설계, 제약 설정, 결과 검토를 맡는다고 해요.",
+      "tag": "읽을거리",
+      "source": "GeekNews",
+      "originalTitle": "시스템으로 사고하고, 반복 루프로 출시하기",
+      "url": "https://news.hada.io/topic?id=35043",
+      "at": "2026-10-09T09:39:36.653Z"
+    },
+    {
+      "title": "AI 시대 주니어 개발자의 역할",
+      "summary": "코딩 에이전트가 주니어 개발자의 구현 업무를 빠르게 대체하고 있다는 현장 경험에서 출발한 글이에요. 주니어 개발자가 'AI 팀장'이 되어야 한다는 새로운 역할과 업무 방식을 제안해요.",
+      "tag": "읽을거리",
+      "source": "GeekNews",
+      "originalTitle": "AI 시대 주니어 개발자의 역할은 무엇이 돼야 할까요?",
+      "url": "https://news.hada.io/topic?id=35056",
+      "at": "2026-10-09T09:39:36.653Z"
+    },
+    {
+      "title": "AI 시대에 SaaS 기업을 피벗하는 방법",
+      "summary": "AI 코딩 도구 덕분에 기능 개발과 복제가 저렴해져서, 경쟁사 기능에 몇 가지를 더하는 전략만으로는 버티기 어렵다는 글이에요. 코드보다 안정적인 운영 역량과 기존 고객에게 닿을 기반이 중요하다고 해요.",
+      "tag": "읽을거리",
+      "source": "GeekNews",
+      "originalTitle": "AI 시대에 SaaS 기업을 피벗하는 방법",
+      "url": "https://news.hada.io/topic?id=35041",
+      "at": "2026-10-09T09:39:36.653Z"
+    }
+  ]
+}
