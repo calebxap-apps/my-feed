@@ -1,0 +1,20 @@
+{
+  "channel": "novel-anime",
+  "mode": "event",
+  "date": "2026-10-10",
+  "generatedAt": "2026-10-10T00:51:36.132Z",
+  "summarizer": "claude",
+  "candidateCount": 1,
+  "headline": "윙페더 공식 유튜브에 새 영상이 올라왔어요",
+  "items": [
+    {
+      "title": "A Fool's Errand | The Wingfeather Saga",
+      "summary": "윙페더 공식 유튜브에 'A Fool's Errand'라는 제목의 영상이 2026년 10월 9일에 올라왔어요. 제목으로 보아 윙페더 사가와 관련된 영상이에요. 영상의 구체적인 내용은 확인되지 않았어요.",
+      "tag": "영상",
+      "source": "윙페더 공식 유튜브",
+      "originalTitle": "A Fool's Errand | The Wingfeather Saga",
+      "url": "https://www.youtube.com/shorts/Ux_2cx1kQcM",
+      "at": "2026-10-10T00:51:36.132Z"
+    }
+  ]
+}
