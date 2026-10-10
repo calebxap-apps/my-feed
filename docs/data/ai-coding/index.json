@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-10-10",
+    "count": 10,
+    "headline": "Cloudflare의 Deno 인수와 새 에이전트 도구 소식"
+  },
+  {
     "date": "2026-10-09",
     "count": 7,
     "headline": "Anthropic 이용 정책 개정과 Bevy 0.20 등 개발 소식"

@@ -1,0 +1,104 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-10-10",
+  "generatedAt": "2026-10-10T09:03:05.302Z",
+  "summarizer": "claude",
+  "candidateCount": 44,
+  "headline": "Cloudflare의 Deno 인수와 새 에이전트 도구 소식",
+  "items": [
+    {
+      "title": "Cloudflare, Deno 인수",
+      "summary": "Cloudflare가 Deno를 인수했다고 해요. 자세한 조건과 계획은 후보에 적혀 있지 않아요. Deno를 쓰는 개발자는 이후 공지를 확인해 볼 만해요.",
+      "tag": "발표",
+      "source": "Hacker News",
+      "originalTitle": "Cloudflare acquires Deno",
+      "url": "https://deno.com/blog/cloudflare",
+      "discussion": "https://news.ycombinator.com/item?id=50019911",
+      "at": "2026-10-10T09:03:05.302Z"
+    },
+    {
+      "title": "StepFun Step 5 Preview, OpenRouter 등장",
+      "summary": "StepFun의 에이전트 작업용 주력 모델 Step 5 Preview가 OpenRouter에 올라왔어요. 희소 MoE 구조로 전체 6,000억 개 파라미터 중 270억 개를 활성화하고, 100만 토큰 컨텍스트를 지원한다고 해요. 대규모 코드베이스와 문서를 다루는 작업에 쓸 수 있어요.",
+      "tag": "발표",
+      "source": "GeekNews",
+      "originalTitle": "StepFun의 100만 토큰 컨텍스트 MoE 모델 Step 5 Preview, OpenRouter에 등장",
+      "url": "https://news.hada.io/topic?id=35103",
+      "at": "2026-10-10T09:03:05.302Z"
+    },
+    {
+      "title": "Microsoft-Decision-1 출시",
+      "summary": "Microsoft가 라우팅, 분류, 우선순위 지정, 검증, 워크플로 제어를 위한 Microsoft-Decision-1을 출시했어요. 선택지마다 보정된 확률을 반환해서 소프트웨어가 바로 의사결정에 쓸 수 있어요. Qwen3.5-9B를 사후 학습한 모델이라고 해요.",
+      "tag": "발표",
+      "source": "GeekNews",
+      "originalTitle": "Microsoft-Decision-1, 빠른 의사결정을 위한 Microsoft의 모델",
+      "url": "https://news.hada.io/topic?id=35100",
+      "at": "2026-10-10T09:03:05.302Z"
+    },
+    {
+      "title": "Python 3.15",
+      "summary": "Python 3.15 관련 글이 올라왔어요. 구체적인 변경 내용은 후보에 적혀 있지 않아요. 파이썬 개발자는 새 버전의 변경점을 확인해 볼 만해요.",
+      "tag": "발표",
+      "source": "Hacker News",
+      "originalTitle": "Python 3.15",
+      "url": "https://www.python.org/downloads/release/python-3150/",
+      "discussion": "https://news.ycombinator.com/item?id=50021127",
+      "at": "2026-10-10T09:03:05.302Z"
+    },
+    {
+      "title": "음성으로 블로그 기능을 만든 후기",
+      "summary": "Simon Willison이 ChatGPT 데스크톱 앱의 Codex 탭에서 음성 대화로 블로그의 뉴스레터 페이지를 만들었어요. 저녁을 요리하면서 노트북에 말로 지시해 거의 음성만으로 기능을 완성했다고 해요. 코딩 에이전트를 쓰는 새로운 작업 방식의 예예요.",
+      "tag": "읽을거리",
+      "source": "Simon Willison",
+      "originalTitle": "A new feature for my blog, built using my voice",
+      "url": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
+      "at": "2026-10-10T09:03:05.302Z"
+    },
+    {
+      "title": "REA Reverse: 무엇이든 리버스 엔지니어링",
+      "summary": "REA는 코딩 에이전트가 프로그램을 직접 검사하고 동작을 설명하도록 돕는 도구예요. 자연어로 질문하면 명령어, 디컴파일 코드, 호출 관계 등을 제공해요. 분석한 기능을 바꾸거나 다시 구현하는 데도 쓸 수 있다고 해요.",
+      "tag": "도구",
+      "source": "GeekNews",
+      "originalTitle": "REA Reverse - 무엇이든 리버스 엔지니어링하기",
+      "url": "https://news.hada.io/topic?id=35105",
+      "at": "2026-10-10T09:03:05.302Z"
+    },
+    {
+      "title": "usAge: AI 서비스 사용량 확인 앱",
+      "summary": "Claude, Codex, Cursor 등 여러 AI 서비스의 사용량, 남은 한도, 초기화 시각을 한곳에서 확인하는 앱이에요. 각 서비스의 대시보드를 따로 열지 않아도 돼요. 여러 AI 도구를 함께 쓰는 개발자에게 도움이 돼요.",
+      "tag": "도구",
+      "source": "GeekNews",
+      "originalTitle": "usAge - Claude·Codex·Cursor 등 AI 서비스의 사용량·잔여 한도·초기화 시각을 확인하는 앱",
+      "url": "https://news.hada.io/topic?id=35106",
+      "at": "2026-10-10T09:03:05.302Z"
+    },
+    {
+      "title": "코딩 에이전트는 왜 이렇게 멍청할까?",
+      "summary": "에이전트가 작업 관리, 위임, 소통에서 여전히 병목이라는 글이에요. 작업을 나눠도 병렬 실행과 모델별 위임이 미흡해서, 간단한 작업까지 느리고 비싼 모델에 맡기게 된다고 해요. 에이전트 도구를 쓸 때 참고할 만해요.",
+      "tag": "읽을거리",
+      "source": "GeekNews",
+      "originalTitle": "코딩 에이전트는 왜 이렇게 멍청할까?",
+      "url": "https://news.hada.io/topic?id=35104",
+      "at": "2026-10-10T09:03:05.302Z"
+    },
+    {
+      "title": "AI 에이전트가 화면에 화살표와 글자를 그리는 도구",
+      "summary": "AI 에이전트가 화면 위에 큰 화살표, 상자, 글자를 그리게 해 주는 도구가 Show HN에 올라왔어요. 에이전트가 사용자에게 무엇을 가리키는지 보여주는 데 쓸 수 있다고 해요.",
+      "tag": "도구",
+      "source": "Hacker News",
+      "originalTitle": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
+      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+      "discussion": "https://news.ycombinator.com/item?id=50018817",
+      "at": "2026-10-10T09:03:05.302Z"
+    },
+    {
+      "title": "AI로 기록 보관소를 탐색한 사례",
+      "summary": "의미 기반 검색과 다단계 AI 필터링으로 수백만 쪽의 역사 자료를 조사한 사례예요. 네덜란드 동인도회사 기록 435만 쪽, 570만 구절을 단일 GPU로 밤새 처리했다고 해요. 소형 판단 모델을 써서 대량의 문서를 처리하는 방법의 예가 돼요.",
+      "tag": "연구",
+      "source": "GeekNews",
+      "originalTitle": "AI로 기록 보관소를 탐색해 잊힌 운석과 코뿔소 기록 등을 찾아냄",
+      "url": "https://news.hada.io/topic?id=35110",
+      "at": "2026-10-10T09:03:05.302Z"
+    }
+  ]
+}
