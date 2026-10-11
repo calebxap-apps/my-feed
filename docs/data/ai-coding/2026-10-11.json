@@ -1,0 +1,58 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-10-11",
+  "generatedAt": "2026-10-11T07:39:35.999Z",
+  "summarizer": "claude",
+  "candidateCount": 36,
+  "headline": "Gemini 업무 에이전트와 Vercel Eve 프레임워크 등 5건",
+  "items": [
+    {
+      "title": "구글, 업무용 Gemini 에이전트 발표",
+      "summary": "구글이 업무용 Gemini 에이전트를 발표했어요. 노트북을 닫아도 클라우드에서 작업을 계속하고, 기기와 접속 채널이 바뀌어도 기억과 맥락을 유지한다고 해요. 작업에 맞춰 Gemini와 Anthropic의 Claude 모델을 함께 쓴다고 합니다.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "구글, 업무용 Gemini 에이전트 발표 — 장시간 작업과 기억 유지, Claude 지원",
+      "url": "https://news.hada.io/topic?id=35151",
+      "at": "2026-10-11T07:39:35.999Z"
+    },
+    {
+      "title": "Eve: 디렉터리 하나로 만드는 AI 에이전트",
+      "summary": "Vercel이 Markdown과 TypeScript 파일만으로 에이전트를 정의하고 배포하는 Eve 프레임워크를 내놨어요. instructions.md에 역할과 기본 지침을 쓰면 최소한의 에이전트가 만들어지고, 지침·도구·채널·상태를 함께 다룬다고 해요. Next.js처럼 파일 구조와 실행 인프라를 같이 제공한다고 합니다.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "Eve - 디렉터리 하나로 AI 에이전트를 정의하고 배포하는 Vercel 프레임워크",
+      "url": "https://news.hada.io/topic?id=35140",
+      "at": "2026-10-11T07:39:35.999Z"
+    },
+    {
+      "title": "Talorys: Cloudflare 무료 구간의 개인 AI 에이전트",
+      "summary": "Cloudflare 무료 구간에서 직접 호스팅해 돌리는 개인용 AI 에이전트 Talorys가 Hacker News에서 281점을 받았어요. 따로 서버 비용을 들이지 않고 나만의 에이전트를 운영해 보려는 분께 참고가 될 수 있어요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+      "url": "https://github.com/rociiu/talorys",
+      "discussion": "https://news.ycombinator.com/item?id=50031614",
+      "at": "2026-10-11T07:39:35.999Z"
+    },
+    {
+      "title": "DuckDB 2.0이 더 빠른 이유",
+      "summary": "DuckDB 2.0이 왜 더 빨라졌는지를 다룬 글이 Hacker News에서 195점을 받았어요. 앱에서 데이터 분석이나 로컬 데이터 처리를 DuckDB로 하고 있다면 확인해 볼 만해요.",
+      "tag": "읽을거리",
+      "source": "Hacker News",
+      "originalTitle": "Why DuckDB 2.0 is faster",
+      "url": "https://motherduck.com/blog/why-duckdb-20-is-faster/",
+      "discussion": "https://news.ycombinator.com/item?id=50035530",
+      "at": "2026-10-11T07:39:35.999Z"
+    },
+    {
+      "title": "aside-relay: 휴대폰에서 Aside 쓰기",
+      "summary": "Mac에서 실행 중인 Aside를 휴대폰이나 다른 브라우저에서 쓸 수 있게 해 주는 웹 클라이언트예요. 진행 중인 작업을 확인하고 추가 메시지를 보내거나, 승인이 필요한 요청에 답할 수 있다고 해요. 자리를 비운 사이에도 에이전트 작업을 지켜보는 데 쓸 수 있어요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "Show GN: aside-relay - 휴대폰에서 Aside를 쓰는 웹 클라이언트",
+      "url": "https://news.hada.io/topic?id=35153",
+      "at": "2026-10-11T07:39:35.999Z"
+    }
+  ]
+}
