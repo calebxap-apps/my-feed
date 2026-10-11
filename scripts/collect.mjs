@@ -30,8 +30,10 @@ results.forEach((r, i) => {
     report.push(`  ✗ ${src.name}: ${r.reason.message}`);
     return;
   }
-  // 기존 채널에 새로 붙인 출처: 지금 있는 글은 '기준'으로만 기록하고 소식으로 내보내지 않는다
-  if (seen && r.value.length > 3 && !r.value.some((it) => seen[it.url])) {
+  // 기존 채널에 새로 붙인 '날짜 없는' 출처: 지금 있는 글은 '기준'으로만 기록하고 소식으로 내보내지 않는다
+  // (날짜 있는 출처는 '최근 n시간' 기준으로 걸러지니 그대로 둔다)
+  const undated = r.value.filter((it) => !it.date);
+  if (seen && undated.length > 3 && !r.value.some((it) => seen[it.url])) {
     report.push(`  ◇ ${src.name}: 처음 연결 — 지금 있는 ${r.value.length}개는 기준으로만 저장`);
     return;
   }

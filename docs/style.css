@@ -71,6 +71,17 @@ main { padding-bottom: calc(48px + env(safe-area-inset-bottom)); outline: none; 
 .item h3 a { color: inherit; text-decoration: none; }
 .item h3 a:hover { text-decoration: underline; text-decoration-color: var(--line); }
 .item p { margin: 0 0 10px; font-size: 15.5px; }
+/* 영상 전체 번역: 접었다 펴는 칸 */
+.full { margin: 0 0 12px; border-left: 2px solid var(--line); padding-left: 12px; }
+.full summary {
+  cursor: pointer; list-style: none; display: inline-block;
+  font: 600 13.5px/1 var(--body); color: var(--link); padding: 6px 0;
+}
+.full summary::-webkit-details-marker { display: none; }
+.full summary::before { content: '▸ '; }
+.full[open] summary::before { content: '▾ '; }
+.full[open] summary { margin-bottom: 8px; }
+.full p { font-size: 14.5px; color: var(--ink); }
 .src { font: 500 12.5px/1.5 var(--mono); color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 12px; }
 .src a { color: var(--link); font-family: var(--body); font-size: 13px; }
 .orig { display: block; width: 100%; font-family: var(--body); font-size: 12px; opacity: .85; }

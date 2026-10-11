@@ -50,7 +50,9 @@
         "Read the Books!",
         "Support the Show:",
         "Follow The Wingfeather Saga on Social Media:"
-      ]
+      ],
+      "transcript": true,
+      "channelUrl": "https://www.youtube.com/@WingfeatherSaga"
     },
     {
       "type": "page-watch",

@@ -76,7 +76,9 @@ const fetchers = {
           .slice(0, src.snippetLength ?? 600);
       }
     }
-    return items.filter((it) => matches(src.keywords, it.title, it.snippet));
+    // excludeTitle: 시험판(alpha·nightly 등)처럼 제목만 봐도 뺄 글
+    const skip = src.excludeTitle ? new RegExp(src.excludeTitle, 'i') : null;
+    return items.filter((it) => matches(src.keywords, it.title, it.snippet) && !skip?.test(it.title));
   },
 
   // RSS 가 없는 목록 페이지: 글 주소만 뽑고, 처음 보는 글만 (최대 5개) 들어가서 내용을 읽는다.

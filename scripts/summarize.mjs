@@ -17,20 +17,28 @@ const EVENT = channel.mode === 'event';
 const TAGS = channel.tags || ['발표', '도구', '연구', '읽을거리'];
 const { candidates } = await readJson(join(TMP, `${channel.id}-candidates.json`));
 const date = kstDate();
+const BACKFILL = process.env.BACKFILL === '1'; // 지난 중요 영상 모아 보내기 (scripts/backfill.mjs 다음에 실행)
 
 function buildPrompt() {
   const list = candidates.map((c, i) => ({
     n: i,
     출처: `${c.source} (${c.kind})`,
     제목: c.title,
-    내용: c.snippet || undefined,
+    내용: c.translation ? `[영상 자막 한국어 번역] ${c.translation.slice(0, 3000)}` : c.snippet || undefined,
     ...(c.date ? { 날짜: c.date.slice(0, 10) } : {}),
     ...(c.extra?.points ? { 추천수: c.extra.points } : {}),
     ...(c.extra?.stars ? { 별: c.extra.stars } : {}),
   }));
 
   const intro = EVENT
-    ? `너는 한 팬을 위해 좋아하는 작품의 공식 소식을 챙겨주는 편집자다.
+    ? BACKFILL
+      ? `너는 한 팬을 위해 좋아하는 작품의 공식 소식을 챙겨주는 편집자다.
+[따라가는 작품]
+${channel.works.map((w) => `- ${w.name}: ${w.note}`).join('\n')}
+
+아래는 공식 유튜브의 '지난 영상' 중 중요한 것으로 골라 둔 후보 ${candidates.length}개다. 인터뷰·제작 뒷이야기·예고편 같은 영상이다.
+팬이 지금 알아 두면 좋을 내용 위주로 정리해라. 영상 자막 번역이 있으면 그 내용을 바탕으로 요약한다.`
+      : `너는 한 팬을 위해 좋아하는 작품의 공식 소식을 챙겨주는 편집자다.
 [따라가는 작품]
 ${channel.works.map((w) => `- ${w.name}: ${w.note}`).join('\n')}
 
@@ -47,7 +55,7 @@ ${channel.works.map((w) => `- ${w.name}: ${w.note}`).join('\n')}
 
 [고르는 기준]
 ${channel.guide}
-- 중요한 것부터 최대 ${channel.maxItems}개. 고를 게 적으면 적게 골라도 된다. 억지로 채우지 않는다.
+- 중요한 것부터 최대 ${BACKFILL ? 12 : channel.maxItems}개. 고를 게 적으면 적게 골라도 된다. 억지로 채우지 않는다.
 - 후보에 적힌 내용만 쓴다. 적혀 있지 않은 사실을 지어내지 않는다. 확실하지 않으면 "~라고 한다"처럼 쓴다.
 - 과장·감탄 표현 없이 담담하게 쓴다.
 - "후보에 제목만 있다" 같은 자료 상태 설명은 쓰지 않는다. 정보가 적으면 짧게 쓴다.
@@ -104,7 +112,29 @@ const toItem = (c, fields) => ({
   originalTitle: c.title,
   url: c.link || c.url, // 페이지 감시 소식은 원래 페이지로
   ...(c.extra?.discussion ? { discussion: c.extra.discussion } : {}),
+  ...(c.translation ? { translation: c.translation } : {}), // 앱의 '전체 번역 보기'
 });
+
+// 영상 자막(transcripts.mjs 가 붙임)을 한국어 전문으로 번역
+async function translateTranscripts() {
+  for (const c of candidates.filter((c) => c.transcript)) {
+    try {
+      const out = await runClaude(`다음은 유튜브 영상 "${c.title}"의 자막이다. 자연스러운 한국어로 전체를 번역해라.
+- 시간 표시는 빼고, 내용 흐름에 따라 문단으로 나눈다. 문단 사이는 빈 줄 하나.
+- 말하는 사람이 바뀌는 게 분명하면 줄을 바꾼다.
+- 인물·지명 같은 고유명사는 한국어 표기 뒤 괄호에 영어를 한 번만 적는다. 예: 재너(Janner)
+- 이미 한국어면 다듬기만 한다.
+- 번역문만 출력한다. 앞뒤 설명을 붙이지 않는다.
+
+[자막]
+${c.transcript.slice(0, 20000)}`);
+      c.translation = out.trim();
+      console.log(`  🎬 자막 번역: ${c.title} (${c.translation.length}자)`);
+    } catch (e) {
+      console.warn(`  ⚠ 자막 번역 실패 (${c.title}): ${e.message}`);
+    }
+  }
+}
 
 function parseAnswer(text) {
   const start = text.indexOf('{');
@@ -122,7 +152,7 @@ function parseAnswer(text) {
       tag: TAGS.includes(it.tag) ? it.tag : TAGS[TAGS.length - 1],
     })];
   });
-  return { headline: String(data.headline || ''), items: items.slice(0, channel.maxItems) };
+  return { headline: String(data.headline || ''), items: items.slice(0, BACKFILL ? 12 : channel.maxItems) };
 }
 
 function fallbackDigest() {
@@ -134,7 +164,7 @@ function fallbackDigest() {
     .map((c) => toItem(c, {
       title: c.title,
       summary: c.snippet || '요약 없이 제목만 가져왔어요.',
-      tag: EVENT ? TAGS[TAGS.length - 1] : c.kind === '프로젝트' ? '도구' : c.kind === '공식' ? '발표' : '읽을거리',
+      tag: TAGS[TAGS.length - 1],
     }));
   return { headline: items.length ? `새 글 ${items.length}개 (요약 없이 제목만)` : '', items };
 }
@@ -153,6 +183,7 @@ if (candidates.length === 0) {
   summarizer = 'fallback';
 } else {
   try {
+    await translateTranscripts();
     digest = parseAnswer(await runClaude(buildPrompt()));
   } catch (e) {
     console.warn(`⚠ Claude 요약 실패 → 제목만으로 대신 만들어요: ${e.message}`);

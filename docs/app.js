@@ -82,6 +82,11 @@ async function renderDay() {
       el('span', { class: 'tag' }, it.tag),
       el('h3', {}, el('a', { href: it.url, target: '_blank', rel: 'noopener' }, it.title)),
       el('p', {}, it.summary),
+      it.translation
+        ? el('details', { class: 'full' },
+          el('summary', {}, '전체 번역 보기'),
+          it.translation.split(/\n{2,}/).map((para) => el('p', {}, para.trim())))
+        : null,
       el('div', { class: 'src' },
         el('span', {}, it.at && event ? `${it.source} · ${time(it.at)}` : it.source),
         el('a', { href: it.url, target: '_blank', rel: 'noopener' }, '원문'),
