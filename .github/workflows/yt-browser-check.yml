@@ -1,0 +1,13 @@
+# 임시: GitHub 서버에서 진짜 브라우저로 유튜브 자막을 읽을 수 있는지 점검 (확인 후 삭제)
+name: yt-browser-check
+on: workflow_dispatch
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: npm install --no-save playwright && npx playwright install --with-deps chromium
+      - run: node scripts/tmp-check/yt-browser.mjs -6k3ZQslo6w
+      - run: node scripts/tmp-check/yt-browser.mjs 3KbwHRcVGIE
