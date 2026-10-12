@@ -1,0 +1,77 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-10-12",
+  "generatedAt": "2026-10-12T03:01:04.904Z",
+  "summarizer": "claude",
+  "candidateCount": 33,
+  "headline": "컨텍스트 관리와 MCP 도입 사례 등 에이전트 소식",
+  "items": [
+    {
+      "title": "컨텍스트가 새로운 코드다",
+      "summary": "AI 에이전트에 주는 컨텍스트를 코드처럼 관리하자는 글이에요. 생성, 평가, 배포, 관찰의 수명주기를 적용해야 한다고 해요. 컨텍스트 품질은 문법 검사만으로 알 수 없고, 실제 코드베이스에서 작업을 시켜 보고 변경 전후를 비교해야 한다고 해요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "컨텍스트가 새로운 코드다",
+      "url": "https://news.hada.io/topic?id=35211",
+      "at": "2026-10-12T03:01:04.904Z"
+    },
+    {
+      "title": "Uber의 MCP Gateway 설계",
+      "summary": "Uber는 흩어져 있던 MCP 연동을 MCP Gateway 하나로 통합했어요. 기존 API와 네이티브 MCP 서버를 같은 방식으로 제공하고, 현재 800개 이상의 서버와 5,000개 이상의 도구를 운영한다고 해요. MCP Registry가 검색, 소유권, 활성화 설정을 관리해요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "MCP Gateway - 기존 API를 MCP 도구로 통합하는 Uber의 플랫폼 설계",
+      "url": "https://news.hada.io/topic?id=35213",
+      "at": "2026-10-12T03:01:04.904Z"
+    },
+    {
+      "title": "jevgrep: 코딩 에이전트용 검색 CLI",
+      "summary": "낯선 코드베이스에서 코딩 에이전트가 필요한 파일을 찾도록 돕는 검색 도구예요. \"인증을 어디서 검사해?\"처럼 동작을 질문하면 관련 파일과 원문 코드 발췌를 돌려줘요. 에이전트에게 큰 프로젝트를 맡길 때 써 볼 만해요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "jevgrep - 코드의 동작을 질문해 관련 파일을 찾는 코딩 에이전트용 CLI",
+      "url": "https://news.hada.io/topic?id=35208",
+      "at": "2026-10-12T03:01:04.904Z"
+    },
+    {
+      "title": "I'm sorry, but you still have to think",
+      "summary": "Hacker News에서 329점을 받은 글이에요. 제목으로 보아 AI에게 맡기더라도 사람이 직접 생각해야 한다는 내용으로 보여요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "I'm sorry, but you still have to think",
+      "url": "https://itsallaboutthebit.com/i-am-sorry-but-you-still-have-to-think/",
+      "discussion": "https://news.ycombinator.com/item?id=50043689",
+      "at": "2026-10-12T03:01:04.904Z"
+    },
+    {
+      "title": "README를 따라 하게 하려고 사람을 고용한 경험",
+      "summary": "Hacker News에서 372점을 받은 글이에요. 사람들에게 돈을 주고 README를 따라 해 보게 한 경험담이라고 해요. 문서를 점검하는 방법으로 참고할 수 있어요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "I paid people to try and follow my README",
+      "url": "https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/",
+      "discussion": "https://news.ycombinator.com/item?id=50042219",
+      "at": "2026-10-12T03:01:04.904Z"
+    },
+    {
+      "title": "이제 우리는 모두 제품 엔지니어다",
+      "summary": "AI가 개발 생명주기 전체를 자동화하면 개발의 중심이 고객 요구 파악, 좋은 결과 정의, 사용 경험 설계로 옮겨갈 것이라는 전망이에요. 이 전망은 전체 자동화와 사실상 상한 없는 소프트웨어 수요를 가정한다고 해요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "이제 우리는 모두 제품 엔지니어다",
+      "url": "https://news.hada.io/topic?id=35212",
+      "at": "2026-10-12T03:01:04.904Z"
+    },
+    {
+      "title": "LLM 능력에 대한 인식 격차가 벌어지고 있다",
+      "summary": "Hacker News에서 279점을 받은 글이에요. LLM 능력을 두고 사람들 사이의 공통된 이해 차이가 커지고 있다는 내용이라고 해요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "The gap in shared understanding of LLM capability is widening",
+      "url": "https://twitter.com/karpathy/status/2109361546505966046",
+      "discussion": "https://news.ycombinator.com/item?id=50047422",
+      "at": "2026-10-12T03:01:04.904Z"
+    }
+  ]
+}
