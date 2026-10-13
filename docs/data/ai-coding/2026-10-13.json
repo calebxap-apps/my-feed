@@ -1,0 +1,94 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-10-13",
+  "generatedAt": "2026-10-13T03:01:33.975Z",
+  "summarizer": "claude",
+  "candidateCount": 36,
+  "headline": "Codex CLI 상주 데몬 논란, Linus의 Claude Code 활용 소식",
+  "items": [
+    {
+      "title": "Codex CLI 0.157.0 상주 데몬 논란",
+      "summary": "Codex CLI 0.157.0에서 대화형 세션을 열면 백그라운드 데몬이 자동 실행된다는 사용자 보고가 나왔어요. 모든 CLI 창을 닫아도 남고, 플랫폼 패키지 약 374MB를 별도로 복사해 실행하며, 독립적으로 자동 업데이트도 한다고 해요. Hacker News에서도 추천 484개로 화제가 됐고, Codex를 쓰신다면 Linux/WSL2에서 프로세스가 남아 있는지 확인해 볼 만해요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "Codex CLI 0.157.0, 상주 데몬의 기본 실행과 자동 업데이트에 사용자 반발",
+      "url": "https://news.hada.io/topic?id=35256",
+      "at": "2026-10-13T03:01:33.975Z"
+    },
+    {
+      "title": "Anthropic의 Dynamic Workflows 소개",
+      "summary": "AI Engineer New York에서 Anthropic이 Unix와 Linux의 교훈을 바탕으로 에이전트가 큰 프로젝트를 다루는 방식을 설명했어요. 개발자가 감당하기 어려울 만큼 부담이 커지지 않게 Claude 에이전트들을 조율하는 방법이라고 해요. 에이전트에게 큰 작업을 맡길 때의 설계 참고가 될 수 있어요.",
+      "tag": "코딩",
+      "source": "Latent Space",
+      "originalTitle": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents",
+      "url": "https://www.latent.space/p/claude-dynamic-workflows",
+      "at": "2026-10-13T03:01:33.975Z"
+    },
+    {
+      "title": "코딩 에이전트 세팅 실패 15가지 패턴",
+      "summary": "Claude Code, Codex, Gemini CLI를 몇 주 쓰면 일은 많이 했는데 실제 반영된 것은 없는 상태가 되기 쉽다고 해요. 원인은 대부분 모델 성능이 아니라 운영 설정이라고 짚어요. 예를 들어 완료 기준에 '실행한 명령과 실제 결과'를 꼭 넣게 하라는 식으로 따라 해 볼 수 있는 해결법을 정리했어요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "AI 코딩 에이전트(Claude Code·Codex·Gemini CLI) 세팅이 실패하는 15가지 패턴과 해결법",
+      "url": "https://news.hada.io/topic?id=35266",
+      "at": "2026-10-13T03:01:33.975Z"
+    },
+    {
+      "title": "Linus Torvalds, Claude Code로 커널 개선",
+      "summary": "리누스 토발즈가 Claude Code를 활용해 Linux 커널의 병목을 개선하고 있다고 해요. 여러 스레드가 한 파일을 조금씩 읽을 때 folio 참조 카운팅 경합이 생기는데, 패치 시리즈는 folio 참조 없이 페이지 캐시를 읽도록 메모리 관리 코드를 바꾼다고 해요. 대형 저수준 코드베이스에서도 코딩 에이전트를 쓰는 사례예요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "Linus Torvalds, Claude Code로 Linux 커널의 대폭 개선 작업 진행 중",
+      "url": "https://news.hada.io/topic?id=35265",
+      "at": "2026-10-13T03:01:33.975Z"
+    },
+    {
+      "title": "AI 코딩 에이전트: 코드만 늘고 소프트웨어는 그대로",
+      "summary": "700곳 넘는 기업의 개발 활동을 분석한 연구에서, 에이전트 도입 후 생성된 코드 줄 수는 평균 30% 늘었다고 해요. 하지만 기업 차원의 소프트웨어 산출량이 늘었다는 근거는 거의 없었다고 해요. Hacker News에서 추천 314개를 받았고, 코드 양보다 실제 결과물로 효과를 재야 한다는 점을 보여줘요.",
+      "tag": "연구",
+      "source": "Hacker News",
+      "originalTitle": "AI coding agents generate more code, but not more software",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "discussion": "https://news.ycombinator.com/item?id=50059523",
+      "at": "2026-10-13T03:01:33.975Z"
+    },
+    {
+      "title": "QGIS, AI 기여 일시 중단 결정",
+      "summary": "오픈소스 프로젝트 QGIS가 AI를 이용한 기여를 당분간 받지 않는 조치를 시행했다고 해요. Hacker News에서 추천 367개를 받았어요. 오픈소스에 AI로 만든 코드를 올릴 계획이 있다면 프로젝트별 방침을 먼저 확인하는 편이 좋아요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "QGIS enacts moratorium on AI contributions",
+      "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+      "discussion": "https://news.ycombinator.com/item?id=50054751",
+      "at": "2026-10-13T03:01:33.975Z"
+    },
+    {
+      "title": "Rich Hickey: AI는 도구가 아니라 자동화",
+      "summary": "Clojure 창시자 Rich Hickey는 도구는 사람이 직접 통제하며 다루는 것이고, LLM은 요청 뒤 직접적인 통제 없이 작동하는 자동화라고 구분했어요. 도구 사용은 지속적인 기술과 감각적 피드백으로 숙련을 쌓는 과정인데 LLM은 그 조건이 다르다고 주장해요. 같은 주제의 반대 의견은 '숙련이 필요한 도구'라는 글(HN 추천 251개)에 나와 있어요.",
+      "tag": "읽을거리",
+      "source": "GeekNews",
+      "originalTitle": "Clojure 창시자 Rich Hickey: AI는 도구가 아니라 자동화다",
+      "url": "https://news.hada.io/topic?id=35264",
+      "at": "2026-10-13T03:01:33.975Z"
+    },
+    {
+      "title": "GitHub Copilot에 코드베이스 가르치기",
+      "summary": "GitHub 블로그가 Copilot에 저장소 맞춤 지침과 스킬을 추가하는 방법을 입문자용으로 소개했어요. 커스텀 에이전트를 쓰는 법과 Playwright 같은 MCP 서버를 연결하는 방법도 다뤄요. Copilot을 쓰신다면 설정 순서를 따라 해 볼 수 있어요.",
+      "tag": "코딩",
+      "source": "GitHub 블로그",
+      "originalTitle": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
+      "at": "2026-10-13T03:01:33.975Z"
+    },
+    {
+      "title": "Ruby, AI로 생태계 빈틈 메우기",
+      "summary": "LLM 도구가 Ruby를 다른 언어로 다시 쓰는 데만 쓰이는 것은 아니라는 글이에요. PDF 생성, GUI, Parquet, gRPC 등에서 새 라이브러리와 개선 작업이 나오고 있다고 해요. AI로 오래 비어 있던 생태계 영역을 채울 수 있다는 사례예요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "Ruby의 바이마르 시대 - AI로 생태계의 오래된 빈틈을 메우다",
+      "url": "https://news.hada.io/topic?id=35270",
+      "at": "2026-10-13T03:01:33.975Z"
+    }
+  ]
+}

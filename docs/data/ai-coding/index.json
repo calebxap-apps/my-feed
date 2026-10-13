@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-10-13",
+    "count": 9,
+    "headline": "Codex CLI 상주 데몬 논란, Linus의 Claude Code 활용 소식"
+  },
+  {
     "date": "2026-10-12",
     "count": 7,
     "headline": "컨텍스트 관리와 MCP 도입 사례 등 에이전트 소식"
