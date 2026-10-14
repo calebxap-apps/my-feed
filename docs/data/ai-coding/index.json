@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-10-14",
+    "count": 7,
+    "headline": "Claude Code 유휴 압축 추가, Gemini 4 Argon 공개"
+  },
+  {
     "date": "2026-10-13",
     "count": 9,
     "headline": "Codex CLI 상주 데몬 논란, Linus의 Claude Code 활용 소식"
