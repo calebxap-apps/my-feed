@@ -1,0 +1,84 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T03:01:06.112Z",
+  "summarizer": "claude",
+  "candidateCount": 51,
+  "headline": "Claude Code 새 기능과 Gemini 4 Argon 정식 출시 소식",
+  "items": [
+    {
+      "title": "Claude Code v2.1.300 업데이트",
+      "summary": "Claude Code 2.1.300이 나왔어요. 모드(mod)에서 프롬프트 입력창에 초안에 들어가지 않는 글자를 그리는 virtualText와, 에이전트 대화 기록을 메인 화면에 보여주는 $.ui.view({ agentId })가 추가됐어요. 워크플로 에이전트의 프롬프트와 모델을 바꿀 수 있는 agent.spawn 훅 기능과 prompt.change 훅도 생겼어요. OpenTelemetry 이벤트에는 캐시 쓰기를 5분·1시간 수명별로 나눈 토큰 수가 추가됐어요.",
+      "tag": "코딩",
+      "source": "Claude Code 업데이트",
+      "originalTitle": "v2.1.300",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.300",
+      "at": "2026-10-15T03:01:06.112Z"
+    },
+    {
+      "title": "Gemini 4 Argon 정식 출시",
+      "summary": "Gemini 4 Argon이 오늘 정식 출시(GA)됐다고 해요. CursorBench 같은 여러 벤치마크가 공개된 성능 주장을 따로 확인해 주었다고 합니다. 코딩 도구에서 쓸 모델을 고를 때 참고할 수 있어요.",
+      "tag": "모델",
+      "source": "Latent Space",
+      "originalTitle": "[AINews] AI Engineer NYC: Gemini 4 Argon, Vals AI Benchmarks",
+      "url": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
+      "at": "2026-10-15T03:01:06.112Z"
+    },
+    {
+      "title": "OpenCode 2.0 공개",
+      "summary": "오픈소스 코딩 에이전트 OpenCode의 2.0이 Hacker News에서 추천 359를 받았어요. Claude Code나 Codex 같은 도구의 대안을 찾는 분이 살펴볼 만한 소식이에요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "OpenCode 2.0",
+      "url": "https://anoma.ly/notes/opencode-2-0/",
+      "discussion": "https://news.ycombinator.com/item?id=50094994",
+      "at": "2026-10-15T03:01:06.112Z"
+    },
+    {
+      "title": "State of AI 2026: AI가 AI를 개발",
+      "summary": "Anthropic 내부 지표에서 사람이 감독하는 가운데 Claude가 맡는 모델 연구개발 업무 비중이 2월 1% 미만에서 8월 26%로 늘었다고 해요. 에이전트의 성능은 모델뿐 아니라 도구와 작업 구성에도 좌우된다고 정리한 글이에요.",
+      "tag": "연구",
+      "source": "GeekNews",
+      "originalTitle": "State of AI 2026 - AI가 AI를 개발하는 시대, 추론 산업과 물리 AI의 부상",
+      "url": "https://news.hada.io/topic?id=35389",
+      "at": "2026-10-15T03:01:06.112Z"
+    },
+    {
+      "title": "코드는 더 이상 경쟁 해자가 아니다",
+      "summary": "AI 에이전트 덕분에 눈에 보이는 소프트웨어를 다시 만드는 비용이 크게 낮아졌다는 글이에요. Photoshop을 Rust로 재구현한 PhotoCraft는 공개 명세와 관찰된 동작만 썼다고 밝혔고, 기능은 아직 Photoshop의 절반에도 못 미친다고 해요. 앱을 만드는 입장에서 코드 외에 무엇을 강점으로 삼을지 생각해 볼 거리예요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "당신의 경쟁 해자는 죽었다. 누구나 당신의 제품을 다시 만들 수 있다",
+      "url": "https://news.hada.io/topic?id=35384",
+      "at": "2026-10-15T03:01:06.112Z"
+    },
+    {
+      "title": "치과 원장의 AI 코딩 에이전트 업무 자동화",
+      "summary": "생물학을 전공한 치과 원장이 AI 코딩 에이전트와 로컬 AI로 병원 업무를 직접 자동화한 사례예요. 네트워크 공사비가 비싸서 직접 랜선을 연결하고 UniFi 기반으로 네트워크를 구성한 것이 시작이었다고 해요. 개발 경험이 적은 사람이 에이전트로 실무 문제를 푼 경험담이에요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "동네 치과의 AX 전환기",
+      "url": "https://news.hada.io/topic?id=35381",
+      "at": "2026-10-15T03:01:06.112Z"
+    },
+    {
+      "title": "Mecatl: 에이전트 실행 런타임",
+      "summary": "AI 에이전트를 로컬, 원격 서버, Kubernetes에서 같은 실행 구조로 돌리게 해 주는 클라우드 네이티브 런타임이에요. 실행 루프, 모델, 저장소, 파일 시스템, UI를 분리해 각각 바꿀 수 있고, 권한 승인·훅·대화 압축·하위 에이전트를 지원한다고 해요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "Mecatl - 자체 인프라에서 AI 에이전트를 실행하는 클라우드 네이티브 런타임",
+      "url": "https://news.hada.io/topic?id=35378",
+      "at": "2026-10-15T03:01:06.112Z"
+    },
+    {
+      "title": "my-claude-code-mods 저장소",
+      "summary": "Claude Code 모드를 모아 둔 GitHub 저장소로, 별 778개를 받았어요. 이번 Claude Code 업데이트에서 모드 기능이 늘어난 만큼, 모드가 어떤 모습인지 예시로 볼 수 있어요.",
+      "tag": "코딩",
+      "source": "GitHub 인기 프로젝트",
+      "originalTitle": "YeonwooSung/my-claude-code-mods — Custom Claude Code Mods that I need",
+      "url": "https://github.com/YeonwooSung/my-claude-code-mods",
+      "at": "2026-10-15T03:01:06.112Z"
+    }
+  ]
+}
