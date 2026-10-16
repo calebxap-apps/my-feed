@@ -1,0 +1,76 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-10-16",
+  "generatedAt": "2026-10-16T03:01:13.305Z",
+  "summarizer": "claude",
+  "candidateCount": 47,
+  "headline": "Claude Code·Codex 새 기능과 Meta 오픈 모델 소식",
+  "items": [
+    {
+      "title": "Claude Code v2.1.301 업데이트",
+      "summary": "무인 재시도 모드가 사용량 한도 초기화까지 너무 오래 걸리면 요청을 끝내는 환경변수(CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS)가 추가됐어요. vim 모드에 % 동작이 생겼고, claude-api 스킬에 OpenTelemetry 추적 안내가 들어갔어요. 최신 Fable 모델을 쓸 수 없는 조직에서는 이전 Fable 모델로 한 번 다시 시도하도록 고쳐졌다고 해요.",
+      "tag": "코딩",
+      "source": "Claude Code 업데이트",
+      "originalTitle": "v2.1.301",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.301",
+      "at": "2026-10-16T03:01:13.305Z"
+    },
+    {
+      "title": "Codex 0.163.0 업데이트",
+      "summary": "/config에서 설정을 검색하고 바로 바꿀 수 있게 됐어요. Codex가 답하는 중에 후속 메시지를 보내 방향을 바로 바꿀 수 있고, /keymap에서 리더 키(기본 Ctrl+X)를 정할 수 있어요. 읽기 전용 도구를 병렬로 실행하고, 저장된 스레드를 다시 열면 권한과 네트워크 승인이 복원돼요.",
+      "tag": "코딩",
+      "source": "Codex 업데이트",
+      "originalTitle": "0.163.0",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0",
+      "at": "2026-10-16T03:01:13.305Z"
+    },
+    {
+      "title": "Meta, Muse Spark Open 공개",
+      "summary": "Meta가 오픈 웨이트 멀티모달 전문가 혼합(MoE) 모델 Muse Spark Open을 Hugging Face에 공개했어요. 모델 이름에는 816B 규모에 활성 42B(A42B)라고 적혀 있어요. Hacker News에서도 653 추천을 받아 관심이 높았어요.",
+      "tag": "모델",
+      "source": "Hugging Face",
+      "originalTitle": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "url": "https://huggingface.co/blog/meta-muse-spark-open",
+      "at": "2026-10-16T03:01:13.305Z"
+    },
+    {
+      "title": "에이전트 기반 검증: AI가 쓴 코드 스스로 검사",
+      "summary": "AI 코딩의 병목이 코드 작성에서 정확성 검증으로 옮겨 갔다는 글이에요. 에이전트가 변경, 검사, 수정을 스스로 반복하게 하면 사람이 오류를 찾아 돌려주는 방식보다 품질을 크게 높일 수 있다고 해요. 실제 사용자 흐름을 기준으로 하는 E2E 테스트도 다룬다고 해요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "에이전트 기반 검증 - AI가 쓴 코드를 스스로 검사하게 만들기",
+      "url": "https://news.hada.io/topic?id=35443",
+      "at": "2026-10-16T03:01:13.305Z"
+    },
+    {
+      "title": "Steam 클라이언트가 에픽의 바이브코딩 런처보다 빠르다",
+      "summary": "에픽게임즈가 런처를 웹 프레임워크 기반으로 바이브코딩해 다시 만들었고, 로딩이 Steam 런처보다 빠르다고 주장했어요. 이에 대해 Steam 클라이언트가 더 빠르다는 글이 Hacker News에서 293 추천을 받았어요. 바이브코딩 결과물의 성능을 직접 재어 봐야 한다는 사례예요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "Steam Client is now faster than Epic's new vibe coded launcher",
+      "url": "https://respawnfirst.com/steam-client-is-now-faster-than-epics-new-vibe-coded-launcher/",
+      "discussion": "https://news.ycombinator.com/item?id=50105635",
+      "at": "2026-10-16T03:01:13.305Z"
+    },
+    {
+      "title": "Strands Harness SDK 공개",
+      "summary": "자기 앱에 AI 에이전트를 넣고 실행 과정을 직접 제어하려는 개발자를 위한 Python/TypeScript SDK예요. 모델과 클라우드를 자유롭게 고를 수 있고, 백엔드를 바꿔도 에이전트 코드를 유지할 수 있다고 해요. 맥락 관리, 실행 제한, 관측 기능을 기본으로 제공해요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "Strands Harness SDK - 모델과 클라우드를 선택하고 에이전트 실행을 직접 제어하는 SDK",
+      "url": "https://news.hada.io/topic?id=35442",
+      "at": "2026-10-16T03:01:13.305Z"
+    },
+    {
+      "title": "LFM2.5-24B-A2B: 기기 안에서 도는 에이전트용 모델",
+      "summary": "빠른 온디바이스 에이전트를 목표로 만든 모델 LFM2.5-24B-A2B가 공개됐어요. 이름상 전체 24B에 활성 2B 규모예요. Hacker News에서 284 추천을 받았어요.",
+      "tag": "모델",
+      "source": "Hacker News",
+      "originalTitle": "LFM2.5-24B-A2B: Built for fast on-device agents",
+      "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+      "discussion": "https://news.ycombinator.com/item?id=50097369",
+      "at": "2026-10-16T03:01:13.305Z"
+    }
+  ]
+}
