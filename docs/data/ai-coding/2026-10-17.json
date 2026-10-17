@@ -1,0 +1,85 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-10-17",
+  "generatedAt": "2026-10-17T03:01:02.624Z",
+  "summarizer": "claude",
+  "candidateCount": 41,
+  "headline": "Claude Code 새 설정, Cursor 클라우드 에이전트, 코드 리뷰 사례",
+  "items": [
+    {
+      "title": "Claude Code v2.1.302 업데이트",
+      "summary": "자동 모드 분류기가 쓸 모델을 고르는 CLAUDE_CODE_AUTO_MODE_MODEL 설정이 추가됐어요. /config에서 유휴 상태 자동 압축을 끄거나 켤 수 있게 됐어요. 독립형 Claude Design(claude.ai/design)이 2026년 12월 14일에 종료된다는 안내도 /design-sync와 /design-login에 붙었어요.",
+      "tag": "코딩",
+      "source": "Claude Code 업데이트",
+      "originalTitle": "v2.1.302",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
+      "at": "2026-10-17T03:01:02.624Z"
+    },
+    {
+      "title": "Cursor 클라우드 에이전트 캔버스·환경 개선",
+      "summary": "Cursor의 클라우드 에이전트가 대화형 캔버스를 만들고 공유할 수 있게 됐어요. Environments API가 베타로 공개됐고, 환경 하나에 최대 300개 저장소를 연결할 수 있어요. 큰 환경은 5배 빠르게 불러온다고 해요.",
+      "tag": "코딩",
+      "source": "Cursor 업데이트",
+      "originalTitle": "Cloud Agent Canvases and Environment Improvements",
+      "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
+      "at": "2026-10-17T03:01:02.624Z"
+    },
+    {
+      "title": "Claude Code 팀의 코드 리뷰 방식",
+      "summary": "Claude Code 팀이 코드 리뷰를 어떻게 하는지 다룬 글이 Hacker News에서 256개 추천을 받았어요. AI와 함께 일하는 팀의 실제 리뷰 방식을 참고해 볼 수 있어요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "How the Claude Code team does code review",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "discussion": "https://news.ycombinator.com/item?id=50122951",
+      "at": "2026-10-17T03:01:02.624Z"
+    },
+    {
+      "title": "Linus Torvalds, AI 사용을 금지하지 않겠다",
+      "summary": "Linus Torvalds는 리눅스 커널 기여에서 특정 작업에 AI 사용을 금지하는 규칙을 만들지 않겠다고 밝혔어요. 도구 사용 여부로 기여자의 역량을 판단하는 접근에는 강하게 반발했어요. 기여자에게 바라는 것은 최선을 다하고 자신이 하는 일을 이해하는 것이라고 해요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "Linus Torvalds “AI 사용을 금지하지 않겠다. 자신이 하는 일을 이해해야 한다”",
+      "url": "https://news.hada.io/topic?id=35504",
+      "at": "2026-10-17T03:01:02.624Z"
+    },
+    {
+      "title": "Claude가 NIST 타원곡선 시드 비밀을 풀었어요",
+      "summary": "NIST 타원곡선의 시드는 영어 문장의 해시가 아니라, 1997~1998년 UNIX 타임스탬프로 초기화한 drand48 난수 생성기의 출력에서 나왔다고 밝혀졌어요. Anthropic 연구팀이 생성 방식을 밝혀 현상금을 받았고, 상금은 ISRG에 기부한다고 해요. Hacker News에서 717개 추천을 받았어요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "Claude reveals ECDSA curve origins",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "discussion": "https://news.ycombinator.com/item?id=50122800",
+      "at": "2026-10-17T03:01:02.624Z"
+    },
+    {
+      "title": "탈옥한 PS5에서 llama.cpp로 모델 실행",
+      "summary": "PS5LM은 탈옥한 PS5에서 GGUF 모델을 실행해 가정용 모델 서버로 쓰게 해주는 오픈소스예요. OpenAI·Anthropic 호환 API와 브라우저 채팅을 제공해 Claude Code 같은 도구와 연결할 수 있다고 해요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "PS5LM - 탈옥한 PS5에서 llama.cpp로 모든 GGUF 모델을 콘솔에서 네이티브 실행",
+      "url": "https://news.hada.io/topic?id=35496",
+      "at": "2026-10-17T03:01:02.624Z"
+    },
+    {
+      "title": "git-ai: AI 에이전트를 위한 Git",
+      "summary": "AI 코딩 에이전트용으로 설계된 Git 도구로, Go로 만들어졌어요. GitHub 인기 프로젝트에서 별 1066개를 받았어요.",
+      "tag": "코딩",
+      "source": "GitHub 인기 프로젝트",
+      "originalTitle": "feder-cr/git-ai — Git designed for AI agents.",
+      "url": "https://github.com/feder-cr/git-ai",
+      "at": "2026-10-17T03:01:02.624Z"
+    },
+    {
+      "title": "PostgreSQL 무중단 스키마 변경 가이드",
+      "summary": "구버전과 신버전 애플리케이션이 함께 동작하도록 단계적으로 배포하는 것이 핵심이라고 해요. 새 구조를 추가하고 기존 구조를 정리하는 확장-축소(expand-contract) 패턴을 설명해요. 앱 DB를 바꿀 때 따라 해 볼 수 있어요.",
+      "tag": "읽을거리",
+      "source": "GeekNews",
+      "originalTitle": "PostgreSQL 무중단 스키마 변경을 위한 실무 가이드",
+      "url": "https://news.hada.io/topic?id=35501",
+      "at": "2026-10-17T03:01:02.624Z"
+    }
+  ]
+}
