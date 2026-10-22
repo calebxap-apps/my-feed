@@ -1,0 +1,21 @@
+{
+  "channel": "novel-anime",
+  "mode": "event",
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-22T21:01:36.126Z",
+  "summarizer": "claude",
+  "candidateCount": 2,
+  "headline": "윙페더 사가 시즌 4 공식 클립 영상이 공개됐어요",
+  "items": [
+    {
+      "title": "윙페더 사가 시즌 4 공식 클립 '비누의 전사'",
+      "summary": "윙페더 공식 유튜브가 2026년 10월 22일 시즌 4 공식 클립 '비누의 전사(Warrior of the Soap)'를 올렸어요. 클립에서는 '비누 거품의 전사이자 모든 때의 적, 고집스러운 얼룩 천 개를 베어 넘긴 자'라는 대사가 나와요. 이어서 '그냥 좀 성가시게 굴었을 뿐'이라며 사과하는 말과, 걸레질을 멋지게 해내서 질투 나는 거냐고 묻는 대사가 이어진다고 해요.",
+      "tag": "영상",
+      "source": "윙페더 공식 유튜브",
+      "originalTitle": "Warrior of the Soap | Official Clip | The Wingfeather Saga | Season 4",
+      "url": "https://www.youtube.com/watch?v=PshCEcgLJ-4",
+      "translation": "비누의 전사, 거품의 전사여. 모든 때의 적이자, 고집스러운 얼룩 천 개를 베어 넘긴 자. 아, 미안, 미안. 그냥 좀 성가시게 굴었을 뿐이야. 어휴, 내가 걸레질을 이렇게 멋지게 해내니까 질투 나는 거지?",
+      "at": "2026-10-22T21:01:36.126Z"
+    }
+  ]
+}
