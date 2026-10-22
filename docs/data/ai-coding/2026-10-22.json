@@ -1,0 +1,104 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-22T03:06:03.080Z",
+  "summarizer": "claude",
+  "candidateCount": 54,
+  "headline": "Claude Code 새 기능과 Codex의 Google Cloud 도입 소식",
+  "items": [
+    {
+      "title": "Claude Code v2.1.307 업데이트",
+      "summary": "/claude-api api-version 명령이 추가되어 Claude API 코드를 API 버전 2026-10-21로 옮길 수 있어요. 권한 규칙, 자동 모드, 안전 검사, 훅, 샌드박스가 도구 호출을 막거나 되돌릴 때마다 claude_code.safety_event OpenTelemetry 이벤트가 남아요. MCP 서버 인증과 재시도 관련 오류도 여러 건 고쳐졌다고 해요.",
+      "tag": "코딩",
+      "source": "Claude Code 업데이트",
+      "originalTitle": "v2.1.307",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.307",
+      "at": "2026-10-22T03:06:03.080Z"
+    },
+    {
+      "title": "OpenAI 모델과 Codex가 Google Cloud로",
+      "summary": "Google Cloud에서 OpenAI 모델과 Codex를 쓸 수 있게 됐어요. GPT-6 Astra, GPT-6.1 Sol, GPT-6 Luna는 일부 기업 고객 대상 비공개 프리뷰로 제공돼요. 로컬 Codex CLI와 데스크톱 앱을 Google Cloud에 연결해 모델 추론을 돌릴 수 있다고 해요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "OpenAI 모델과 Codex, Google Cloud에 도입",
+      "url": "https://news.hada.io/topic?id=35775",
+      "at": "2026-10-22T03:06:03.080Z"
+    },
+    {
+      "title": "Claude Duet: 먼저 연락하는 개인 에이전트",
+      "summary": "Anthropic이 메시지로 업무를 맡기면 클라우드 컴퓨터에서 처리하는 개인 AI 에이전트 Claude Duet를 공개했어요. 노트북이나 휴대폰을 꺼도 작업이 이어지고, 끝나거나 결정이 필요하면 알림을 보낸다고 해요. 매일 아침 이메일과 일정, 연결된 앱에서 중요한 일을 모아 준다고 해요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "Claude Duet - 업무를 맡아 처리하고 필요할 때 먼저 연락하는 개인 AI 에이전트",
+      "url": "https://news.hada.io/topic?id=35773",
+      "at": "2026-10-22T03:06:03.080Z"
+    },
+    {
+      "title": "Claude Mods: 하네스를 사람 쪽으로 뒤집기",
+      "summary": "Claude Mods는 에이전트 하네스가 기계를 향하던 방식을 사람을 향하게 바꾸는 접근이라고 해요. Latent Space는 이를 Attention Interface의 초기 형태로 소개했어요. 에이전트 작업 방식의 변화를 살펴볼 만한 글이에요.",
+      "tag": "읽을거리",
+      "source": "Latent Space",
+      "originalTitle": "Claude Mods: Flipping the Harness Inside Out",
+      "url": "https://www.latent.space/p/claude-mods",
+      "at": "2026-10-22T03:06:03.080Z"
+    },
+    {
+      "title": "PHP2Shell: AI가 찾은 PHP 치명적 RCE",
+      "summary": "AI가 PHP에서 치명적인 원격 코드 실행(RCE) 취약점을 찾아냈고, Hacker News에서 438점을 받았어요. PHP는 보안 릴리스를 냈고 8.2.35도 나왔어요. PHP 서버를 쓴다면 업데이트 여부를 확인해 보세요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "PHP2Shell: AI uncovers critical RCE in PHP",
+      "url": "https://www.wiz.io/blog/php2shell-php-rce",
+      "discussion": "https://news.ycombinator.com/item?id=50180836",
+      "at": "2026-10-22T03:06:03.080Z"
+    },
+    {
+      "title": "OpenAI Patch the Planet 제안",
+      "summary": "OpenAI가 AI가 빠르게 찾아내는 취약점에 대응하기 위해 5단계 공조 체계를 제안했어요. 연구자, 보안업체, 인프라 제공자가 패치 개발부터 실제 배포까지 함께 준비하는 방식이에요. 오픈소스 유지관리자의 보안 대응을 돕는 것이 목적이라고 해요.",
+      "tag": "읽을거리",
+      "source": "GeekNews",
+      "originalTitle": "OpenAI ‘Patch the Planet’, AI가 발견하는 취약점에 대응할 5단계 공조 체계 제안",
+      "url": "https://news.hada.io/topic?id=35771",
+      "at": "2026-10-22T03:06:03.080Z"
+    },
+    {
+      "title": "LiteLLM 1.107.0 PyPI 악성 배포",
+      "summary": "PyPI의 LiteLLM 1.107.0 버전이 자격 증명 탈취 코드와 백도어를 설치한다고 알려졌어요. Hacker News에서 452점을 받았어요. LiteLLM을 쓰는 프로젝트라면 버전을 확인하고 키를 점검해 보세요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+      "discussion": "https://news.ycombinator.com/item?id=50181114",
+      "at": "2026-10-22T03:06:03.080Z"
+    },
+    {
+      "title": "Railway 보안 사고 공개",
+      "summary": "Railway가 고객 환경 변수를 저장하는 시스템에서 이상 활동을 탐지했다고 밝혔어요. 비인가 제3자가 암호화된 환경 변수에 접근했고, 일부는 복호화된 내용을 확보했을 가능성이 있다고 해요. API 키와 데이터베이스 자격 증명이 들어 있을 수 있으니 교체를 검토해 보세요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "Railway 보안 사고 공개",
+      "url": "https://news.hada.io/topic?id=35778",
+      "at": "2026-10-22T03:06:03.080Z"
+    },
+    {
+      "title": "DuckDB 2.0.0 LTS 출시",
+      "summary": "DuckDB 2.0.0 LTS \"Cinnamon Teal\"이 나왔어요. Hacker News에서 375점을 받았어요. 장기 지원 버전이라 안정적인 기준 버전으로 삼기 좋다고 해요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "DuckDB 2.0.0 LTS “Cinnamon Teal”",
+      "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+      "discussion": "https://news.ycombinator.com/item?id=50181136",
+      "at": "2026-10-22T03:06:03.080Z"
+    },
+    {
+      "title": "Firefox 153 Local Mode",
+      "summary": "Firefox 153의 Local Mode는 로컬 폴더를 맞춤 HTTPS URL에 연결해 줘요. 별도 HTTP 서버 없이 웹 페이지를 테스트할 수 있어요. 보안 컨텍스트로 제한된 API도 쉽게 시험할 수 있다고 해요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "Firefox Local Mode - 로컬 파일을 맞춤 HTTPS URL로 불러오는 개발 도구 기능",
+      "url": "https://news.hada.io/topic?id=35782",
+      "at": "2026-10-22T03:06:03.080Z"
+    }
+  ]
+}

@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-10-22",
+    "count": 10,
+    "headline": "Claude Code 새 기능과 Codex의 Google Cloud 도입 소식"
+  },
+  {
     "date": "2026-10-21",
     "count": 9,
     "headline": "Claude Code 새 샌드박스 옵션과 TypeScript Rust 이식판 소식"
