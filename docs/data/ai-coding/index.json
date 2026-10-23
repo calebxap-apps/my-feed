@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-10-23",
+    "count": 7,
+    "headline": "Claude Code 보안 수정과 PHP 취약점 소식"
+  },
+  {
     "date": "2026-10-22",
     "count": 10,
     "headline": "Claude Code 새 기능과 Codex의 Google Cloud 도입 소식"

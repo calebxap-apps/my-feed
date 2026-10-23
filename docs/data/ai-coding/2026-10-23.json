@@ -1,0 +1,76 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T03:01:28.998Z",
+  "summarizer": "claude",
+  "candidateCount": 50,
+  "headline": "Claude Code 보안 수정과 PHP 취약점 소식",
+  "items": [
+    {
+      "title": "Claude Code v2.1.309 샌드박스·권한 점검 수정",
+      "summary": "Claude Code 2.1.309에서 샌드박스와 권한 검사 관련 수정이 여러 건 들어갔어요. 샌드박스된 Bash 명령이 시작 파일을 샌드박스 밖에서 실행하던 문제와, --mcp-config로 넘긴 MCP 설정 파일을 수정할 수 있던 문제가 고쳐졌어요. 워크트리 격리 세션의 검사와 복합 명령 권한 확인도 보강됐어요. 에이전트에게 권한을 넓게 줘서 쓰는 분은 업데이트해 두는 편이 좋아요.",
+      "tag": "코딩",
+      "source": "Claude Code 업데이트",
+      "originalTitle": "v2.1.309",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
+      "at": "2026-10-23T03:01:28.998Z"
+    },
+    {
+      "title": "PHP2Shell: PHP 핵심부 원격 코드 실행 취약점",
+      "summary": "OpenAI의 Patch the Planet 프로그램이 GPT-5.6 Sol로 PHP 핵심부의 PHP2Shell 취약점을 찾아냈다고 해요. 웹의 약 70%에 영향을 준다고 하며, 두 달에 걸쳐 공조 대응이 이뤄졌어요. 관련 CVE는 CVE-2026-109618, CVE-2026-109619로 알려졌어요. PHP로 만든 서비스를 운영한다면 패치 여부를 확인해야 해요.",
+      "tag": "모델",
+      "source": "Latent Space",
+      "originalTitle": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
+      "url": "https://www.latent.space/p/ainews-openais-patch-the-planet-program",
+      "at": "2026-10-23T03:01:28.998Z"
+    },
+    {
+      "title": "아마존, 공개 전 PHP2Shell 공격 시도 확인",
+      "summary": "Amazon이 10월 17일 공개 이전에 PHP2Shell 취약점을 노린 공격이 있었다고 밝혔어요. 공개 전부터 실제 악용이 있었다는 뜻이라 패치를 서두를 이유가 돼요. Hacker News에서 255개 추천을 받았어요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "Amazon identifies Oct 17 PHP2Shell exploitation prior to public disclosure",
+      "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+      "discussion": "https://news.ycombinator.com/item?id=50194070",
+      "at": "2026-10-23T03:01:28.998Z"
+    },
+    {
+      "title": "OpenAI php2shell-checker 공개",
+      "summary": "OpenAI가 php2shell-checker라는 저장소를 올렸어요. 이름으로 보아 PHP2Shell 취약점에 내 환경이 해당되는지 확인하는 도구로 보여요. GitHub 인기 프로젝트에서 별 835개를 받았어요.",
+      "tag": "코딩",
+      "source": "GitHub 인기 프로젝트",
+      "originalTitle": "openai/php2shell-checker",
+      "url": "https://github.com/openai/php2shell-checker",
+      "at": "2026-10-23T03:01:28.998Z"
+    },
+    {
+      "title": "VibeTerm: 코딩 에이전트 여러 개를 한 화면에서",
+      "summary": "Claude Code와 Codex를 여러 개 띄워 쓰는 사람을 위한 무료 Windows 터미널이에요. 만든 분은 어느 탭이 입력을 기다리는지 찾으러 탭을 돌아다니는 시간이 가장 컸다고 해요. 에이전트를 병렬로 돌려 쓰는 작업 방식에 도움이 될 수 있어요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "Show GN: VibeTerm(바이브텀) - Claude Code·Codex 여러 개를 한 화면에서 굴리는 무료 Windows 터미널",
+      "url": "https://news.hada.io/topic?id=35841",
+      "at": "2026-10-23T03:01:28.998Z"
+    },
+    {
+      "title": "OpenShell: 자율 AI 에이전트용 안전한 실행 환경",
+      "summary": "자율 AI 에이전트 여러 개를 안전하고 비공개로 돌리기 위한 런타임이라고 소개된 프로젝트예요. Hacker News에서 317개 추천을 받았어요. 에이전트에게 코드 실행을 맡길 때 격리 방법을 찾는 분이 참고할 만해요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "discussion": "https://news.ycombinator.com/item?id=50198675",
+      "at": "2026-10-23T03:01:28.998Z"
+    },
+    {
+      "title": "Anthropic, Agent Skills를 재단에 기증",
+      "summary": "Anthropic이 Agent Skills를 Agentic AI Foundation에 기증한다고 발표했어요. 스킬 형식이 한 회사 밖의 공통 규격으로 관리될 가능성이 생겼어요. 자세한 내용은 후보에 적혀 있지 않아요.",
+      "tag": "코딩",
+      "source": "Anthropic",
+      "originalTitle": "Donating Agent Skills to the Agentic AI Foundation",
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "at": "2026-10-23T03:01:28.998Z"
+    }
+  ]
+}
