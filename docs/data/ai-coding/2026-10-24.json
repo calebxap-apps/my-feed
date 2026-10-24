@@ -1,0 +1,76 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-10-24",
+  "generatedAt": "2026-10-24T03:01:26.498Z",
+  "summarizer": "claude",
+  "candidateCount": 44,
+  "headline": "Claude Code·Codex 새 기능과 Kimi K3.1 Pro 공개",
+  "items": [
+    {
+      "title": "Codex 0.164.0: 프리셋과 인라인 명령",
+      "summary": "Codex 0.164.0에서 자주 쓰는 프롬프트와 슬래시 명령을 /presets 번호 슬롯 10개에 저장할 수 있게 됐어요. /model, /permissions 뒤에 인자를 붙여 모델, 추론 강도, 속도, 권한 프로필을 바로 정할 수 있어요. Kitty나 Sixel을 지원하는 터미널에서는 전체 화면 기록에서 이미지를 미리 볼 수 있다고 해요.",
+      "tag": "코딩",
+      "source": "Codex 업데이트",
+      "originalTitle": "0.164.0",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0",
+      "at": "2026-10-24T03:01:26.498Z"
+    },
+    {
+      "title": "Claude Code v2.1.310 업데이트",
+      "summary": "Bedrock, Vertex, Foundry 환경과 텔레메트리를 끈 상태에서도 Monitor 도구와 플러그인 모니터를 쓸 수 있게 됐어요. 이런 환경에서는 긴 foreground sleep도 막힌다고 해요. 일부 게이트웨이에서 요청이 실패하던 문제는 베타 값을 빼고 다시 시도하도록 고쳤고, 'Prompt is too long' 뒤 압축이 대화를 너무 많이 남기던 문제도 고쳤어요.",
+      "tag": "코딩",
+      "source": "Claude Code 업데이트",
+      "originalTitle": "v2.1.310",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
+      "at": "2026-10-24T03:01:26.498Z"
+    },
+    {
+      "title": "Kimi K3.1 Pro와 Highspeed 공개",
+      "summary": "Kimi K3.1 Pro와 속도를 높인 K3.1 Pro Highspeed가 공개됐고, Hacker News에서 추천 756을 받았어요. Kimi Code 문서에 모델 목록이 올라와 있고, Artificial Analysis에도 평가 페이지가 생겼다고 해요. 코딩용 모델 선택지가 하나 늘었으니 성능과 가격을 비교해 볼 만해요.",
+      "tag": "모델",
+      "source": "Hacker News",
+      "originalTitle": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "discussion": "https://news.ycombinator.com/item?id=50212065",
+      "at": "2026-10-24T03:01:26.498Z"
+    },
+    {
+      "title": "1978년 글: 자연어 프로그래밍의 어리석음",
+      "summary": "다익스트라가 1978년에 쓴 것으로 알려진 '자연어 프로그래밍의 어리석음'이 Hacker News에서 추천 361을 받았어요. AI에게 말로 코드를 시키는 지금의 방식을 돌아보게 하는 글이에요.",
+      "tag": "읽을거리",
+      "source": "Hacker News",
+      "originalTitle": "The foolishness of \"natural language programming\" (1978)",
+      "url": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html",
+      "discussion": "https://news.ycombinator.com/item?id=50203161",
+      "at": "2026-10-24T03:01:26.498Z"
+    },
+    {
+      "title": "느린 소프트웨어는 언어가 아니라 설계 문제",
+      "summary": "AI로 프로그램을 C나 Rust로 다시 쓰기보다 설계를 고치는 편이 성능 향상이 큰 경우가 많다는 글이에요. 요청 시간의 절반이 DB 조회라면 나머지 코드를 아무리 빠르게 해도 전체 속도 향상에는 한계가 있다고 해요. AI에게 재작성을 맡기기 전에 어디서 시간이 쓰이는지 먼저 확인해 보라는 얘기예요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "소프트웨어가 느린 이유는 느린 언어가 아니라 나쁜 설계 때문이다",
+      "url": "https://news.hada.io/topic?id=35893",
+      "at": "2026-10-24T03:01:26.498Z"
+    },
+    {
+      "title": "AI 에이전트 제품 설계용 사고 도구 15가지",
+      "summary": "제번스 역설, 굿하트의 법칙 등 15가지 사고 도구를 에이전트의 비용, 검증, 권한, 제품 전략에 적용한 글이에요. 에이전트의 경제성은 토큰 단가보다 허용 기준을 충족한 작업당 비용으로 봐야 한다고 해요. 무엇을 자동화하고 무엇을 검증할지 정할 때 참고할 수 있어요.",
+      "tag": "읽을거리",
+      "source": "GeekNews",
+      "originalTitle": "AI 에이전트 제품을 설계할 때 필요한 15가지 사고 도구",
+      "url": "https://news.hada.io/topic?id=35887",
+      "at": "2026-10-24T03:01:26.498Z"
+    },
+    {
+      "title": "Dessa: 음성 대화만으로 학습한 실시간 음성 AI",
+      "summary": "Block이 텍스트와 사전학습 모델 없이 사람의 음성 대화만으로 처음부터 학습한 실시간 대화 모델 Dessa를 공개했어요. 말하면서 동시에 듣는 전이중 방식이라 끼어들기, 맞장구, 웃음, 발화 타이밍을 처리한다고 해요. Hacker News에서도 추천 268을 받았어요.",
+      "tag": "모델",
+      "source": "GeekNews",
+      "originalTitle": "Dessa - 텍스트 없이 사람의 대화만 듣고 배운 실시간 음성 AI",
+      "url": "https://news.hada.io/topic?id=35895",
+      "at": "2026-10-24T03:01:26.498Z"
+    }
+  ]
+}
