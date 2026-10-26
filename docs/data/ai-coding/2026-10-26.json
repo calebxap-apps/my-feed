@@ -1,0 +1,74 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-26T03:01:28.681Z",
+  "summarizer": "claude",
+  "candidateCount": 36,
+  "headline": "LLM 가격 인하와 Codex 개발 뒷이야기, 에이전트 도구 소식",
+  "items": [
+    {
+      "title": "OpenAI·Anthropic, LLM 가격 최대 80% 인하",
+      "summary": "OpenAI와 Anthropic이 최근 몇 달간 모델 품질을 낮춘 뚜렷한 징후 없이 가격을 크게 내렸다고 해요. API뿐 아니라 Codex, Claude Code 같은 구독형 에이전트 도구에도 인하가 적용됐다고 해요. 모델 교체가 쉬워지고 공개 가중치 모델과 추론 제공업체가 늘어난 것이 배경으로 꼽혀요.",
+      "tag": "모델",
+      "source": "GeekNews",
+      "originalTitle": "OpenAI와 Anthropic은 몇 달 만에 LLM 가격을 최대 80% 내렸다. 왜일까?",
+      "url": "https://news.hada.io/topic?id=36009",
+      "at": "2026-10-26T03:01:28.681Z"
+    },
+    {
+      "title": "Codex는 어떻게 탄생했나",
+      "summary": "Codex는 클라우드 코딩 에이전트가 실패한 뒤 로컬 도구로 방향을 바꿨고, 전용 모델과 데스크톱 앱을 함께 발전시키며 OpenAI의 핵심 제품이 됐어요. 초기 Codex Cloud는 개발 환경을 다시 설정해야 하고, 작업 도중 개입할 수 없고, 모델 성능이 부족했다고 해요. 코딩 에이전트를 어떤 방식으로 쓰는 게 편한지 참고할 만해요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "Codex는 어떻게 탄생했나",
+      "url": "https://news.hada.io/topic?id=36004",
+      "at": "2026-10-26T03:01:28.681Z"
+    },
+    {
+      "title": "Harp: Claude Code·Codex 에이전트 한 화면 관리",
+      "summary": "Warp를 비공식으로 포크한 도구로, 여러 Claude Code와 Codex 에이전트를 나란히 실행해요. 사이드바에서 어느 에이전트가 사용자를 기다리는지 알려 준다고 해요. 에이전트를 여러 개 동시에 돌릴 때 써 볼 만해요.",
+      "tag": "코딩",
+      "source": "GitHub 인기 프로젝트",
+      "originalTitle": "dominikmartn/harp — Run many Claude Code and Codex agents side by side, in one sidebar that tells you which one needs you. An unofficial fork of Warp.",
+      "url": "https://github.com/dominikmartn/harp",
+      "at": "2026-10-26T03:01:28.681Z"
+    },
+    {
+      "title": "BeautifulRust: Claude에게 Rust를 가르치는 플러그인",
+      "summary": "Claude Code가 관용적이고 안정적인 Rust 코드를 쓰도록 가르치는 플러그인이에요. Rust로 앱을 만들 때 Claude Code의 코드 품질을 높이는 데 쓸 수 있어요.",
+      "tag": "코딩",
+      "source": "GitHub 인기 프로젝트",
+      "originalTitle": "morganlinton/BeautifulRust — A Claude Code plugin that teaches Claude to write idiomatic, robust Rust",
+      "url": "https://github.com/morganlinton/BeautifulRust",
+      "at": "2026-10-26T03:01:28.681Z"
+    },
+    {
+      "title": "그래프 없이 AI 메모리 구현, 입력 토큰 95% 절감",
+      "summary": "LambdaDB가 대화 원문을 보존하고 질문에 필요한 구절만 검색해 답변 모델에 전달하는 AI 메모리 구현 사례를 공개했어요. 지식 그래프를 만들거나 LLM으로 기억을 추출·요약·갱신하지 않는 방식이에요. 입력 토큰을 95% 줄였다고 해요.",
+      "tag": "연구",
+      "source": "GeekNews",
+      "originalTitle": "그래프와 LLM 북키핑 없이 AI 메모리 구현하기 - 입력 토큰 95% 절감",
+      "url": "https://news.hada.io/topic?id=36002",
+      "at": "2026-10-26T03:01:28.681Z"
+    },
+    {
+      "title": "Catchtype: 한/영 자동 전환 앱",
+      "summary": "한/영 상태를 잘못 둔 채 친 글을 치는 동안 바로 고쳐 주고, 한/영 상태도 같이 바꿔 주는 앱이에요. Mac·Windows·Linux는 앱으로, iPhone·iPad·Android는 키보드로 쓸 수 있어요. Claude Code에 한국어로 지시할 때 한/영 키를 자주 누르는 불편을 줄여 줘요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "Show GN: Catchtype - 한/영 키 없이 치는 한영 자동 전환 (Mac·Windows·Linux·iPhone·Android)",
+      "url": "https://news.hada.io/topic?id=35998",
+      "at": "2026-10-26T03:01:28.681Z"
+    },
+    {
+      "title": "AI 요금제, 크레딧·토큰 방식의 문제",
+      "summary": "AI 요금제가 크레딧, 토큰, 사용량 배수를 내세우지만 구매 전에 실제로 얼마나 할 수 있는지 알기 어렵다는 글이에요. 크레딧은 비용이 다른 모델과 도구를 한 구독으로 묶는 데 유용하지만, 달성 가능한 작업량과 연결되지 않으면 가치를 전달하지 못한다고 해요.",
+      "tag": "읽을거리",
+      "source": "GeekNews",
+      "originalTitle": "AI 가격 책정 및 패키징에 도대체 무슨 일이 벌어지고 있는 걸까?",
+      "url": "https://news.hada.io/topic?id=36005",
+      "at": "2026-10-26T03:01:28.681Z"
+    }
+  ]
+}
