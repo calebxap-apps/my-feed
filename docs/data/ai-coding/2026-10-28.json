@@ -1,0 +1,104 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-10-28",
+  "generatedAt": "2026-10-28T03:01:05.090Z",
+  "summarizer": "claude",
+  "candidateCount": 51,
+  "headline": "Codex에 GPT-6.1 Terra 추가, Cursor Agent SDK 공개",
+  "items": [
+    {
+      "title": "Codex 0.165.0: GPT-6.1 Terra 추가",
+      "summary": "Codex 0.165.0에서 모델 목록에 GPT-6.1 Terra가 추가됐어요. Google Cloud Vertex AI를 model_provider = \"gcp\"로 바로 쓸 수 있게 됐어요. 대화 중 추론 강도를 바꾸는 기능이 기본으로 켜졌고, 세션 선택 화면에 저장소 필터가 생겼어요.",
+      "tag": "코딩",
+      "source": "Codex 업데이트",
+      "originalTitle": "0.165.0",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0",
+      "at": "2026-10-28T03:01:05.090Z"
+    },
+    {
+      "title": "Cursor Agent SDK 정식 공개",
+      "summary": "Cursor가 팀에 맞는 AI 에이전트를 코드로 만들고 배포하는 Agent SDK를 정식 공개했어요. 지침은 Markdown으로, 도구와 처리 로직은 TypeScript로 정의한다고 해요. 테스트와 평가, 배포까지 하나의 프로젝트로 관리할 수 있어요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "Cursor Agent SDK - 팀 맞춤형 AI 에이전트를 코드로 만들고 배포하는 프레임워크",
+      "url": "https://news.hada.io/topic?id=36138",
+      "at": "2026-10-28T03:01:05.090Z"
+    },
+    {
+      "title": "Claude Code v2.1.312 업데이트",
+      "summary": "Claude Apps 게이트웨이에 oidc.user_id_claim 설정이 추가돼 sub 대신 다른 id_token 값으로 사용자를 구분할 수 있어요. 전체 화면에서 대기 중인 메시지 아래의 'to send now' 안내를 클릭하면 바로 전송돼요. 아주 큰 CLAUDE.md 파일을 일부만 읽고 덮어쓰던 문제도 고쳐졌어요.",
+      "tag": "코딩",
+      "source": "Claude Code 업데이트",
+      "originalTitle": "v2.1.312",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.312",
+      "at": "2026-10-28T03:01:05.090Z"
+    },
+    {
+      "title": "Anthropic이 Claude를 출시하는 방법",
+      "summary": "Latent Space 팟캐스트에서 Anthropic의 Katelyn Lesse와 Angela Jiang이 Claude Platform의 엔지니어링을 설명했어요. Opus 5.5 출시 과정과 모델의 '두뇌'와 에이전트의 '손'을 분리하는 구조, 안정적인 관리형 에이전트를 만드는 방법을 다룬다고 해요.",
+      "tag": "읽을거리",
+      "source": "Latent Space",
+      "originalTitle": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
+      "url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/",
+      "at": "2026-10-28T03:01:05.090Z"
+    },
+    {
+      "title": "오프라인 코딩 에이전트 구성법",
+      "summary": "OpenCode, Ollama, Qwen을 이용해 인터넷 없이 돌아가는 코딩 에이전트를 설정하고 실행하는 방법을 소개한 글이에요. 네트워크가 불안정한 환경에서도 에이전트로 코딩해야 할 때 참고할 수 있어요.",
+      "tag": "커뮤니티",
+      "source": "Latent Space",
+      "originalTitle": "Coding From the Himalayas With an Offline AI Agent",
+      "url": "https://latent.space/p/offline-coding/",
+      "at": "2026-10-28T03:01:05.090Z"
+    },
+    {
+      "title": "AI가 일을 줄여준다더니 더 바빠졌다",
+      "summary": "AI가 일을 줄여줄 거라는 기대와 달리 오히려 더 많이 일하게 됐다는 경험담이에요. Hacker News에서 622표를 받았어요. AI로 코딩하는 작업 방식을 돌아볼 때 읽어볼 만해요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "AI promised less work. I've never worked more",
+      "url": "https://oioannou.com/blog/ai-promised-less-work/",
+      "discussion": "https://news.ycombinator.com/item?id=50257325",
+      "at": "2026-10-28T03:01:05.090Z"
+    },
+    {
+      "title": "AI 시대의 맨먼스 미신",
+      "summary": "소프트웨어 공학 고전 『맨먼스 미신』을 AI 시대에 다시 적용해 본 글이에요. Hacker News에서 439표를 받았어요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "The Mythical Man-Month in the Age of AI",
+      "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+      "discussion": "https://news.ycombinator.com/item?id=50255298",
+      "at": "2026-10-28T03:01:05.090Z"
+    },
+    {
+      "title": "AI 시대의 학생 개발자에게",
+      "summary": "2018년 글의 후속편으로, AI 시대에 개발자의 역할이 어떻게 달라졌는지 다뤄요. 개발자는 AI에게 방향을 지시하고 결과를 책임지는 사람이라는 관점을 담고 있어요.",
+      "tag": "읽을거리",
+      "source": "GeekNews",
+      "originalTitle": "AI 시대의 개발자를 꿈꾸는 학생 개발자에게",
+      "url": "https://news.hada.io/topic?id=36135",
+      "at": "2026-10-28T03:01:05.090Z"
+    },
+    {
+      "title": "Ghostty 1.4 출시",
+      "summary": "터미널 앱 Ghostty의 1.4 버전이 나왔어요. Hacker News에서 815표를 받았어요. 터미널에서 AI 코딩 도구를 많이 쓴다면 확인해 볼 만해요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "Ghostty 1.4",
+      "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+      "discussion": "https://news.ycombinator.com/item?id=50261998",
+      "at": "2026-10-28T03:01:05.090Z"
+    },
+    {
+      "title": "Liquid AI LFM3 오픈 웨이트 공개",
+      "summary": "Liquid AI가 텍스트, 비전, 오디오, 시청각 통합, 의사결정용 모델 6종을 오픈 웨이트로 공개했어요. 약 2B 파라미터급이며, 단일 GPU로 미세조정해 로컬에 배포할 수 있다고 해요.",
+      "tag": "모델",
+      "source": "GeekNews",
+      "originalTitle": "LFM3 - 로컬 실행과 맞춤 학습을 위한 2B급 멀티모달 AI 모델군",
+      "url": "https://news.hada.io/topic?id=36132",
+      "at": "2026-10-28T03:01:05.090Z"
+    }
+  ]
+}

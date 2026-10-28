@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-10-28",
+    "count": 10,
+    "headline": "Codex에 GPT-6.1 Terra 추가, Cursor Agent SDK 공개"
+  },
+  {
     "date": "2026-10-27",
     "count": 8,
     "headline": "Claude Code 새 기능과 GPT-6.1 Terra 공개 소식"
