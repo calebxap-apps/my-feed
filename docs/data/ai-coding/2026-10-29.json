@@ -1,0 +1,83 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-10-29",
+  "generatedAt": "2026-10-29T03:01:29.014Z",
+  "summarizer": "claude",
+  "candidateCount": 43,
+  "headline": "Gemini 4 Carbon 공개, AI 모델 지수 v5 발표",
+  "items": [
+    {
+      "title": "Gemini 4 Carbon 공개",
+      "summary": "Google DeepMind가 차세대 프런티어 모델 Gemini 4 Carbon을 발표했어요. Hacker News에서도 추천 829개를 받으며 화제가 됐어요. 세부 성능 수치는 공식 글에서 확인해야 해요.",
+      "tag": "모델",
+      "source": "Google DeepMind",
+      "originalTitle": "Gemini 4 Carbon: Our next frontier model",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "at": "2026-10-29T03:01:29.014Z"
+    },
+    {
+      "title": "AAII v5 공개, 비공개 평가 60%",
+      "summary": "Artificial Analysis Intelligence Index v5가 벤치마크 2개를 추가하고 3개를 개편했어요. 지수의 60%를 비공개 테스트 세트나 비공개 정답 기반 평가로 구성했어요. Claude Opus 5.5(max)가 58점으로 선두이고, GPT-6 Astra(max)가 57점이라고 해요.",
+      "tag": "모델",
+      "source": "GeekNews",
+      "originalTitle": "AAII v5 공개 - 비공개 평가 비중을 60%로 높인 AI 모델 역량 지수",
+      "url": "https://news.hada.io/topic?id=36197",
+      "at": "2026-10-29T03:01:29.014Z"
+    },
+    {
+      "title": "바이브 게임 개발의 10월 변곡점",
+      "summary": "Simon Willison이 2026년 10월이 바이브코딩으로 컴퓨터 게임을 만드는 데 새로운 변곡점이라고 썼어요. 2025년 11월에 Opus 4.5와 GPT-5.1이 코딩 에이전트를 매일 쓸 만한 수준으로 만든 것에 이은 변화라고 해요. 실제 만든 게임 예시도 함께 소개했어요.",
+      "tag": "읽을거리",
+      "source": "Simon Willison",
+      "originalTitle": "The October inflection point for vibe game development",
+      "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+      "at": "2026-10-29T03:01:29.014Z"
+    },
+    {
+      "title": "Ferryx: 코딩 에이전트용 터미널",
+      "summary": "Claude Code, Codex 같은 에이전트 여러 개를 터미널 탭에 띄워 쓰는 용도의 데스크톱 터미널이에요. macOS, Windows, Linux에서 모두 돌아가고, 앱을 닫아도 에이전트가 종료되지 않는다고 해요. 여러 에이전트를 동시에 돌리는 분에게 참고가 돼요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "Show GN: Ferryx - Windows·Linux에서도 쓸 수 있는 코딩 에이전트용 네이티브 터미널",
+      "url": "https://news.hada.io/topic?id=36204",
+      "at": "2026-10-29T03:01:29.014Z"
+    },
+    {
+      "title": "kern: AI 코드 격리 실행 런타임",
+      "summary": "AI가 만든 코드, 에이전트 도구 호출, CI 작업을 호스트가 아닌 별도 컨테이너에서 실행하는 Linux 런타임이에요. 데몬이나 소켓 없이 정적 바이너리 하나로 동작하고, 호스트의 root 권한도 필요 없다고 해요. AI 코드를 안전하게 돌려보고 싶을 때 쓸 수 있어요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "kern - AI 생성 코드를 매번 새 컨테이너에서 실행하는 경량 루트리스 런타임",
+      "url": "https://news.hada.io/topic?id=36200",
+      "at": "2026-10-29T03:01:29.014Z"
+    },
+    {
+      "title": "Anthropic, 코딩 면접 폐지",
+      "summary": "Latent Space 뉴스레터가 Anthropic이 코딩 면접을 없앴다고 전했어요. 코딩이 해결된 문제라면 채용에서 코드를 시킬 이유가 없다는 취지라고 해요. 개발 직무의 평가 방식이 바뀌는 흐름을 보여줘요.",
+      "tag": "커뮤니티",
+      "source": "Latent Space",
+      "originalTitle": "[AINews] Anthropic ends Coding Interviews: \"Hunger beats tenure\"",
+      "url": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/",
+      "at": "2026-10-29T03:01:29.014Z"
+    },
+    {
+      "title": "에이전트가 Supabase를 좋아하는 이유",
+      "summary": "Latent Space에서 Supabase의 Paul Copplestone과 Ant Wilson이 AI 에이전트용 백엔드를 어떻게 만들고 있는지 이야기했어요. 앱을 에이전트에게 맡겨 만드는 분이 백엔드를 고를 때 참고할 만해요.",
+      "tag": "읽을거리",
+      "source": "Latent Space",
+      "originalTitle": "Why Agents Love Supabase",
+      "url": "https://latent.space/p/supabase/",
+      "at": "2026-10-29T03:01:29.014Z"
+    },
+    {
+      "title": "DAYJOB: Tax, 세무 에이전트 평가",
+      "summary": "전문 세무 과제 50개로 AI 에이전트를 평가하는 벤치마크예요. 평가 기준의 95% 이상을 충족해야 통과하는 조건이고, 고객이 묻지 않은 문제를 찾아내는 판단력도 시험한다고 해요. 결과에서 Claude Sonnet 5.5가 언급됐어요.",
+      "tag": "연구",
+      "source": "GeekNews",
+      "originalTitle": "DAYJOB: Tax - 전문 세무 과제 50개로 AI 에이전트 평가하기",
+      "url": "https://news.hada.io/topic?id=36188",
+      "at": "2026-10-29T03:01:29.014Z"
+    }
+  ]
+}
