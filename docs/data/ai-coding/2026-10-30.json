@@ -1,0 +1,85 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-30T03:01:35.301Z",
+  "summarizer": "claude",
+  "candidateCount": 45,
+  "headline": "Claude Code·Codex 업데이트와 Gemini 4 Carbon 소식",
+  "items": [
+    {
+      "title": "Claude Code v2.1.314 업데이트",
+      "summary": "작업 폴더 밖에는 쓰기를 막는 permissions.blockWritesOutsideWorkingDirectories 설정이 추가됐어요. 200K 토큰 이상 대화가 한동안 멈춰 있으면 VS Code와 Claude Desktop 코드 탭에서 자동으로 요약하는 기능도 생겼어요. 에이전트가 엉뚱한 곳의 파일을 건드리는 일을 줄이고 긴 대화를 이어가기 쉬워져요.",
+      "tag": "코딩",
+      "source": "Claude Code 업데이트",
+      "originalTitle": "v2.1.314",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
+      "at": "2026-10-30T03:01:35.301Z"
+    },
+    {
+      "title": "Codex 0.166.0 업데이트",
+      "summary": "GPT-6.1 Terra가 모델 목록에 추가됐어요. 대화 기록을 키보드로 선택하고 검색하는 기능과, 메시지를 대기열에 넣은 뒤 중단된 스레드를 이어가는 codex queue --resume이 생겼어요. 연결 문제를 점검하는 codex doctor --network-only도 추가됐어요.",
+      "tag": "코딩",
+      "source": "Codex 업데이트",
+      "originalTitle": "0.166.0",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0",
+      "at": "2026-10-30T03:01:35.301Z"
+    },
+    {
+      "title": "Gemini 4 Carbon, 평가 1위",
+      "summary": "Google의 새 모델 Gemini 4 Carbon이 독립 평가에서 1위를 했다고 해요. Artificial Analysis Intelligence Index v5에서도 1위라고 알려졌어요. 처음에는 신뢰할 수 있는 사이버 방어 담당자에게만 공개된다고 해요.",
+      "tag": "모델",
+      "source": "Latent Space",
+      "originalTitle": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
+      "url": "https://latent.space/p/ainews-gemini-4-carbon/",
+      "at": "2026-10-30T03:01:35.301Z"
+    },
+    {
+      "title": "Mistral Large 4 가중치 공개",
+      "summary": "Mistral이 Mistral Large 4의 가중치를 공개한다고 밝혔어요. Hacker News에서 추천 1,238개를 받았어요. Hugging Face에도 올라왔어요.",
+      "tag": "모델",
+      "source": "Hacker News",
+      "originalTitle": "We're releasing the weights of Mistral Large 4",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "discussion": "https://news.ycombinator.com/item?id=50289418",
+      "at": "2026-10-30T03:01:35.301Z"
+    },
+    {
+      "title": "Claude Code 백그라운드 에이전트 기록 전송",
+      "summary": "Claude Code가 백그라운드 에이전트의 대화 기록을 주기적으로 모델에 보낸다는 글이 Hacker News에서 추천 562개를 받았어요. 에이전트를 여러 개 돌릴 때 토큰 사용량과 동작 방식을 이해하는 데 참고가 돼요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "Claude Code regularly sends each background agent’s transcript to its model",
+      "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+      "discussion": "https://news.ycombinator.com/item?id=50284255",
+      "at": "2026-10-30T03:01:35.301Z"
+    },
+    {
+      "title": "컷팩: Claude Code/Codex용 영상 편집기",
+      "summary": "Claude Code와 Codex로 숏폼을 만들 때 쓰는 오픈소스 비디오 에디터예요. 만든 사람은 3달간 숏폼 300편을 만들었다고 해요. 고칠 부분을 지정하기 어렵고 미리보기가 한 번에 하나뿐인 불편함에서 출발했다고 해요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "Show GN: 컷팩(Cutfac) - Claude Code/Codex로 숏폼 만들 때 쓰는 오픈소스 비디오 에디터",
+      "url": "https://news.hada.io/topic?id=36260",
+      "at": "2026-10-30T03:01:35.301Z"
+    },
+    {
+      "title": "Minecraft에서 AI 에이전트 군집 실험",
+      "summary": "Minecraft와 Mindustry에서 여러 AI 에이전트를 함께 돌렸더니 지도자와 역할, 배급 규칙을 스스로 만들었다고 해요. 모델마다 행동 양상이 달랐다고 해요. 멀티 에이전트가 어떻게 움직이는지 엿볼 수 있어요.",
+      "tag": "연구",
+      "source": "GeekNews",
+      "originalTitle": "Minecraft와 Mindustry에서 AI 에이전트 군집을 실행해 봄",
+      "url": "https://news.hada.io/topic?id=36265",
+      "at": "2026-10-30T03:01:35.301Z"
+    },
+    {
+      "title": "AI가 인용하는 통계는 믿을 만할까",
+      "summary": "Trakkr가 5개 AI 서비스의 통계 인용 1,285건을 추적했어요. 원연구까지 도달해 내용이 일치한 비율은 40%였어요. 인용 링크가 있어도 숫자를 따로 확인하는 편이 안전해요.",
+      "tag": "연구",
+      "source": "GeekNews",
+      "originalTitle": "좀비 통계: AI가 인용하는 숫자는 어디에서 오는가",
+      "url": "https://news.hada.io/topic?id=36254",
+      "at": "2026-10-30T03:01:35.301Z"
+    }
+  ]
+}
