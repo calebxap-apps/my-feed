@@ -1,0 +1,65 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-11-01",
+  "generatedAt": "2026-11-01T03:01:07.823Z",
+  "summarizer": "claude",
+  "candidateCount": 32,
+  "headline": "Anthropic 차단 논란과 GPT-5.6 Sol의 Factorio 클리어 소식",
+  "items": [
+    {
+      "title": "Anthropic, 모델 학습 관련 작업 사용자 차단",
+      "summary": "Jiahao Shao라는 사용자가 Claude로 연구 작업을 자동화하다가 '경쟁 모델 학습'으로 분류돼 차단 등의 조치를 받았다고 밝혔어요. 본인은 Claude를 증류한 적이 없고, 롤아웃은 성능이 좋은 오픈소스 모델로 만들었다고 주장한다고 해요. Claude로 연구 자동화를 하는 분은 이용 약관의 해당 기준을 확인해 볼 만해요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "Anthropic, 더 큰 모델 학습에 조금이라도 관련된 작업을 하는 사용자를 차단",
+      "url": "https://news.hada.io/topic?id=36358&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-01T03:01:07.823Z"
+    },
+    {
+      "title": "GPT-5.6 Sol, Factorio 평화 모드 클리어",
+      "summary": "GPT-5.6 Sol이 Codex에서 낮은 사고 수준으로 실행돼, 바이터가 없는 Factorio 평화 모드를 게임 내 시간 13.5시간 만에 클리어했다고 해요. 게임 관리자와 Python 라이브러리로 게임을 조작했고, GUI로 플레이할 때의 도달 거리나 전장의 안개 같은 제약이 있었다고 한다는 내용이에요. 긴 작업을 에이전트에게 맡기는 사례로 참고할 수 있어요.",
+      "tag": "모델",
+      "source": "GeekNews",
+      "originalTitle": "GPT-5.6 Sol, 평화 모드에서 Factorio 클리어 가능",
+      "url": "https://news.hada.io/topic?id=36356&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-01T03:01:07.823Z"
+    },
+    {
+      "title": "Kluever Maneuver: 버그 수정을 두 커밋으로",
+      "summary": "먼저 잘못된 현재 동작을 확인하는 통과 테스트를 커밋하고, 다음 커밋에서 코드와 테스트 기대값을 함께 고치는 방식이에요. 버그가 실제로 고쳐졌다는 증거를 남기면서도 모든 커밋에서 CI 통과 상태를 유지할 수 있어요. AI에게 버그 수정을 맡길 때도 그대로 적용해 볼 수 있는 방법이에요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "Kluever Maneuver - 버그 동작을 통과하는 테스트로 기록한 뒤 두 커밋으로 수정하기",
+      "url": "https://news.hada.io/topic?id=36361&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-01T03:01:07.823Z"
+    },
+    {
+      "title": "HackerTube: HN 추천 영상 모음",
+      "summary": "Hacker News 댓글에서 추천된 YouTube 영상을 YouTube 형태의 화면으로 모아 보여주는 사이트예요. Opus 5.5가 HN 댓글 전체를 내려받아 걸러내고, Sonnet을 쓴 작업 흐름으로 스팸과 저품질 콘텐츠를 제거했다고 해요. HN에서는 2007년 이후 댓글 39,834개에서 영상 6,454개를 모았다고 소개돼 804점을 받았어요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "HackerTube: HN에서 추천한 영상으로 만든 YouTube",
+      "url": "https://news.hada.io/topic?id=36351&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-01T03:01:07.823Z"
+    },
+    {
+      "title": "Linux TCP 해제 후 사용 취약점 (CVSS 9.8)",
+      "summary": "Linux 4.4 이후 커널의 IPv4 TCP 핸드셰이크에서 인증 없이 원격으로 도달할 수 있는 해제 후 사용 취약점(CVE-2026-98432)이 발견됐어요. 커널 CNA는 CVSS 3.1 기준 9.8, Critical로 평가했어요. 직접 서버를 운영한다면 커널 업데이트 공지를 확인해 보세요.",
+      "tag": "읽을거리",
+      "source": "GeekNews",
+      "originalTitle": "TCP 해제 후 사용 취약점: CVE-2026-98432 / CVSS 9.8",
+      "url": "https://news.hada.io/topic?id=36352&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-01T03:01:07.823Z"
+    },
+    {
+      "title": "Jepsen, ParticleDB에서 96개 문제 발견",
+      "summary": "Jepsen이 AI 워크로드용 데이터베이스 ParticleDB 1.1.4부터 1.1.18.11.rc-22까지 검사해 96개 문제를 찾았어요. 대부분 서버와 클라이언트가 각각 하나이고 장애가 없는 환경에서도 발생해, 'Full ACID'라는 제품 설명과 어긋난다고 해요. 충돌과 교착 상태뿐 아니라 잘못된 SQL 결과도 문제로 꼽혔어요.",
+      "tag": "연구",
+      "source": "GeekNews",
+      "originalTitle": "Jepsen: ParticleDB 1.1.4 - AI용 데이터베이스의 정합성 검증에서 96개 문제 발견",
+      "url": "https://news.hada.io/topic?id=36353&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-01T03:01:07.823Z"
+    }
+  ]
+}
