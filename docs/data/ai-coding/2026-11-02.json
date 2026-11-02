@@ -1,0 +1,105 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-02T03:01:42.874Z",
+  "summarizer": "claude",
+  "candidateCount": 45,
+  "headline": "Codex 사용 한도 통합과 코딩 에이전트 도구 소식",
+  "items": [
+    {
+      "title": "ChatGPT와 Codex 사용 한도 통합",
+      "summary": "ChatGPT와 Codex의 사용 한도가 하나로 합쳐진다고 해요. Hacker News에서 218개의 추천을 받았어요. Codex를 쓰신다면 한도가 어떻게 계산되는지 확인해 보시는 게 좋아요.",
+      "tag": "코딩",
+      "source": "Hacker News",
+      "originalTitle": "ChatGPT and Codex usage limits merging",
+      "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+      "discussion": "https://news.ycombinator.com/item?id=50320588",
+      "at": "2026-11-02T03:01:42.874Z"
+    },
+    {
+      "title": "Memdoor, Qwen3.8-27B 5개로 Fable 5 앞서",
+      "summary": "Qwen3.8-27B 모델 5개를 팀으로 묶은 Memdoor가 LiveCodeBench Hard에서 Fable 5를 앞섰다고 해요. Hacker News에서 428개의 추천을 받았어요. 작은 모델을 여러 개 묶는 방식이 코딩 성능에 도움이 될 수 있다는 사례예요.",
+      "tag": "모델",
+      "source": "Hacker News",
+      "originalTitle": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+      "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+      "discussion": "https://news.ycombinator.com/item?id=50320995",
+      "at": "2026-11-02T03:01:42.874Z"
+    },
+    {
+      "title": "OpenQodex: 코딩 에이전트 변경을 따로 검증",
+      "summary": "코딩 에이전트가 바꾼 내용을 별도의 Claude Code 또는 Codex 프로세스가 리뷰하는 도구예요. 기존 로그인 계정을 쓰고, 푸시하지 않은 커밋과 커밋하지 않은 변경을 기본으로 검사해요. 22개 내장 스캐너로 비밀키 등을 확인한다고 해요. AI가 짠 코드를 다른 AI가 다시 확인하는 흐름에 쓸 수 있어요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "OpenQodex - 코딩 에이전트의 변경을 별도 에이전트가 검증하는 코드 리뷰 도구",
+      "url": "https://news.hada.io/topic?id=36426&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-02T03:01:42.874Z"
+    },
+    {
+      "title": "JavaScript 프레임워크의 AI 비용",
+      "summary": "JavaScript 프레임워크를 쓸 때 AI에게 드는 비용을 다룬 글이에요. Hacker News에서 313개의 추천을 받았어요. AI에게 앱을 맡길 때 프레임워크 선택이 비용에 영향을 줄 수 있다는 관점이에요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "The AI cost of JavaScript frameworks",
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "discussion": "https://news.ycombinator.com/item?id=50323088",
+      "at": "2026-11-02T03:01:42.874Z"
+    },
+    {
+      "title": "unslop: AI 티 나는 UI를 다듬는 Claude 스킬",
+      "summary": "바이브코딩으로 만든 AI 느낌의 UI를 디자인된 화면으로 바꿔 주는 Claude 스킬이에요. GitHub에서 별 4,972개를 받았어요. 만든 앱의 화면을 다듬을 때 시도해 볼 수 있어요.",
+      "tag": "코딩",
+      "source": "GitHub 인기 프로젝트",
+      "originalTitle": "heydamir/unslop — A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+      "url": "https://github.com/heydamir/unslop",
+      "at": "2026-11-02T03:01:42.874Z"
+    },
+    {
+      "title": "floorplan: 코드베이스를 쉬운 말로 지도화",
+      "summary": "Claude나 Codex가 앱의 구조를 쉬운 말로 된 대화형 지도로 그려 주는 도구예요. GitHub에서 별 1,842개를 받았어요. AI가 만든 코드가 어떻게 연결되는지 파악하는 데 쓸 수 있어요.",
+      "tag": "코딩",
+      "source": "GitHub 인기 프로젝트",
+      "originalTitle": "haydenschmitty/floorplan — See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.",
+      "url": "https://github.com/haydenschmitty/floorplan",
+      "at": "2026-11-02T03:01:42.874Z"
+    },
+    {
+      "title": "AI 토큰 가격 하락과 처리량 증가",
+      "summary": "OpenRouter의 주간 처리량은 2025년 1월 약 5,000억 토큰에서 2026년 9월 말 164조 토큰으로 늘었어요. 100만 토큰당 평균 지불 가격은 0.77달러에서 0.14달러로 내렸어요. AI 추론이 원자재처럼 다뤄지는 추세를 보여 주는 수치예요.",
+      "tag": "읽을거리",
+      "source": "GeekNews",
+      "originalTitle": "AI 토큰 경제의 현주소: CFO가 알아야 할 것",
+      "url": "https://news.hada.io/topic?id=36434&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-02T03:01:42.874Z"
+    },
+    {
+      "title": "DeepSeek의 자율 에이전트 시스템 프로토타입",
+      "summary": "deepseek-ai가 공개한 더 자율적인 에이전트 시스템 프로토타입이에요. TypeScript로 만들어졌고 GitHub에서 별 8,540개를 받았어요. 에이전트 구조가 어떻게 바뀌는지 참고할 수 있어요.",
+      "tag": "코딩",
+      "source": "GitHub 인기 프로젝트",
+      "originalTitle": "deepseek-ai/dsh-superagent-prototype — Towards a More Autonomous Agent System",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "at": "2026-11-02T03:01:42.874Z"
+    },
+    {
+      "title": "HackerBooks: HN에서 언급된 책 모음",
+      "summary": "Hacker News 댓글에서 두 명 이상이 언급한 책 약 1만 6,500권을 모은 사이트예요. Claude(Opus 5.5)로 만들었다고 해요. 각 책은 언급된 댓글로 연결되고, 데이터는 내려받을 수 있어요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+      "url": "https://hackerbooks.org",
+      "discussion": "https://news.ycombinator.com/item?id=50326821",
+      "at": "2026-11-02T03:01:42.874Z"
+    },
+    {
+      "title": "OmniDiff: Rust로 만든 Git diff 도구",
+      "summary": "코드뿐 아니라 이미지, 폰트, 압축 파일, PDF도 내용에 맞게 비교해 주는 오픈소스 diff 도구예요. 코드는 tree-sitter 기반으로 25개 언어의 구조를 비교해요. AI가 바꾼 변경을 살펴볼 때 쓸 수 있어요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "Show HN: OmniDiff - Rust로 만든 매우 빠른 콘텐츠 인식 오픈소스 Git diff 도구",
+      "url": "https://news.hada.io/topic?id=36420&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-02T03:01:42.874Z"
+    }
+  ]
+}
