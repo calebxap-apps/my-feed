@@ -1,0 +1,75 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-11-03",
+  "generatedAt": "2026-11-03T03:01:08.665Z",
+  "summarizer": "claude",
+  "candidateCount": 43,
+  "headline": "Claude Code v2.1.317 업데이트와 에이전트 개발 원칙이 나왔어요",
+  "items": [
+    {
+      "title": "Claude Code v2.1.317 업데이트",
+      "summary": "Claude Code 2.1.317에 새 기능이 여러 개 들어갔어요. /schedule로 클라우드 예약 작업을 만들 때 요청하지 않은 커넥터가 붙으면 경고하고, 제거 방법도 알려줘요. 웹·셸 도구가 계정 이메일 주소를 네트워크로 보내기 전에 먼저 묻는 확인 절차도 생겼어요. Agent SDK 훅 콜백이 실패하면 동작을 막는 onFailure: \"block\" 옵션도 추가됐어요.",
+      "tag": "코딩",
+      "source": "Claude Code 업데이트",
+      "originalTitle": "v2.1.317",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
+      "at": "2026-11-03T03:01:08.665Z"
+    },
+    {
+      "title": "에이전트와 함께 개발하기 위한 실용 원칙",
+      "summary": "에이전트가 코드 대부분을 쓰면 병목은 사람의 주의력으로 옮겨간다는 글이에요. 선택한 작업은 바로 시작해 병렬로 돌리고, 사람은 검토할 수 있는 만큼만 맡는 방식을 제안해요. 머지 전에 실제 문제인지, 수정이 작동하는지, 누가 결정할지를 확인하고, 성공한 절차는 스킬에 기록해 재사용한다고 해요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "에이전트와 함께 개발하기 위한 실용 원칙",
+      "url": "https://news.hada.io/topic?id=36502&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-03T03:01:08.665Z"
+    },
+    {
+      "title": "OpenAI가 만든 Git 호환 백엔드 Pando",
+      "summary": "OpenAI가 Codex가 만드는 개발 규모를 감당하려고 Git 호환 백엔드 Pando를 만들었다고 소개했어요. AI 에이전트가 코드를 대량으로 만들면 Git 저장소도 그 규모에 맞춰야 한다는 점을 보여줘요.",
+      "tag": "코딩",
+      "source": "OpenAI",
+      "originalTitle": "Scaling Git at OpenAI",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "at": "2026-11-03T03:01:08.665Z"
+    },
+    {
+      "title": "Postgres 19 출시 지연, AI가 찾은 버그 때문",
+      "summary": "LLM으로 찾은 버그 제보가 늘어 PostgreSQL 수정 부담이 커졌고, 19 버전은 예년보다 늦은 11월 출시가 예상돼요. 출시 준비 버전에 반영한 백포트 커밋은 전년보다 60% 이상 늘었어요. 버그 찾기는 쉬워졌지만, AI가 쓴 수정안도 사람이 검토해야 해서 수정은 그만큼 빨라지지 않았다고 해요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "Postgres 19 출시가 늦어지는 건 AI 때문이다 - 버그 발견이 수정을 앞지르다",
+      "url": "https://news.hada.io/topic?id=36491&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-03T03:01:08.665Z"
+    },
+    {
+      "title": "Qodo, Codex에 코드 리뷰 맥락 연결",
+      "summary": "Qodo가 회사 지식과 코딩 표준을 Codex에 연결했어요. 개발자가 풀 리퀘스트를 열기 전에 여러 저장소에 걸친 P0급 문제를 잡도록 돕는다고 해요.",
+      "tag": "코딩",
+      "source": "OpenAI",
+      "originalTitle": "Qodo builds context into AI code review with Codex",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "at": "2026-11-03T03:01:08.665Z"
+    },
+    {
+      "title": "Anthropic 내부 AI 사용량이 직원 급여 초과",
+      "summary": "Anthropic 내부의 AI 사용량을 소매 가격으로 환산하면 직원 급여를 넘는다는 글이 Hacker News에서 추천 295개를 받았어요. AI 코딩 사용량이 비용 면에서 얼마나 커졌는지 가늠할 수 있는 이야기예요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
+      "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+      "discussion": "https://news.ycombinator.com/item?id=50339494",
+      "at": "2026-11-03T03:01:08.665Z"
+    },
+    {
+      "title": "stack-diagram: 구성도 그려주는 에이전트 스킬",
+      "summary": "사용하는 기술 스택을 한 문장으로 설명하면 공식 로고가 들어간 아키텍처 다이어그램을 만들어주는 에이전트 스킬이에요. Claude Code와 Codex에서 쓸 수 있다고 해요. GitHub 별은 1,239개예요.",
+      "tag": "코딩",
+      "source": "GitHub 인기 프로젝트",
+      "originalTitle": "caru-ini/stack-diagram — Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
+      "url": "https://github.com/caru-ini/stack-diagram",
+      "at": "2026-11-03T03:01:08.665Z"
+    }
+  ]
+}
