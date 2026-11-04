@@ -1,0 +1,86 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-11-04",
+  "generatedAt": "2026-11-04T03:01:16.422Z",
+  "summarizer": "claude",
+  "candidateCount": 49,
+  "headline": "Claude Code 2.1.318 업데이트와 Codex 학습 설정 논란",
+  "items": [
+    {
+      "title": "Claude Code v2.1.318 업데이트",
+      "summary": "세션에서 Claude Code가 작성한 mods를 켜도 되는지 물을 때 답변 기록이 남도록 했어요. mod의 $.model.fork에 effort 옵션이 추가되어, 짧은 부가 작업을 낮은 effort로 돌릴 수 있어요. claude.ai 로그인 만료일을 claude auth status와 claude -p JSON 결과에서 확인할 수 있고, 만료 10일 전부터 경고가 나온다고 해요.",
+      "tag": "코딩",
+      "source": "Claude Code 업데이트",
+      "originalTitle": "v2.1.318",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
+      "at": "2026-11-04T03:01:16.422Z"
+    },
+    {
+      "title": "Codex 대화 학습 설정이 다시 켜졌다는 제보",
+      "summary": "Codex에서 데이터 공유를 꺼 두었는데, 어느 날 설정이 조용히 다시 켜져 있었다는 글이에요. 작성자와 동료들이 모두 직접 켠 적이 없다고 해요. 회사 코드를 프롬프트로 보내는 분은 설정을 한 번 확인해 보시는 게 좋겠어요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "OpenAI seems to be silently re-enabling model training on Codex chats",
+      "url": "https://news.ycombinator.com/item?id=50352757",
+      "discussion": "https://news.ycombinator.com/item?id=50352757",
+      "at": "2026-11-04T03:01:16.422Z"
+    },
+    {
+      "title": "Postman, AI 플러그인 자동 설치 논란",
+      "summary": "Postman이 AI 플러그인을 알리지 않고 자동으로 설치하고 API 데이터를 공유하려 한다는 글이 Hacker News에서 추천 1069개를 받았어요. API 키나 내부 주소를 다루는 분은 사용하는 도구의 설정을 확인해 볼 만해요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "discussion": "https://news.ycombinator.com/item?id=50354960",
+      "at": "2026-11-04T03:01:16.422Z"
+    },
+    {
+      "title": "deepseek 자율형 개발 에이전트 실험",
+      "summary": "GitHub에서 개발 업무를 요청하면 AI가 스스로 판단해 코드를 고치고 Pull Request까지 만들어 주는 시스템이라고 해요. deepseek가 이 방식을 어떻게 구현했는지 가볍게 볼 만한 글이에요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "deepseek의 자율형 개발 에이전트 시스템 실험",
+      "url": "https://news.hada.io/topic?id=36564&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-04T03:01:16.422Z"
+    },
+    {
+      "title": "에이전트 작업 중 비판적 사고",
+      "summary": "에이전트의 답이 매끄러울수록 사람이 다시 확인할 계기가 줄어든다는 내용이에요. 결과를 설명할 수 없다면 주도권을 넘긴 상태이고, 테스트 통과 표시보다 무엇을 입증했는지 따져야 한다고 해요. 바이브코딩 검증 습관에 참고할 수 있어요.",
+      "tag": "읽을거리",
+      "source": "GeekNews",
+      "originalTitle": "에이전트가 일을 할 때의 비판적 사고",
+      "url": "https://news.hada.io/topic?id=36547&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-04T03:01:16.422Z"
+    },
+    {
+      "title": "노트북 Qwen 3.8 27B의 가중치 해석",
+      "summary": "노트북에서 돌린 Qwen 3.8 27B가 도구 없이 가중치만 읽고 Pac-Man, Pong, Breakout을 맞혔어요. 17GB 모델을 썼고 응답에 각각 약 46~65분이 걸렸어요. Freeway는 맞히지 못했어요.",
+      "tag": "연구",
+      "source": "GeekNews",
+      "originalTitle": "내 노트북의 Qwen 3.8 27B도 모델 가중치를 해석할 수 있다",
+      "url": "https://news.hada.io/topic?id=36542&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-04T03:01:16.422Z"
+    },
+    {
+      "title": "가중치 읽기·쓰기 주장에 대한 반박 글",
+      "summary": "'Astra가 가중치를 읽고 써서 Qwen을 개선한다'는 글이 오해를 부른다는 지적이 Hacker News에서 추천 916개를 받았어요. 화제가 된 논문 내용을 그대로 받아들이기 전에 함께 볼 만해요.",
+      "tag": "연구",
+      "source": "Hacker News",
+      "originalTitle": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+      "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+      "discussion": "https://news.ycombinator.com/item?id=50351111",
+      "at": "2026-11-04T03:01:16.422Z"
+    },
+    {
+      "title": "wterm: 웹 터미널 에뮬레이터",
+      "summary": "Vercel Labs가 만든 웹 터미널 라이브러리예요. 브라우저의 선택, 복사, 찾기 기능을 쓸 수 있고 한글 IME 입력도 지원해요. 웹 안에 터미널 화면을 넣고 싶을 때 참고할 수 있어요.",
+      "tag": "읽을거리",
+      "source": "GeekNews",
+      "originalTitle": "wterm - DOM 렌더링과 Ghostty 코어를 지원하는 웹 터미널 에뮬레이터",
+      "url": "https://news.hada.io/topic?id=36554&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-04T03:01:16.422Z"
+    }
+  ]
+}
