@@ -1,0 +1,21 @@
+{
+  "channel": "novel-anime",
+  "mode": "event",
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T09:01:22.375Z",
+  "summarizer": "claude",
+  "candidateCount": 2,
+  "headline": "윙페더 사가 공식 채널에 칼마르 윙페더 장면 영상이 올라왔어요",
+  "items": [
+    {
+      "title": "Not a Fang | 공식 클립",
+      "summary": "윙페더 공식 유튜브에서 2026년 11월 4일에 공개한 클립 영상이에요. 한 인물이 사람들에게 팽(fang)과 싸우거나 죽여 본 사람이 몇 명인지 물어요. 재너 윙페더는 칼로 한 마리, 화살로 몇 마리 해서 열 마리쯤이라고 답해요. 칼마르 윙페더는 스물일곱 마리라고 답하고, 자신은 팽이 아니라고 말해요.",
+      "tag": "영상",
+      "source": "윙페더 공식 유튜브",
+      "originalTitle": "Not a Fang | Official Clip | The Wingfeather Saga",
+      "url": "https://www.youtube.com/watch?v=f37rUHObscw",
+      "translation": "여러분 중에 팽(fang)과 싸우거나 팽을 죽여 본 사람이 몇이나 됩니까? 그럼 자네는, 재너 윙페더(Janner Wingfeather)?\n\n음, 잘 모르겠어요. 칼로 한 마리, 화살로 몇 마리, 아마 열 마리쯤요. 그중 몇 번은 같이 사는 팽과 싸운 걸 겁니다.\n\n칼마르(Kalmar), 자네는 어떤가?\n\n스물일곱입니다. 저는 팽이 아닙니다. 제 이름은 칼마르 윙페더(Kalmar Wingfeather)입니다.",
+      "at": "2026-11-05T09:01:22.375Z"
+    }
+  ]
+}
