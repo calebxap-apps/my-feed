@@ -1,0 +1,95 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T03:01:04.096Z",
+  "summarizer": "claude",
+  "candidateCount": 48,
+  "headline": "OpenAI가 Codex 강화를 위해 Pierre를 인수하고, Gemini CLI가 v0.67.0을 냈어요",
+  "items": [
+    {
+      "title": "OpenAI, Codex용 Pierre 인수 예정",
+      "summary": "OpenAI가 Git 기반 코드 저장 서비스와 오픈소스 코드 리뷰 도구를 만드는 Pierre Computer Company를 인수할 예정이에요. Codex 앱은 이미 Pierre의 Trees로 파일을 탐색하고 Diffs로 코드 변경 사항을 보여주고 있어요. Code Storage 기능을 Codex에 통합해 코딩 에이전트와 협업하는 팀의 Git 작업 흐름을 넓힐 계획이라고 해요. Pierre의 프로젝트는 오픈소스로 유지되고, 인수 완료에는 규제 당국 승인 등이 남아 있어요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "OpenAI, Pierre Computer Company 인수 예정",
+      "url": "https://news.hada.io/topic?id=36621&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-05T03:01:04.096Z"
+    },
+    {
+      "title": "Gemini CLI v0.67.0 릴리스",
+      "summary": "Gemini CLI v0.67.0이 나왔어요. IDE 도우미를 컨테이너 샌드박스 안으로 연결하는 기능이 새로 들어갔어요. 홈 디렉터리를 작업 폴더로 쓸 때 에이전트가 중복 로드되던 문제 등 여러 수정도 함께 포함됐어요.",
+      "tag": "코딩",
+      "source": "Gemini CLI 업데이트",
+      "originalTitle": "Release v0.67.0",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0",
+      "at": "2026-11-05T03:01:04.096Z"
+    },
+    {
+      "title": "Ripple-65B Preview, 에이전트 코딩 오픈웨이트 최고",
+      "summary": "Ricursive Intelligence가 범용 모델 Ripple-65B Preview를 공개했어요. 12조 토큰으로 사전학습했고 최대 100만 토큰 컨텍스트를 지원해요. TerminalBench 2.1에서 80.52점을 기록해 미국 오픈웨이트 모델 중 가장 높다고 해요. 전체 연구개발비는 3,200만 달러로, 회사 추산으로는 기존 최고 모델 비용의 약 10분의 1이라고 해요.",
+      "tag": "모델",
+      "source": "GeekNews",
+      "originalTitle": "Ripple-65B Preview: 에이전트 코딩에서 미국 오픈웨이트 최고 성능 달성",
+      "url": "https://news.hada.io/topic?id=36616&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-05T03:01:04.096Z"
+    },
+    {
+      "title": "Kimi K3.1 Pro 모델 가중치 공개",
+      "summary": "Kimi K3.1 Pro의 모델 가중치가 공개됐다고 해요. Hacker News에서 추천 401개를 받았어요. 로컬이나 직접 운영하는 환경에서 쓸 코딩 모델 선택지가 늘어난다는 점에서 눈여겨볼 만해요.",
+      "tag": "모델",
+      "source": "Hacker News",
+      "originalTitle": "Kimi K3.1 Pro model weights are out",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "discussion": "https://news.ycombinator.com/item?id=50366999",
+      "at": "2026-11-05T03:01:04.096Z"
+    },
+    {
+      "title": "Tencent 멀티모달 모델 Hy4 공개",
+      "summary": "Tencent가 멀티모달 모델 Hy4 정식 버전을 공개했어요. Tencent Cloud와 OpenRouter에서 먼저 제공하고, 가중치는 나중에 공개할 예정이에요. 시각 인식과 컴퓨터 조작이 처음 들어가 CLI와 GUI를 오가며 Blender나 CAD 같은 프로그램을 다룰 수 있다고 해요. 게임 개발 벤치마크에서 Hy4 preview보다 GameDev 19.1%, GameLogic 9.8% 올랐어요.",
+      "tag": "모델",
+      "source": "GeekNews",
+      "originalTitle": "Tencent, 오픈소스 최상위권을 목표로 한 멀티모달 AI 모델 Hy4 공개",
+      "url": "https://news.hada.io/topic?id=36613&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-05T03:01:04.096Z"
+    },
+    {
+      "title": "Thoughtworks Technology Radar 35호",
+      "summary": "Thoughtworks가 117개 항목을 4단계로 분류한 Technology Radar 35호를 공개했어요. 하네스 엔지니어링이 개별 에이전트 설정을 넘어, 조직이 스킬과 가드레일을 배포하고 계속 평가하는 일로 넓어졌다고 해요. 에이전트 세션을 병렬로 돌리거나 밤새 맡길 수 있지만, 사람의 리뷰와 배포 파이프라인이 처리할 수 있는 양은 따로 살펴야 한다고 짚어요.",
+      "tag": "읽을거리",
+      "source": "GeekNews",
+      "originalTitle": "Thoughtworks Technology Radar, Volume 35 공개",
+      "url": "https://news.hada.io/topic?id=36623&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-05T03:01:04.096Z"
+    },
+    {
+      "title": "AI가 40년 묵은 기술 부채를 갚게 만든다",
+      "summary": "Hacker News에서 추천 1,099개를 받은 글이에요. AI 때문에 오래 쌓인 기술 부채를 갚아야 하는 상황이 됐다는 내용이라고 해요. AI와 함께 코드를 다루는 개발자들이 많이 공감한 주제예요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "AI is forcing us to pay off 40 years of technical debt",
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "discussion": "https://news.ycombinator.com/item?id=50364336",
+      "at": "2026-11-05T03:01:04.096Z"
+    },
+    {
+      "title": "Gemini, 구독자 대화 기록도 학습에 사용",
+      "summary": "개인 Google AI 구독자도 Gemini에 저장된 대화 기록이 학습에 쓰일 수 있다는 글이 Hacker News에서 추천 631개를 받았어요. 대화 기록을 끄거나 임시 대화를 쓰지 않으면 거부할 방법이 없다고 해요. 사람 검토자가 대화를 읽을 수도 있다고 해요. 코드나 민감한 내용을 넣는 분은 설정을 확인해 볼 만해요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+      "url": "https://news.ycombinator.com/item?id=50363461",
+      "discussion": "https://news.ycombinator.com/item?id=50363461",
+      "at": "2026-11-05T03:01:04.096Z"
+    },
+    {
+      "title": "Claude로 랜섬웨어 피해 파일 복구한 사례",
+      "summary": "2019년 Scarab 랜섬웨어에 걸려 암호화된 약 700개 파일을 Claude로 복구한 사례예요. 키를 푼 것이 아니라 해당 변종이 파일 앞부분 16KB만 암호화한다는 점을 이용해, 나머지 데이터와 파일 구조를 분석해서 복구했다고 해요.",
+      "tag": "읽을거리",
+      "source": "GeekNews",
+      "originalTitle": "AI는 랜섬웨어 암호화를 해독하지 않고 어떻게 파일을 복구했는가?",
+      "url": "https://news.hada.io/topic?id=36619&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-05T03:01:04.096Z"
+    }
+  ]
+}
