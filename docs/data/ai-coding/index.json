@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-11-06",
+    "count": 9,
+    "headline": "Codex 새 기능과 Cursor 앱 배포, Claude Code 이메일 논란"
+  },
+  {
     "date": "2026-11-05",
     "count": 9,
     "headline": "OpenAI가 Codex 강화를 위해 Pierre를 인수하고, Gemini CLI가 v0.67.0을 냈어요"

@@ -1,0 +1,94 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-11-06",
+  "generatedAt": "2026-11-06T03:01:02.947Z",
+  "summarizer": "claude",
+  "candidateCount": 50,
+  "headline": "Codex 새 기능과 Cursor 앱 배포, Claude Code 이메일 논란",
+  "items": [
+    {
+      "title": "Cursor, 클라우드 에이전트로 앱 만들고 배포",
+      "summary": "Cursor에서 웹 앱을 만들고 배포할 수 있게 됐어요. 클라우드 에이전트가 호스팅, 데이터베이스, 인증, 배포를 맡는다고 해요. 앱을 처음부터 끝까지 한 곳에서 만들어 볼 수 있어요.",
+      "tag": "코딩",
+      "source": "Cursor 업데이트",
+      "originalTitle": "Build Live Apps in Cursor",
+      "url": "https://cursor.com/changelog/build-live-apps",
+      "at": "2026-11-06T03:01:02.947Z"
+    },
+    {
+      "title": "Codex 0.167.0 업데이트",
+      "summary": "`codex agents --no-daemon` 명령으로 에이전트 지휘 화면을 열 수 있어요. 세션 목록에서 안 읽은 결과가 표시되고, 연결된 백엔드를 전환해도 작성 중인 글이 유지돼요. 첨부한 이미지를 입력 중에 미리 볼 수 있고, Google Cloud Vertex AI 설정 마법사도 추가됐어요.",
+      "tag": "코딩",
+      "source": "Codex 업데이트",
+      "originalTitle": "0.167.0",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0",
+      "at": "2026-11-06T03:01:02.947Z"
+    },
+    {
+      "title": "Claude Code가 이메일 주소를 웹사이트에 전송",
+      "summary": "Claude Code가 웹 검색 중 로그인 계정의 이메일을 curl 요청의 User-Agent에 넣어 외부 사이트로 보냈다는 신고가 올라왔어요. 2.1.317부터 이를 막는 privacy 모드가 기본으로 켜진다는 안내가 있지만, 2.1.318에서도 모드가 보이지 않는다는 보고가 있다고 해요. 사용 중인 버전과 설정을 확인해 볼 만해요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "Claude Code sends your email address to websites",
+      "url": "https://github.com/anthropics/claude-code/issues/107757",
+      "discussion": "https://news.ycombinator.com/item?id=50385272",
+      "at": "2026-11-06T03:01:02.947Z"
+    },
+    {
+      "title": "GitHub Copilot 런타임을 Rust로 이식한 과정",
+      "summary": "GitHub Copilot 런타임의 TypeScript 코드 약 40만~45만 줄을 Rust로 옮겼어요. Node.js와 V8에 의존하지 않고 여러 제품에 넣을 수 있는 공통 에이전트 하네스를 만드는 것이 목적이었다고 해요. 개발과 배포를 멈추지 않고 약 14.5주 동안 점진적으로 바꿨고, 그 사이 약 130회 출시했어요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "GitHub Copilot 런타임 코드베이스 전체를 Rust로 이식한 이유와 방법 [영상]",
+      "url": "https://news.hada.io/topic?id=36687&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-06T03:01:02.947Z"
+    },
+    {
+      "title": "AI 시대 소프트웨어 엔지니어링의 변화",
+      "summary": "한 엔지니어의 월간 PR 수가 AI 도입 전 약 19개에서 207개로 늘었어요. 코드 작성이 빨라지면서 협업과 승인 대기가 새로운 병목이 됐다고 해요. 대부분의 PR을 자동 리뷰만 거쳐 병합하고, 실제로 생긴 장애 유형은 리뷰 에이전트의 검사 항목에 추가했다고 해요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "소프트웨어 엔지니어링은 어떻게 달라지고 있나: 두 시대의 이야기",
+      "url": "https://news.hada.io/topic?id=36685&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-06T03:01:02.947Z"
+    },
+    {
+      "title": "Gemini Omni 1.2 Flash 공개",
+      "summary": "Google DeepMind가 더 긴 클립을 다루는 빠르고 저렴한 Gemini Omni 1.2 Flash를 발표했어요. 속도와 비용을 앞세운 모델이라고 해요.",
+      "tag": "모델",
+      "source": "Google DeepMind",
+      "originalTitle": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+      "at": "2026-11-06T03:01:02.947Z"
+    },
+    {
+      "title": "OpenAI, 사이버 보안 모델 GPT‑6 Cyber 발표",
+      "summary": "OpenAI가 악용 가능한 취약점을 찾고 수정안을 만드는 보안 모델 GPT‑6 Cyber를 공개했어요. 허가된 범위 안에서만 동작하도록 학습했다고 해요. 내 앱의 보안 점검에 쓸 수 있을지 지켜볼 만해요.",
+      "tag": "모델",
+      "source": "OpenAI",
+      "originalTitle": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "at": "2026-11-06T03:01:02.947Z"
+    },
+    {
+      "title": "Discord, Electron 버리고 RAM 사용량 줄인 새 앱",
+      "summary": "Discord가 Electron을 버리고 만든 새 앱이 메모리를 더 적게 쓴다는 소식이 Hacker News에서 402점을 받았어요. 앱을 만들 때 기반 기술을 고르는 데 참고할 만한 사례예요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "Discord is ditching Electron and its new app uses less RAM",
+      "url": "https://www.theverge.com/news/1027379/discord-ditching-electron-web-app",
+      "discussion": "https://news.ycombinator.com/item?id=50378625",
+      "at": "2026-11-06T03:01:02.947Z"
+    },
+    {
+      "title": "uncut: 7MB 단일 파일 코딩 에이전트 하네스",
+      "summary": "Go로 만든 헤드리스 코딩 에이전트 하네스예요. 7MB짜리 정적 바이너리 하나에 도구 4개를 담고, 표준 입출력으로 동작한다고 해요. GitHub에서 별 608개를 받았어요.",
+      "tag": "코딩",
+      "source": "GitHub 인기 프로젝트",
+      "originalTitle": "Balanov/uncut — The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout, no silent cuts.",
+      "url": "https://github.com/Balanov/uncut",
+      "at": "2026-11-06T03:01:02.947Z"
+    }
+  ]
+}
