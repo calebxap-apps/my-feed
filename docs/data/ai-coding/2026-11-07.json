@@ -1,0 +1,102 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-07T03:01:02.479Z",
+  "summarizer": "claude",
+  "candidateCount": 39,
+  "headline": "Claude Code 새 기능과 Cursor 음성 대화, 새 모델 소식이 나왔어요",
+  "items": [
+    {
+      "title": "Claude Code v2.1.319 업데이트",
+      "summary": "MCP 작업을 터미널에서 백그라운드로 실행하고, 끝나면 Claude에게 결과를 알려 주는 기능이 추가됐어요. 권한 확인이 필요한 호출을 묻지 않고 거절하는 permissions.denyInsteadOfPrompting 설정도 생겼어요. 또 /claude-api latency-optimize 로 API 코드의 지연 구간을 찾아볼 수 있다고 해요.",
+      "tag": "코딩",
+      "source": "Claude Code 업데이트",
+      "originalTitle": "v2.1.319",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
+      "at": "2026-11-07T03:01:02.479Z"
+    },
+    {
+      "title": "Cursor, 에이전트와 음성 대화",
+      "summary": "Cursor에서 에이전트와 실시간 음성 통화로 대화할 수 있게 됐어요. 데스크톱, 웹, iOS에서 쓸 수 있다고 해요.",
+      "tag": "코딩",
+      "source": "Cursor 업데이트",
+      "originalTitle": "Voice Chat with Agents",
+      "url": "https://cursor.com/changelog/voice-chat",
+      "at": "2026-11-07T03:01:02.479Z"
+    },
+    {
+      "title": "Inkling 2 Small 공개",
+      "summary": "Inkling 2 Small 이 12T 토큰으로 68시간 동안 학습됐고 Muse Spark 를 앞섰다고 해요. 같은 모델이 Hacker News 에서도 추천 283개를 받았어요.",
+      "tag": "모델",
+      "source": "Latent Space",
+      "originalTitle": "[AINews] Inkling 2 Small: 17A-594B trained in 68 hours on 12T tokens, beating Muse Spark",
+      "url": "https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/",
+      "at": "2026-11-07T03:01:02.479Z"
+    },
+    {
+      "title": "Gemini Omni 1.2 Flash 공개",
+      "summary": "Gemini Omni 1.2 Flash 가 나왔고 Hacker News 에서 추천 302개를 받았어요. 새 모델이라 사용 중인 도구에 반영되는지 지켜볼 만해요.",
+      "tag": "모델",
+      "source": "Hacker News",
+      "originalTitle": "Gemini Omni 1.2 Flash",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "discussion": "https://news.ycombinator.com/item?id=50392118",
+      "at": "2026-11-07T03:01:02.479Z"
+    },
+    {
+      "title": "직원 10명이 AI 토큰에 쓴 돈",
+      "summary": "직원 10명인 Spawn은 최근 30일 동안 토큰 비용으로 310만 달러를 쓰고, 코드 변경 7만 7,000건을 배포했다고 해요. PR 없이 에이전트들이 같은 코드로 협업하고, 15분마다 전체 테스트를 돌리며 매시간 배포한다고 해요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "세계에서 가장 AI에 진심인 회사를 만든 방법",
+      "url": "https://news.hada.io/topic?id=36728&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-07T03:01:02.479Z"
+    },
+    {
+      "title": "불확실한 건만 Opus에 맡겨 비용 4분의 1",
+      "summary": "저렴한 모델 Jev 가 먼저 판단하고, 점수가 애매한 사례만 Opus 에 넘기는 방식을 시험했어요. 22%만 Opus 로 재검토해 정확도 98.8%를 얻었고, 1,000건당 비용이 3.86달러에서 0.88달러로 줄었어요. 합성 데이터로 한 평가라고 해요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "불확실한 사례만 Opus에 맡긴 Jev, 비용은 4분의 1로",
+      "url": "https://news.hada.io/topic?id=36725&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-07T03:01:02.479Z"
+    },
+    {
+      "title": "DoorDash, LLM 검색 비용 98% 절감",
+      "summary": "LLM 내장 웹 검색을 별도 검색 API 로 분리해, 정확도를 유지하면서 검색 요금을 98% 이상 줄였다고 해요. 여러 에이전트가 검색 게이트웨이 하나를 공유하고, 비슷한 질문의 결과는 재사용해요. 캐시가 찬 평가에서는 지연 시간이 평균 68% 줄었어요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "DoorDash가 정확도를 유지하면서 LLM 검색 비용을 98% 줄인 방법",
+      "url": "https://news.hada.io/topic?id=36733&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-07T03:01:02.479Z"
+    },
+    {
+      "title": "GitHub의 에이전트 엔지니어링 가이드",
+      "summary": "코드 작성은 빨라졌지만 그 주변 작업은 그대로라는 점에서 출발하는 글이에요. GitHub Copilot 으로 계획, 코드 작성, 변경 검토, 운영 문제 조사를 하는 방법과 사람의 판단이 필요한 부분을 다룬다고 해요.",
+      "tag": "읽을거리",
+      "source": "GitHub 블로그",
+      "originalTitle": "Beyond code generation: A developer’s guide to agentic engineering",
+      "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+      "at": "2026-11-07T03:01:02.479Z"
+    },
+    {
+      "title": "Craft Anything: AI로 앱·웹 재구현",
+      "summary": "원본과 원하는 결과를 지정하면 분석, 구현, 비교, 개선을 거쳐 새 프로젝트를 만들어 주는 도구예요. 기본 Clean room 모드는 원본 코드를 읽지 않고 화면과 배치, 색상으로 작업해요. Deep 모드는 바이너리와 코드까지 분석한다고 해요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "Craft Anything - 웹사이트, 앱, 게임을 분석하고 AI로 재구현하는 도구",
+      "url": "https://news.hada.io/topic?id=36730&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-07T03:01:02.479Z"
+    },
+    {
+      "title": "Rune: 에이전트용 Rust UI 프레임워크",
+      "summary": "macOS, Windows, Linux, 웹을 지원하는 Rust UI 프레임워크예요. 앱을 헤드리스 모드로 실행해 에이전트가 PNG 렌더링과 요소 트리로 자기 작업을 확인할 수 있어요. 아직 정식 출시 전이라고 해요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "Rune: macOS, Windows, Linux, 웹을 위한 네이티브 GPU 렌더링 Rust UI 프레임워크",
+      "url": "https://news.hada.io/topic?id=36735&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-07T03:01:02.479Z"
+    }
+  ]
+}
