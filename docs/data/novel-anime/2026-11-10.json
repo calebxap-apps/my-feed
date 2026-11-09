@@ -1,0 +1,21 @@
+{
+  "channel": "novel-anime",
+  "mode": "event",
+  "date": "2026-11-10",
+  "generatedAt": "2026-11-09T21:01:05.412Z",
+  "summarizer": "claude",
+  "candidateCount": 1,
+  "headline": "윙페더 사가 공식 유튜브에 짧은 영상이 올라왔어요",
+  "items": [
+    {
+      "title": "가시덤불 이야기 짧은 영상",
+      "summary": "윙페더 사가 공식 유튜브에 2026년 11월 9일 짧은 영상이 올라왔어요. 제목은 \"We all have our prickly bushes to bear\"로, 우리 모두 각자의 가시덤불을 짊어지고 산다는 뜻이에요. 영상에는 가시덤불 안에 있던 인물이 온몸에 가시가 박혀 매우 아프다고 답하는 대화가 담겨 있다고 해요. 새로운 방영 일정이나 제작 발표는 없는 것으로 보여요.",
+      "tag": "영상",
+      "source": "윙페더 공식 유튜브",
+      "originalTitle": "We all have our prickly bushes to bear. 🪾 #wingfeathersaga",
+      "url": "https://www.youtube.com/shorts/DSGSWNMIjvM",
+      "translation": "너 그 가시덤불 안에 있었어? 응. 온몸에 가시 박히지 않았어? 응. 안 아파? 아, 엄청 아프지.",
+      "at": "2026-11-09T21:01:05.412Z"
+    }
+  ]
+}
