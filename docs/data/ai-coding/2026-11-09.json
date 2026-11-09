@@ -1,0 +1,97 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-09T03:01:30.304Z",
+  "summarizer": "claude",
+  "candidateCount": 36,
+  "headline": "Pi로 갈아탄 후기, Goldman의 Claude Code 중단 화제",
+  "items": [
+    {
+      "title": "Claude에서 Pi로 갈아탄 후기",
+      "summary": "'Goodbye Claude, hello Pi'라는 글이 Hacker News에서 추천 708개를 받았어요. Claude에서 Pi라는 도구로 옮겨 간 경험을 다룬 글로 보여요. 코딩 에이전트를 고르는 기준을 다시 생각해 볼 만한 글이에요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "Goodbye Claude, hello Pi",
+      "url": "https://caleb.software/posts/claude-to-pi.html",
+      "discussion": "https://news.ycombinator.com/item?id=50410107",
+      "at": "2026-11-09T03:01:30.304Z"
+    },
+    {
+      "title": "Goldman Sachs, Claude Code 사용 중단",
+      "summary": "Goldman Sachs가 은행원과 트레이더에게서 Claude Code를 거두고 있다는 글이 Hacker News에서 추천 635개를 받았어요. 기업이 코딩 에이전트 사용을 제한하는 사례라서, 회사 환경에서 AI 도구를 쓸 때 참고할 수 있어요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "discussion": "https://news.ycombinator.com/item?id=50415628",
+      "at": "2026-11-09T03:01:30.304Z"
+    },
+    {
+      "title": "Llama-modchip: GPU 없이 284B 모델 실행",
+      "summary": "Llama-modchip이라는 프로젝트가 GPU 없이 64GB RAM만으로 284B 규모의 DeepSeek 모델을 돌린다고 해요. Hacker News에서 추천 376개를 받았어요. 큰 모델을 로컬에서 돌리는 길이 넓어질 수 있어요.",
+      "tag": "모델",
+      "source": "Hacker News",
+      "originalTitle": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "url": "https://github.com/synchopate/llama-modchip",
+      "discussion": "https://news.ycombinator.com/item?id=50411961",
+      "at": "2026-11-09T03:01:30.304Z"
+    },
+    {
+      "title": "Aptly: 서브에이전트 모델·effort 추천",
+      "summary": "Aptly는 Claude Code와 Codex에서 작업에 맞는 서브에이전트 모델과 추론 강도를 추천하는 로컬 MCP 서버예요. PreToolUse Hook으로 지원 대상 서브에이전트 호출의 기본 모델을 자동으로 고르고, 사용자가 직접 정한 값은 그대로 둔다고 해요. 불필요한 토큰 사용과 비용을 줄이는 데 쓸 수 있어요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "Show GN: Aptly - 작업에 맞는 Claude Code·Codex 서브에이전트 모델과 effort를 추천",
+      "url": "https://news.hada.io/topic?id=36852&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-09T03:01:30.304Z"
+    },
+    {
+      "title": "GitHub, 새 풀 리퀘스트 개요 페이지 공개 미리보기",
+      "summary": "GitHub가 새 풀 리퀘스트 개요 페이지를 공개 미리보기로 내놓았어요. Hacker News에서 추천 186개를 받았어요. AI가 만든 코드를 리뷰하는 일이 많은 만큼 화면 변화를 확인해 볼 만해요.",
+      "tag": "코딩",
+      "source": "Hacker News",
+      "originalTitle": "GitHub New pull request overview page in public preview",
+      "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
+      "discussion": "https://news.ycombinator.com/item?id=50408931",
+      "at": "2026-11-09T03:01:30.304Z"
+    },
+    {
+      "title": "pinky: AI 에이전트가 휴대폰을 쓰게 하는 도구",
+      "summary": "DIYgod/pinky는 사용자가 지켜보는 상태에서 AI 에이전트가 휴대폰을 쓰게 해 주는 Go 프로젝트예요. GitHub 인기 프로젝트에 올랐고 별은 907개예요. 앱 화면을 에이전트에게 맡기는 방식을 시험해 볼 수 있어요.",
+      "tag": "코딩",
+      "source": "GitHub 인기 프로젝트",
+      "originalTitle": "DIYgod/pinky — Let AI agents use your phone, with you in the loop.",
+      "url": "https://github.com/DIYgod/pinky",
+      "at": "2026-11-09T03:01:30.304Z"
+    },
+    {
+      "title": "ParalleLane: 워크트리 중심 Git 클라이언트",
+      "summary": "Conductor와 Orca의 UI에서 영감을 받아 만든 Git 클라이언트예요. 왼쪽 사이드바에 저장소와 워크트리를 펼쳐 보여 주고, 저장소별로 Git 계정을 지정할 수 있어요. 에이전트를 여러 개 병렬로 돌릴 때 워크트리를 관리하기 편할 수 있어요. macOS(Apple Silicon)와 Windows를 지원해요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "Show GN: ParalleLane - 워크트리 지원에 중점을 둔 Git 클라이언트",
+      "url": "https://news.hada.io/topic?id=36849&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-09T03:01:30.304Z"
+    },
+    {
+      "title": "스탠퍼드 CS146S의 AI 네이티브 엔지니어링 수업",
+      "summary": "스탠퍼드 CS146S 두 번째 수업에서 Mihail Eric이 오픈소스 메인테이너를 수업에 초대했어요. 학생은 낯선 저장소를 익히고 변경을 제안해야 해요. 코딩 에이전트가 작년 숙제를 한 번에 푸는 상황에서 무엇을 가르칠지 보여 주는 사례예요.",
+      "tag": "읽을거리",
+      "source": "Latent Space",
+      "originalTitle": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+      "url": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+      "at": "2026-11-09T03:01:30.304Z"
+    },
+    {
+      "title": "Outlook.com, DMARC 없는 도메인 메일 거부",
+      "summary": "Outlook.com이 DMARC가 없는 도메인에서 온 메일을 조용히 거부하고 있다는 글이 Hacker News에서 추천 271개를 받았어요. 앱에서 인증 메일이나 알림 메일을 보낸다면 도메인 설정을 점검해 볼 만해요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
+      "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+      "discussion": "https://news.ycombinator.com/item?id=50416158",
+      "at": "2026-11-09T03:01:30.304Z"
+    }
+  ]
+}
