@@ -1,0 +1,75 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-11-10",
+  "generatedAt": "2026-11-10T03:01:35.700Z",
+  "summarizer": "claude",
+  "candidateCount": 48,
+  "headline": "Fable 5.2 출시, Claude Code에 기본 모델로 추가",
+  "items": [
+    {
+      "title": "Claude Code v2.1.321: Fable 5.2 기본 모델",
+      "summary": "Claude Code에 Claude Fable 5.2(claude-fable-5-2)가 추가되어 Fable 기본 모델이 됐어요. 컨텍스트는 1M이고, 가격은 100만 토큰당 입력 $8, 출력 $40, 캐시 읽기 $0.20이에요. 이 버전에서는 MCP 로그인 정보가 다른 서버로 전달되던 문제와 일부 Bash 명령이 권한 확인 없이 샌드박스 밖에서 실행되던 문제도 고쳤어요.",
+      "tag": "코딩",
+      "source": "Claude Code 업데이트",
+      "originalTitle": "v2.1.321",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.321",
+      "at": "2026-11-10T03:01:35.700Z"
+    },
+    {
+      "title": "Fable 5.2, 지능 지수 65점으로 최고 기록",
+      "summary": "Artificial Analysis 지능 지수에서 Fable 5.2(Max)가 65점을 받았어요. 비슷한 가격대 모델의 중앙값은 40점이에요. 작업당 처리 시간은 44.1분으로 중앙값 12.9분의 약 3.4배이고, 평가 한 번의 평균 비용은 26.54달러예요. 점수는 높지만 느리고 비용이 든다는 점을 고려해야 해요.",
+      "tag": "모델",
+      "source": "GeekNews",
+      "originalTitle": "Claude Fable 5.2, Artificial Analysis 지능 지수에서 역대 최고인 65점 기록",
+      "url": "https://news.hada.io/topic?id=36910&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-10T03:01:35.700Z"
+    },
+    {
+      "title": "Fable 5.2로 만든 12스테이지 액션 게임",
+      "summary": "한 사용자가 조카의 그림과 기존 게임을 주고 요청 한 번을 보냈더니, Fable 5.2가 밤사이 플레이 가능한 12스테이지 벨트스크롤 액션 게임을 만들었다고 해요. 이미지 약 175개와 오디오 클립 140개를 생성했고, 게임을 직접 플레이하는 봇을 만들어 헤드리스 브라우저에서 모든 스테이지를 확인했어요. 이후 가족과 플레이테스트를 거쳐 18개 캐릭터, 4인 플레이까지 확장됐어요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "Fable 5.2가 조카가 꿈꾸던 게임을 한 번의 요청으로 구현함",
+      "url": "https://news.hada.io/topic?id=36929&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-10T03:01:35.700Z"
+    },
+    {
+      "title": "Claude Code로 수상한 삑 소리 위치 찾기",
+      "summary": "Simon Willison이 집 창고방에서 간헐적으로 나는 삑 소리의 위치를 찾으려고 Claude Code로 Beep Locator라는 도구를 만들었다고 해요. 상자를 일일이 뒤지지 않고 코딩 에이전트로 필요한 도구를 바로 만들어 쓴 사례예요.",
+      "tag": "커뮤니티",
+      "source": "Simon Willison",
+      "originalTitle": "Locating the source of a mysterious beep with Claude",
+      "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+      "at": "2026-11-10T03:01:35.700Z"
+    },
+    {
+      "title": "에이전트가 쓴 PR 설명, 접어서 숨기기",
+      "summary": "Simon Willison은 요즘 변경 대부분이 Claude Code나 Codex가 연 PR로 들어온다고 해요. 코딩 에이전트가 PR 설명을 너무 자세히 쓰는 것이 문제라고 보고, 이를 접어서 숨기는 방법을 소개했어요. 에이전트 중심으로 일할 때 따라 해 볼 만한 작업 방식이에요.",
+      "tag": "커뮤니티",
+      "source": "Simon Willison",
+      "originalTitle": "Hide your slop PR descriptions behind",
+      "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+      "at": "2026-11-10T03:01:35.700Z"
+    },
+    {
+      "title": "raea: AI가 코드로 영상·3D·게임 제작",
+      "summary": "원하는 것을 말하면 에이전트가 React/TypeScript 코드로 작성하고 GPU로 렌더링하는 엔진이에요. 에이전트가 특정 프레임을 이미지로 뽑아 확인하고 코드를 고칠 수 있고, 잘린 텍스트나 낮은 대비 같은 문제를 검사하는 명령도 있어요. Claude Code용 플러그인과 에이전트 스킬을 제공해요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "raea - AI가 코드로 만든 영상/3D/게임을 GPU에서 렌더링하는 엔진",
+      "url": "https://news.hada.io/topic?id=36917&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-10T03:01:35.700Z"
+    },
+    {
+      "title": "Opus 5.5가 성능 저하됐나? 11월 3일 변화 논란",
+      "summary": "Hacker News에서 Opus 5.5의 사고 방식이 11월 3일을 기점으로 달라졌다는 글이 추천 758개를 받았어요. 모델 품질이 떨어졌는지를 두고 개발자들이 의견을 나누는 것으로 보여요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
+      "url": "https://twitter.com/shanemelaugh/status/2119192075505893695",
+      "discussion": "https://news.ycombinator.com/item?id=50422069",
+      "at": "2026-11-10T03:01:35.700Z"
+    }
+  ]
+}
