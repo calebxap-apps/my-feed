@@ -1,0 +1,21 @@
+{
+  "channel": "novel-anime",
+  "mode": "event",
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-11T09:01:23.512Z",
+  "summarizer": "claude",
+  "candidateCount": 2,
+  "headline": "윙페더 사가 시즌 4 공식 클립 영상이 공개됐어요",
+  "items": [
+    {
+      "title": "The Finnick Durga | 시즌 4 공식 클립",
+      "summary": "윙페더 사가 공식 유튜브에 시즌 4의 공식 클립 영상 'The Finnick Durga'가 2026년 11월 11일 올라왔어요. 영상에는 시합이 끝난 뒤 시상 장면이 담겨 있다고 해요. 자막에는 시합 뒤처리를 위한 렌더링이 있다는 말과 함께, 마지막으로 '최고의 덥수룩한 수염상'을 발표하는 대사가 나와요. 관객들이 환호하고 웃는 소리도 들린다고 해요.",
+      "tag": "영상",
+      "source": "윙페더 공식 유튜브",
+      "originalTitle": "The Finnick Durga | Official Clip | The Wingfeather Saga | Season 4",
+      "url": "https://www.youtube.com/watch?v=uGpHgewIAZs",
+      "translation": "예. [웃음] 그리고 시합 뒤처리를 위한 렌더링[음악]도 있습니다. [환호] 마지막으로, 하지만 빠지지 않는, 최고의 덥수룩한 수염상입니다. 세상에. 맙소사 [환호] [웃음]",
+      "at": "2026-11-11T09:01:23.512Z"
+    }
+  ]
+}
