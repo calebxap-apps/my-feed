@@ -1,0 +1,102 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-11T03:01:12.156Z",
+  "summarizer": "claude",
+  "candidateCount": 50,
+  "headline": "Gemini 4 Carbon 공개, Fable 5.2 1위 탈환",
+  "items": [
+    {
+      "title": "Gemini 4 Carbon 공개",
+      "summary": "Google DeepMind가 Gemini 4 Carbon을 이용할 수 있게 했어요. 개발자 커뮤니티에서도 추천을 많이 받은 소식이에요. 코딩 도구에 붙일 모델을 고를 때 후보로 볼 만해요.",
+      "tag": "모델",
+      "source": "Google DeepMind",
+      "originalTitle": "Gemini 4 Carbon is now available",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+      "at": "2026-11-11T03:01:12.156Z"
+    },
+    {
+      "title": "Fable 5.2, 세계 1위 LLM 자리 탈환",
+      "summary": "Claude Fable 5.2와 Mythos 5.2가 11월 9일에 나왔고, Fable 5.2가 LLM 1위를 다시 차지했다고 해요. 생각하는 시간에 얼마를 쓰는 게 좋은지도 함께 다룬 글이에요.",
+      "tag": "모델",
+      "source": "Latent Space",
+      "originalTitle": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins",
+      "url": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
+      "at": "2026-11-11T03:01:12.156Z"
+    },
+    {
+      "title": "NaiveAI, 초당 2,100 토큰 코딩 속도",
+      "summary": "NaiveAI가 초당 2,100 토큰을 내세워 속도 순위 1위를 노린다고 해요. 직접 써 본 결과 코딩 품질은 DeepSeek과 비슷한 수준이라고 해요. 빠른 모델이 필요할 때 참고할 만해요.",
+      "tag": "모델",
+      "source": "Latent Space",
+      "originalTitle": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
+      "url": "https://latent.space/p/naiveai/",
+      "at": "2026-11-11T03:01:12.156Z"
+    },
+    {
+      "title": "Gemini CLI v0.68.0 업데이트",
+      "summary": "Gemini CLI에 확장 기능을 검사하는 명령과 평가 테스트가 추가됐어요. 나머지는 Windows 경로 처리, 429 제한 시 카운트다운 표시 같은 수정이에요.",
+      "tag": "코딩",
+      "source": "Gemini CLI 업데이트",
+      "originalTitle": "Release v0.68.0",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.68.0",
+      "at": "2026-11-11T03:01:12.156Z"
+    },
+    {
+      "title": "코딩 에이전트에 최신 웹 기능 가르치기",
+      "summary": "Modern Web Guidance는 코딩 에이전트가 오래된 JavaScript 대신 브라우저 기본 기능을 쓰게 이끄는 스킬 모음이에요. 전문가가 고른 가이드를 에이전트에 전달하고, 검색에 네트워크 호출이나 API 키가 필요 없다고 해요. AI가 짠 웹 코드가 낡았다고 느낄 때 써 볼 수 있어요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "Show HN: 코딩 에이전트를 2019년 무렵의 JavaScript에서 최신 웹 기본 기능으로 이끌기",
+      "url": "https://news.hada.io/topic?id=36964&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-11T03:01:12.156Z"
+    },
+    {
+      "title": "Vercel agent-desktop: 데스크톱 앱 조작 CLI",
+      "summary": "Vercel의 agent-desktop은 AI 에이전트가 맥·윈도우·리눅스 앱을 열고 메뉴를 누르고 입력란을 채우게 해 주는 도구예요. 운영체제 접근성 API로 요소를 JSON으로 가져와 ID로 조작해요. CLI, MCP 서버, C 라이브러리로 연결할 수 있다고 해요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "Vercel agent-desktop - AI 에이전트가 데스크톱 앱을 조작하는 CLI",
+      "url": "https://news.hada.io/topic?id=36967&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-11T03:01:12.156Z"
+    },
+    {
+      "title": "AlphaProof Code, Signal 암호화 검증",
+      "summary": "AlphaProof Code 에이전트가 Lean으로 300만 줄의 증명을 써서 Signal의 핵심 암호화를 검증했다고 해요. AI가 복잡한 소프트웨어의 정확성을 확인하는 데 쓰일 수 있음을 보여 준 사례예요. 커뮤니티에서도 추천이 많았어요.",
+      "tag": "연구",
+      "source": "Google DeepMind",
+      "originalTitle": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "at": "2026-11-11T03:01:12.156Z"
+    },
+    {
+      "title": "Amazon, Sonnet 4.6를 Strands Decider로 교체",
+      "summary": "Amazon이 Sonnet 4.6 대신 Strands Decider를 써서 수백만 달러를 아꼈다는 글이 Hacker News에서 추천 691개를 받았어요. 모든 일에 큰 모델을 쓰지 않아도 된다는 비용 절감 사례예요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
+      "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+      "discussion": "https://news.ycombinator.com/item?id=50436640",
+      "at": "2026-11-11T03:01:12.156Z"
+    },
+    {
+      "title": "Glasswing 7개월, 성과와 유지보수 부담",
+      "summary": "VulnCheck 집계로 Anthropic에 귀속된 CVE는 442건이고, 발견 37,966건 중 수정 완료는 217건이에요. 사람이 검토하지 않은 결과가 유지보수자에게 부담이 된다는 지적이에요. AI 보안 도구 결과를 어떻게 다룰지 생각해 볼 글이에요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "7개월이 지난 Glasswing, 기대에 못 미치는 발견으로 유지보수자에게 과도한 부담을 주다",
+      "url": "https://news.hada.io/topic?id=36971&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-11T03:01:12.156Z"
+    },
+    {
+      "title": "Val Town 단계적 서비스 종료",
+      "summary": "스크립트를 클라우드에서 돌려 주던 Val Town이 단계적으로 문을 닫아요. 12월 10일에 읽기 전용이 되고, 2027년 1월 10일에 호스팅이 끝나며, 2월 1일에 오픈소스로 공개할 예정이에요. Cloudflare, Vercel, Netlify, Render로 옮기는 방법도 안내한다고 해요.",
+      "tag": "읽을거리",
+      "source": "GeekNews",
+      "originalTitle": "Val Town, 단계적으로 서비스 종료",
+      "url": "https://news.hada.io/topic?id=36961&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-11T03:01:12.156Z"
+    }
+  ]
+}
