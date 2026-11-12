@@ -1,0 +1,20 @@
+{
+  "channel": "novel-anime",
+  "mode": "event",
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-12T00:01:04.176Z",
+  "summarizer": "fallback",
+  "candidateCount": 1,
+  "headline": "새 글 1개 (요약 없이 제목만)",
+  "items": [
+    {
+      "title": "He’s Our Favorite Too, Bonnie 🩶 | The Wingfeather Saga",
+      "summary": "요약 없이 제목만 가져왔어요.",
+      "tag": "기타",
+      "source": "윙페더 공식 유튜브",
+      "originalTitle": "He’s Our Favorite Too, Bonnie 🩶 | The Wingfeather Saga",
+      "url": "https://www.youtube.com/shorts/z4SbCXT8ZXE",
+      "at": "2026-11-12T00:01:04.176Z"
+    }
+  ]
+}
