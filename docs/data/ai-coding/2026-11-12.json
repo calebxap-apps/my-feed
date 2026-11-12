@@ -1,0 +1,86 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-12T03:01:05.538Z",
+  "summarizer": "claude",
+  "candidateCount": 52,
+  "headline": "Codex 음성 조작과 Gemini Decisions API 소식",
+  "items": [
+    {
+      "title": "AIE Code Summit: Codex 새 작업 방식",
+      "summary": "OpenAI가 AI Engineer Code Summit 첫날 Codex를 다루는 새 방식을 보여줬어요. 음성으로 Codex를 조종하고, 작업을 클라우드로 넘기는 방법이 소개됐다고 해요. 코딩 에이전트를 쓰는 작업 흐름이 어떻게 바뀌는지 참고할 만해요.",
+      "tag": "코딩",
+      "source": "Latent Space",
+      "originalTitle": "AI Engineer Code Summit: OpenAI on New Ways of Working With Codex",
+      "url": "https://latent.space/p/codex-work/",
+      "at": "2026-11-12T03:01:05.538Z"
+    },
+    {
+      "title": "Codex 0.167.2 업데이트",
+      "summary": "Codex가 Google Cloud Vertex AI에서 도구 업데이트를 기본으로 조금씩 나눠 보내도록 바뀌었어요. 이전 방식으로 돌리려면 config.toml의 [features] 아래에 incremental_tools_legacy_gcp = false를 설정하면 돼요. Vertex AI로 Codex를 쓰는 분에게 해당하는 변경이에요.",
+      "tag": "코딩",
+      "source": "Codex 업데이트",
+      "originalTitle": "0.167.2",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.2",
+      "at": "2026-11-12T03:01:05.538Z"
+    },
+    {
+      "title": "Gemini Decisions API 공개",
+      "summary": "Google이 Gemini Decision 1 기반의 판단 API를 공개했어요. 텍스트, 이미지, 오디오, 영상, PDF를 하나의 입력으로 묶고, 한 요청에 최대 1,000개 질문을 보낼 수 있어요. 한 번의 순전파로 채점해 종단 간 지연시간이 150~250ms이고, 답변마다 0~1의 신뢰도가 함께 나와요.",
+      "tag": "모델",
+      "source": "GeekNews",
+      "originalTitle": "Gemini Decisions API - 입력 하나에 최대 1,000개 질문을 평가하는 멀티모달 API",
+      "url": "https://news.hada.io/topic?id=37011&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-12T03:01:05.538Z"
+    },
+    {
+      "title": "Atuin Threads: 에이전트 세션 통합 검색",
+      "summary": "셸 기록 도구 Atuin이 18.24부터 코딩 에이전트 세션도 검색하고 재개할 수 있게 했어요. 개발 서버의 Claude Code에서 시작한 작업을 노트북의 Codex에서 이어갈 수 있어요. 세션 수집은 사용자가 켜야 시작되고, MCP로 에이전트가 이전 세션을 직접 찾아볼 수도 있어요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "Atuin Threads: 모든 머신의 에이전트 세션을 한곳에",
+      "url": "https://news.hada.io/topic?id=37009&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-12T03:01:05.538Z"
+    },
+    {
+      "title": "AWS 에뮬레이터 공개",
+      "summary": "AWS 에뮬레이터가 Hacker News에서 708점을 받으며 화제가 됐어요. 관련 글에 자율 AI 에이전트가 언급돼 있다고 해요. 자세한 내용은 원문 링크에서 확인하실 수 있어요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "AWS emulator",
+      "url": "https://github.com/aws/aws-emulator",
+      "discussion": "https://news.ycombinator.com/item?id=50456631",
+      "at": "2026-11-12T03:01:05.538Z"
+    },
+    {
+      "title": "Apple, 로컬 AI 모델 실행 Mac 앱 준비",
+      "summary": "Apple이 Mac에서 로컬 AI 모델을 쉽게 돌릴 수 있는 새 앱을 내놓을 예정이라고 해요. Hacker News에서 517점을 받았어요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "Apple has new Mac app coming to make running local AI models easy",
+      "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+      "discussion": "https://news.ycombinator.com/item?id=50446520",
+      "at": "2026-11-12T03:01:05.538Z"
+    },
+    {
+      "title": "OpenPhoneUse: 폰 화면을 보고 직접 조작",
+      "summary": "안드로이드 폰 화면을 보고 탭, 입력, 스크롤을 하는 AI 에이전트 오픈소스예요. PC, ADB, 루트 없이 접근성 서비스만으로 동작하고(Android 11 이상), 접근성 트리와 스크린샷을 함께 인식해요. 여러 앱을 오가며 할 일을 처리한다고 해요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "Show GN: OpenPhoneUse – 화면을 보고 직접 탭하는 모바일용 Computer Use",
+      "url": "https://news.hada.io/topic?id=37020&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-12T03:01:05.538Z"
+    },
+    {
+      "title": "United, AI 에이전트 대리 예약 금지",
+      "summary": "United Airlines가 승인받지 않은 제3자 AI 에이전트의 대리 예약을 금지하도록 정책을 고치고 있어요. 계정 정보를 AI 비서에 넘기면 민감 정보 노출이나 의도하지 않은 결제가 생길 수 있다는 이유예요. 에이전트가 외부 서비스를 대신 쓰는 방식에 제약이 생기는 사례예요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+      "discussion": "https://news.ycombinator.com/item?id=50458900",
+      "at": "2026-11-12T03:01:05.538Z"
+    }
+  ]
+}
