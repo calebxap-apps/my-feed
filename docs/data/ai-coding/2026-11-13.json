@@ -1,0 +1,94 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-13T03:01:24.738Z",
+  "summarizer": "claude",
+  "candidateCount": 55,
+  "headline": "Gemini 4 Hydrogen 공개, Claude Code에 Code Mode 추가",
+  "items": [
+    {
+      "title": "Claude Code v2.1.323: Code Mode 추가",
+      "summary": "Claude가 JavaScript를 써서 도구를 호출하는 실험 기능 Code Mode가 선택 사항으로 들어왔어요. 플러그인에 지원하는 Claude Code 버전 범위(engines)를 적을 수 있고, 범위를 벗어난 플러그인은 설치·업데이트·로드되지 않는다고 해요. 플러그인 검사(claude plugin validate)에서 TypeScript 훅의 타입도 확인해요.",
+      "tag": "코딩",
+      "source": "Claude Code 업데이트",
+      "originalTitle": "v2.1.323",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.323",
+      "at": "2026-11-13T03:01:24.738Z"
+    },
+    {
+      "title": "Gemini 4 Hydrogen 공개",
+      "summary": "Google DeepMind가 Gemini 4 Hydrogen을 발표했어요. Hacker News에서도 추천 476개를 받았어요. Antigravity에서는 일상적인 코딩에 단독으로 쓸 수 있다고 해요.",
+      "tag": "모델",
+      "source": "Google DeepMind",
+      "originalTitle": "Introducing Gemini 4 Hydrogen",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "at": "2026-11-13T03:01:24.738Z"
+    },
+    {
+      "title": "Antigravity에 Orchestrator 추가",
+      "summary": "Google Antigravity 모델 선택 메뉴에 Gemini 4 Hydrogen과 Orchestrator가 들어왔어요. Orchestrator는 한 세션 안에서 Carbon이 계획을 세우고 Hydrogen이 코드 수정과 테스트를 맡도록 자동으로 전환해요. Antigravity 팀의 Terminal-Bench 4.1 평가에서 Carbon 단독에 가까운 성공률을 보이면서 할당량은 24% 덜 쓰고 작업은 19% 더 빠르게 끝났다고 해요. Hydrogen의 추론 수준은 low, medium, high(기본값), xhigh 중에서 고를 수 있어요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "Google Antigravity에 Orchestrator 추가, 코딩 중 Carbon과 Hydrogen 자동 전환",
+      "url": "https://news.hada.io/topic?id=37077&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-13T03:01:24.738Z"
+    },
+    {
+      "title": "에이전트 스킬 한 번 만들어 어디서나 쓰기",
+      "summary": "GitHub 블로그가 에이전트 스킬 활용 가이드를 냈어요. 반복되는 개발 작업을 팀이 검토하고 재사용할 수 있는 파일로 담는 방식이에요. 도구, 프로젝트 맥락, 권한은 스킬을 실행하는 쪽(호스트)마다 다르다고 설명해요.",
+      "tag": "코딩",
+      "source": "GitHub 블로그",
+      "originalTitle": "Build once, run on any agent: A practical guide to agent skills",
+      "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+      "at": "2026-11-13T03:01:24.738Z"
+    },
+    {
+      "title": "nac: 긴 작업에서 목표를 지키는 하네스",
+      "summary": "오래 걸리는 작업에서 처음 의도를 잃지 않도록 만든 오픈소스 에이전트 하네스예요. 중앙 오케스트레이터가 전체를 계획하고, 명령 실행과 파일 수정은 개별 Thread가 맡아요. Thread가 작업을 마칠 때마다 핵심 결과를 Episode로 남기고, 프로젝트의 AGENTS.md와 에이전트 스킬도 불러온다고 해요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "nac - 긴 작업에서 원래 목표를 잃지 않게 하는 에이전트 하네스",
+      "url": "https://news.hada.io/topic?id=37085&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-13T03:01:24.738Z"
+    },
+    {
+      "title": "Jane Street, LLM 시대에 맞춰 면접 시험",
+      "summary": "Jane Street가 대학생 지원자 현장 면접에서 코드 작성 비중을 줄이고, 소프트웨어 설계·코드 검증·LLM 활용을 평가하는 새 유형을 시험하고 있어요. 코드 생성 비용이 낮아져 무엇을 만들지 판단하는 안목과 구현의 정확성 확인이 더 중요해졌다는 판단이라고 해요. 대부분의 면접 라운드는 기존처럼 LLM 없이 진행해요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "Jane Street의 소프트웨어 엔지니어링 면접이 조금 달라집니다",
+      "url": "https://news.hada.io/topic?id=37075&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-13T03:01:24.738Z"
+    },
+    {
+      "title": "Humble Bundle 바이브코딩 보안 논란",
+      "summary": "\"Humble Bundle이 바이브코딩으로 보안 대부분을 무너뜨렸다\"는 글이 Hacker News에서 추천 372개를 받았어요. AI로 만든 코드의 보안 검증이 왜 필요한지 보여 주는 사례로 읽혀요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "\"Humble Bundle just killed most of their security through vibecoding\"",
+      "url": "https://forums.spacebattles.com/threads/humble-bundle-just-completely-killed-most-of-their-security-through-vibecoding.1346295/",
+      "discussion": "https://news.ycombinator.com/item?id=50463899",
+      "at": "2026-11-13T03:01:24.738Z"
+    },
+    {
+      "title": "Apache HTTP Server 치명적 RCE 취약점",
+      "summary": "Apache HTTP Server에서 심각한 원격 코드 실행(RCE) 취약점이 보고됐고, Hacker News에서 추천 357개를 받았어요. Apache를 쓰는 서버가 있다면 패치 공지를 확인해 보시는 게 좋아요.",
+      "tag": "읽을거리",
+      "source": "Hacker News",
+      "originalTitle": "Critical RCE Vulnerability in Apache HTTP Server",
+      "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+      "discussion": "https://news.ycombinator.com/item?id=50462177",
+      "at": "2026-11-13T03:01:24.738Z"
+    },
+    {
+      "title": "lot-map: Claude Code 작업을 지도로 보기",
+      "summary": "채팅 옆에 Claude Code가 하는 일을 실시간 지도로 보여 주는 도구예요. 도구 호출, 모델 단계, 훅, 스킬, 서브에이전트가 실행되는 대로 표시된다고 해요. 로컬에서만 동작해요.",
+      "tag": "코딩",
+      "source": "GitHub 인기 프로젝트",
+      "originalTitle": "alexeyw/lot-map — A live map beside the chat that shows what Claude Code is doing: tool calls, model steps, hooks, skills and subagents light up as they happen. Local only, in 7 languages.",
+      "url": "https://github.com/alexeyw/lot-map",
+      "at": "2026-11-13T03:01:24.738Z"
+    }
+  ]
+}

@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-11-13",
+    "count": 9,
+    "headline": "Gemini 4 Hydrogen 공개, Claude Code에 Code Mode 추가"
+  },
+  {
     "date": "2026-11-12",
     "count": 8,
     "headline": "Codex 음성 조작과 Gemini Decisions API 소식"
