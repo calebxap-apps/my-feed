@@ -1,0 +1,93 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-14T03:01:07.447Z",
+  "summarizer": "claude",
+  "candidateCount": 45,
+  "headline": "Codex 새 기능, llama.cpp 1.0, 바이브코딩 후기 소식",
+  "items": [
+    {
+      "title": "Codex 0.169.0 업데이트",
+      "summary": "터미널 작업 공간에서 사이드 채팅 탭을 여러 개 쓸 수 있게 됐어요. 에이전트 명령 센터에서 지난 작업을 이름이나 프롬프트로 검색할 수 있고, 전체 화면 기록에서 완료된 작업을 접어 볼 수 있어요. 터미널에서 직접 만든 모델 제공자를 추가하거나 수정하는 기능도 들어갔어요.",
+      "tag": "코딩",
+      "source": "Codex 업데이트",
+      "originalTitle": "0.169.0",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0",
+      "at": "2026-11-14T03:01:07.447Z"
+    },
+    {
+      "title": "Claude Code v2.1.325 업데이트",
+      "summary": "서브에이전트가 자기 모델을 유지하도록 고쳤어요. opusplan이나 haiku 설정에서 서브에이전트가 계획 모드 모델로 바뀌던 문제와, 파일 읽기·MCP 결과 크기를 메인 세션 모델 기준으로 잡던 문제가 해결됐어요. 서드파티 게이트웨이에서 컨텍스트 길이 오류로 멈추던 문제도 고쳤고, 보안 문제 수정도 포함됐다고 해요.",
+      "tag": "코딩",
+      "source": "Claude Code 업데이트",
+      "originalTitle": "v2.1.325",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.325",
+      "at": "2026-11-14T03:01:07.447Z"
+    },
+    {
+      "title": "ChatGPT Wallet 공개",
+      "summary": "ChatGPT Work, Codex 등의 에이전트가 사용자 승인을 받아 결제를 처리하는 기능이에요. 기존 카드 보호 장치를 그대로 쓴다고 해요. 에이전트가 직접 구매까지 하는 흐름을 만들 때 참고할 만해요.",
+      "tag": "코딩",
+      "source": "OpenAI",
+      "originalTitle": "Introducing ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "at": "2026-11-14T03:01:07.447Z"
+    },
+    {
+      "title": "llama.cpp v1.0.0 출시",
+      "summary": "로컬 AI 생태계의 기반이 되는 llama.cpp가 v1.0.0에 도달했어요. 내 컴퓨터에서 모델을 돌리는 도구를 쓴다면 안정된 기준 버전이 생긴 셈이에요.",
+      "tag": "모델",
+      "source": "Hugging Face",
+      "originalTitle": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "at": "2026-11-14T03:01:07.447Z"
+    },
+    {
+      "title": "바이브 코딩으로 만든 플레이어, 결국 재작성",
+      "summary": "Zig로 음악 플레이어를 Claude Max 20x로 바이브 코딩했지만, 수만 줄 코드를 검토하기 어려워졌다고 해요. 이후 직접 다시 써서 4개월 뒤 코드가 거의 절반으로 줄었다고 해요. AI에게 많이 맡길 때 검토 부담을 어떻게 관리할지 생각해 볼 만한 경험담이에요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "음악 플레이어를 이렇게 만들지는 말자",
+      "url": "https://news.hada.io/topic?id=37133&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-14T03:01:07.447Z"
+    },
+    {
+      "title": "No AI Slop 선언문",
+      "summary": "AIE Code Summit 2026 참가자들이 AI가 만든 결과물의 질 문제에 대응해 가치와 원칙을 정리했어요. 산출물보다 실질적 가치, 속도보다 이해를 앞에 둔다고 해요. AI 사용 자체를 반대하는 내용은 아니에요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "No AI Slop 선언문",
+      "url": "https://news.hada.io/topic?id=37128&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-14T03:01:07.447Z"
+    },
+    {
+      "title": "Ace: 팀과 AI 에이전트가 함께 쓰는 코딩 환경",
+      "summary": "채널에서 팀원과 논의한 뒤 @ace를 부르면 에이전트가 앞선 대화를 읽고 작업을 시작해요. 작업마다 Git worktree와 브랜치를 따로 만든다고 해요. Mac에 설치된 Xcode, Docker, gh를 그대로 쓴다고 해요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "Ace - 내 Mac에서 팀원과 AI 에이전트가 함께 작업하는 코딩 환경",
+      "url": "https://news.hada.io/topic?id=37137&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-14T03:01:07.447Z"
+    },
+    {
+      "title": "글루 워크 반론과 에이전트 스킬 사례",
+      "summary": "Oxide에서는 간헐적으로 실패하는 테스트의 패턴을 정리해 에이전트 스킬 flake-review를 만들었어요. 이 스킬로 테스트 12건 가까이를 고쳤다고 해요. 반복되는 문제를 스킬로 만들어 두는 방식을 참고할 수 있어요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "“글루 워크는 해롭다”에 대한 반론",
+      "url": "https://news.hada.io/topic?id=37134&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-14T03:01:07.447Z"
+    },
+    {
+      "title": "Claude 서비스 오류 증가",
+      "summary": "claude.ai, Claude Code, platform.claude.com에서 오류가 늘어난 사례가 Hacker News에서 추천 484를 받았어요. 작업 중 응답이 불안정할 수 있다는 점을 알아 두면 좋아요.",
+      "tag": "읽을거리",
+      "source": "Hacker News",
+      "originalTitle": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+      "url": "https://status.claude.com/incidents/nn11wk485zfn",
+      "discussion": "https://news.ycombinator.com/item?id=50481187",
+      "at": "2026-11-14T03:01:07.447Z"
+    }
+  ]
+}

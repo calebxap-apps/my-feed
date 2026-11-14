@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-11-14",
+    "count": 9,
+    "headline": "Codex 새 기능, llama.cpp 1.0, 바이브코딩 후기 소식"
+  },
+  {
     "date": "2026-11-13",
     "count": 9,
     "headline": "Gemini 4 Hydrogen 공개, Claude Code에 Code Mode 추가"
