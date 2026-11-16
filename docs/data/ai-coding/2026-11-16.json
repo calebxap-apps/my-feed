@@ -1,0 +1,76 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-16T03:01:26.916Z",
+  "summarizer": "claude",
+  "candidateCount": 42,
+  "headline": "X 웹 재구축 사례와 에이전트 모니터 앱 등 코딩 소식",
+  "items": [
+    {
+      "title": "X.com을 AI 에이전트로 처음부터 재구축",
+      "summary": "X가 기존 웹 앱을 엔지니어 5명과 AI 코딩 에이전트로 6개월 안에 다시 만들었다고 해요. 서버 3개를 하나로 합치고 스트리밍 서버 렌더링을 적용했어요. 느린 네트워크의 로그인 프로필 테스트에서 첫 게시물 표시 시간이 23.9초에서 2.7초로 줄었다고 합니다.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "X.com을 처음부터 다시 구축하기 - 서버 3개를 하나로",
+      "url": "https://news.hada.io/topic?id=37245&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-16T03:01:26.916Z"
+    },
+    {
+      "title": "Shopify 디자이너의 Figma에서 작동 데모로",
+      "summary": "Shopify 제품 디자인 팀이 Figma의 정적인 화면 대신 Codex와 Claude Code로 만든 작동하는 데모로 옮겨 가고 있다고 해요. 복잡한 작업을 한꺼번에 맡기지 않고 구성 요소로 나눠 결과를 반복 검토하는 방식을 권해요. 이렇게 만든 프로토타입은 아이디어를 공유하는 용도이고 프로덕션 코드는 아니라고 합니다.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "새로운 풀스택 디자이너 - Figma 스케치에서 작동하는 데모까지",
+      "url": "https://news.hada.io/topic?id=37244&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-16T03:01:26.916Z"
+    },
+    {
+      "title": "agent-monitor: 응답 기다리는 세션 표시",
+      "summary": "Claude Code와 Codex 세션을 여러 개 띄워 둘 때, 어느 세션이 내 응답을 기다리는지 macOS 메뉴바에 '2/5'처럼 보여주는 앱이에요. 기다리는 세션이 위로 올라오는 목록도 제공해요. 승인 요청을 놓치는 일을 줄이는 데 쓸 수 있어요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "Show GN: agent-monitor - 어느 에이전트 세션이 내 답을 기다리는지 보여주는 macOS 메뉴바 앱",
+      "url": "https://news.hada.io/topic?id=37251&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-16T03:01:26.916Z"
+    },
+    {
+      "title": "AI가 만든 코드는 모두 오픈소스여야 한다",
+      "summary": "Hacker News에서 추천 1,105개를 받은 글이에요. AI가 생성한 코드를 어떻게 다룰지에 대한 주장으로, 개발자 커뮤니티에서 관심이 높았어요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "All AI-generated code should be Open Source",
+      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+      "discussion": "https://news.ycombinator.com/item?id=50507303",
+      "at": "2026-11-16T03:01:26.916Z"
+    },
+    {
+      "title": "AI 시대, 새로운 게임 개발자는 어떻게 탄생할까",
+      "summary": "AI 에이전트가 Blender로 에셋을 만들고, 게임 엔진에서 장면을 구성하고, 스크린샷을 보며 수정하는 작업을 오갈 수 있다고 해요. 1인 개발자도 아이디어가 재미있는지 플레이 가능한 프로토타입으로 일찍 확인할 수 있어요. 소스 코드가 사라진 옛 게임을 남은 문서와 실행 파일로 되살리는 사례도 언급돼요.",
+      "tag": "읽을거리",
+      "source": "GeekNews",
+      "originalTitle": "AI 시대, 새로운 게임 개발자는 어떻게 탄생할까",
+      "url": "https://news.hada.io/topic?id=37243&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-16T03:01:26.916Z"
+    },
+    {
+      "title": "오래된 Bitly 링크가 탈취되고 있음",
+      "summary": "Burger King, McDonald's, Donald Trump의 과거 X 게시물에 담긴 Bitly 단축 링크가 재등록돼 무관한 사이트로 연결된다고 해요. Trump 게시물 링크 97개 중 56개가 재생성됐고 그중 7개가 무관한 곳으로 연결됐어요. 과거 게시물, 이메일, PDF, 인쇄된 QR 코드까지 영향을 받을 수 있어서 단축 링크를 쓰는 개발자는 확인해 볼 만해요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "Old Bitly links are being hijacked",
+      "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/",
+      "discussion": "https://news.ycombinator.com/item?id=50511395",
+      "at": "2026-11-16T03:01:26.916Z"
+    },
+    {
+      "title": "Protomaps: 지도 타일 셀프 호스팅",
+      "summary": "PMTiles는 지도 타일을 파일 하나로 묶고 HTTP Range 요청으로 필요한 부분만 가져오는 형식이에요. 스토리지에 파일을 올리는 것만으로 배포할 수 있어요. Bunny.net에서 139GB 세계 지도를 5개 지역에 복제하는 스토리지 비용은 월 약 5달러라고 해요.",
+      "tag": "읽을거리",
+      "source": "GeekNews",
+      "originalTitle": "Protomaps: 지도 타일 셀프 호스팅이 저렴하고 쉬워졌다",
+      "url": "https://news.hada.io/topic?id=37239&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-16T03:01:26.916Z"
+    }
+  ]
+}
