@@ -1,0 +1,85 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-11-17",
+  "generatedAt": "2026-11-17T03:01:09.928Z",
+  "summarizer": "claude",
+  "candidateCount": 48,
+  "headline": "Claude Code 새 기능과 Chrome 웹 지침 스킬 소식이에요",
+  "items": [
+    {
+      "title": "Claude Code v2.1.326 업데이트",
+      "summary": "에이전트 팀을 켠 상태에서도 Code Mode를 쓸 수 있게 됐어요. 이미 Code Mode를 켜 두었다면 팀이 켜진 세션도 Code Mode로 시작해요. --allowedTools 같은 옵션 값이 완전한 규칙처럼 보이지 않으면 시작할 때 경고를 보여주고, /status에는 제공자나 DISABLE_TELEMETRY 같은 환경 변수 때문에 꺼진 기능이 있는지 표시해요. Ctrl+O로 숨겨진 시작 알림을 볼 수 있고, Edit 거부 규칙이 있을 때 cp 가 막히던 문제도 고쳐졌어요.",
+      "tag": "코딩",
+      "source": "Claude Code 업데이트",
+      "originalTitle": "v2.1.326",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.326",
+      "at": "2026-11-17T03:01:09.928Z"
+    },
+    {
+      "title": "Modern Web Guidance 1.0, 코딩 에이전트용 웹 지침",
+      "summary": "크롬팀이 코딩 에이전트에게 웹 플랫폼 전문 지식, 권장사항, 브라우저 호환성 데이터를 제공하는 스킬 모음을 내놨어요. 현대화 워크플로가 기존 HTML, CSS, JavaScript, package.json 을 정적 분석해서 안전한 업그레이드 경로를 찾는다고 해요. 접근성 가이드는 실제 보조 기술을 쓰는 전문가가 검토했고, Firefox와 Edge도 크로스 브라우저 프로젝트에 참여한다고 해요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "Modern Web Guidance 1.0 - 코딩 에이전트에 최신 웹 개발 지침을 제공하는 스킬 모음",
+      "url": "https://news.hada.io/topic?id=37324&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-17T03:01:09.928Z"
+    },
+    {
+      "title": "AI 슬롭은 왜 읽기 짜증날까",
+      "summary": "AI가 쓴 글이 읽기 괴로운 이유를 불명확한 글쓰기에서 찾은 글이에요. 행위자와 행동을 숨기는 문장, 모호한 표현, 내용 없는 문장과 잘못된 강조가 반복되는 결함이라고 해요. Claude Code 응답에서는 모호한 표현이 가장 흔하다고 하니, PR 설명이나 메시지를 AI에게 맡길 때 참고할 만해요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "AI 슬롭은 왜 이렇게 읽기 짜증날까?",
+      "url": "https://news.hada.io/topic?id=37316&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-17T03:01:09.928Z"
+    },
+    {
+      "title": "Qwen4-Max",
+      "summary": "Hacker News에서 추천 854개를 받은 Qwen4-Max 관련 글이에요. 새 모델 이름이 화제가 된 것으로 보이며, 자세한 성능 수치는 알려지지 않았어요.",
+      "tag": "모델",
+      "source": "Hacker News",
+      "originalTitle": "Qwen4-Max",
+      "url": "https://qwen.ai/blog?id=qwen4-max",
+      "discussion": "https://news.ycombinator.com/item?id=50513215",
+      "at": "2026-11-17T03:01:09.928Z"
+    },
+    {
+      "title": "Windows 11, 코딩 에이전트 사용 정보 수집",
+      "summary": "Windows의 MissionControlAggregator.dll 이 코딩 에이전트와 개발 도구 사용 여부를 감지해 로컬에 저장하고 진단 보고서를 만든다고 해요. 보고서에는 개발 도구 범주 12개, CLI 에이전트 4개, 데스크톱 에이전트 5개의 관찰 여부가 기록되고, 프롬프트나 소스 코드는 발견되지 않았다고 해요. 선택적 진단 데이터를 허용하면 Microsoft 전송 대기열에 들어가며, 테스트한 미국 Windows 11 Home에서는 기본으로 켜져 있었다고 해요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "Windows 11, 사용하는 코딩 에이전트와 개발 도구 정보를 수집함",
+      "url": "https://news.hada.io/topic?id=37327&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-17T03:01:09.928Z"
+    },
+    {
+      "title": "uBlock Origin 요소 선택기 XSS 취약점",
+      "summary": "웹사이트가 요소 선택기를 이용해 uBlock Origin에서 범용 XSS를 일으킬 수 있다는 글이 Hacker News에서 추천 600개를 받았어요. 브라우저 확장 프로그램을 쓰는 개발자라면 업데이트 소식을 확인해 두는 것이 좋아요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "Universal XSS in uBlock Origin from website-driven element picker",
+      "url": "https://iter.ca/post/ubo-uxss/",
+      "discussion": "https://news.ycombinator.com/item?id=50513160",
+      "at": "2026-11-17T03:01:09.928Z"
+    },
+    {
+      "title": "Optimizely 통해 악성코드 배포",
+      "summary": "A/B 테스트 플랫폼 Optimizely Web 을 통해 BBC, Zoom, CNN, GitLab 등 178개 조직의 사이트 방문자에게 악성 JavaScript 가 배포됐어요. 공격자가 모든 페이지에서 실행되는 Project JavaScript 를 변조했고, 암호화폐 주소 바꿔치기와 결제 폼 카드 정보 탈취가 가능했다고 해요. 외부 스크립트를 사이트에 넣을 때 주의가 필요하다는 사례예요.",
+      "tag": "읽을거리",
+      "source": "GeekNews",
+      "originalTitle": "세계 최대 브랜드들, Optimizely를 통해 악성코드에 감염",
+      "url": "https://news.hada.io/topic?id=37319&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-17T03:01:09.928Z"
+    },
+    {
+      "title": "CI 시장은 세 갈래로 나뉘었다",
+      "summary": "CI 시장이 범용 러너 인프라, 오케스트레이션 플랫폼, 코드·빌드 엔지니어링 계층으로 나뉜다는 분석이에요. GitHub Actions 는 생태계의 중심이지만 속도와 디버깅 한계, 2026년의 안정성 문제로 우위가 약해지고 있다고 해요. 러너만 바꿔 더 빠르거나 저렴하게 쓰는 서비스도 있다고 해요.",
+      "tag": "읽을거리",
+      "source": "GeekNews",
+      "originalTitle": "CI 시장은 세 갈래로 나뉘었다",
+      "url": "https://news.hada.io/topic?id=37320&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-17T03:01:09.928Z"
+    }
+  ]
+}
