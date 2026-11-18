@@ -1,0 +1,105 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-18T03:01:24.786Z",
+  "summarizer": "claude",
+  "candidateCount": 50,
+  "headline": "GPT-6.2 Astra·Sol 공개, Claude Code 새 기능 추가",
+  "items": [
+    {
+      "title": "GPT-6.2 Astra와 Sol 공개",
+      "summary": "OpenAI가 GPT-6.2 Astra와 Sol을 발표했어요. 전문 업무 결과물, 코딩, 컴퓨터 사용 성능이 좋아지고 비용은 낮아졌다고 해요. ChatGPT Work, Codex, API에서 쓸 수 있어서 코딩 도구를 쓰는 분께 바로 영향이 있어요.",
+      "tag": "모델",
+      "source": "OpenAI",
+      "originalTitle": "Introducing GPT-6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "at": "2026-11-18T03:01:24.786Z"
+    },
+    {
+      "title": "Claude Code v2.1.327 업데이트",
+      "summary": "claude mcp add-json 명령이 추가되어 서버 설정을 표준 입력으로 읽을 수 있어요. 토큰을 명령줄에 남기지 않아도 돼요. /status에서 깨진 에이전트·스킬 파일, 권한 설정 오류, 훅 문제를 목록으로 볼 수 있고, /install-github-app은 변경 전에 확인을 받아요. 프로젝트 범위의 mcp add·remove가 .mcp.json의 다른 항목을 지우던 문제도 고쳤어요.",
+      "tag": "코딩",
+      "source": "Claude Code 업데이트",
+      "originalTitle": "v2.1.327",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.327",
+      "at": "2026-11-18T03:01:24.786Z"
+    },
+    {
+      "title": "Rebut: 다른 모델로 코드 교차 리뷰하는 MCP",
+      "summary": "Claude Code나 Codex가 고친 코드를 다른 회사 모델에 다시 검토시키는 오픈소스 MCP예요. 선택한 코드와 요구사항을 OpenAI 또는 Anthropic API로 보내고, 문제를 파일·줄 번호, 근거, 수정 제안과 함께 돌려줘요. 검토 모델에는 저장소 탐색이나 셸 실행 권한을 주지 않는다고 해요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "Show GN: Rebut - 구독 API 크레딧으로 AI가 작성한 코드를 독립 리뷰하는 MCP",
+      "url": "https://news.hada.io/topic?id=37373&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-18T03:01:24.786Z"
+    },
+    {
+      "title": "MAI Code 2와 Code 2 Flash",
+      "summary": "Hacker News에서 추천 301개를 받은 코딩 모델 소식이에요. MAI Code 2와 Code 2 Flash라는 이름으로 공개됐어요.",
+      "tag": "모델",
+      "source": "Hacker News",
+      "originalTitle": "MAI Code 2 and Code 2 Flash",
+      "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+      "discussion": "https://news.ycombinator.com/item?id=50535885",
+      "at": "2026-11-18T03:01:24.786Z"
+    },
+    {
+      "title": "모델마다 맞는 하네스는 무엇인가",
+      "summary": "Hacker News에서 추천 340개를 받은 토론이에요. 모델별로 어떤 코딩 하네스(에이전트 실행 도구)가 잘 맞는지 경험을 나누는 글이에요. 도구를 고를 때 참고할 수 있어요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "What is the best harness for each model?",
+      "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
+      "discussion": "https://news.ycombinator.com/item?id=50532191",
+      "at": "2026-11-18T03:01:24.786Z"
+    },
+    {
+      "title": "OpenCode Browse",
+      "summary": "Hacker News에서 추천 324개를 받은 OpenCode 관련 소식이에요. OpenCode에 브라우저 기능이 붙은 것으로 보여요.",
+      "tag": "코딩",
+      "source": "Hacker News",
+      "originalTitle": "OpenCode Browse",
+      "url": "https://opencode.ai/product/browse",
+      "discussion": "https://news.ycombinator.com/item?id=50523459",
+      "at": "2026-11-18T03:01:24.786Z"
+    },
+    {
+      "title": "Solid 2.0 안정 버전 출시",
+      "summary": "UI 라이브러리 Solid 2.0이 안정 버전으로 나왔어요. 비동기 작업을 반응형 상태처럼 다루고, 서버 함수가 코어에 들어갔어요. 개발 빌드 진단이 오류 위치와 수정 방법을 알려줘서 AI 에이전트의 코드 수정을 돕는다고 해요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "Solid 2.0 - 비동기를 반응형 그래프에 통합한 안정 버전 출시",
+      "url": "https://news.hada.io/topic?id=37376&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-18T03:01:24.786Z"
+    },
+    {
+      "title": "chrome-capture: Chrome 탭 녹화 도구",
+      "summary": "Chrome 탭의 화면과 소리를 AV1 MP4로 저장하는 도구예요. 기본값은 720p 60fps이고 최대 4K 120fps까지 가능해요. Chrome 153의 내장 녹화 API를 써서 FFmpeg 없이 되고, Playwright 테스트 리포트에 영상을 자동으로 붙일 수 있어요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "chrome-capture - Chrome 탭의 화면과 소리를 최대 4K 120fps로 녹화하는 도구",
+      "url": "https://news.hada.io/topic?id=37379&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-18T03:01:24.786Z"
+    },
+    {
+      "title": "AI가 다시 쓴 curl Rust 버전들",
+      "summary": "AI 에이전트가 curl을 Rust로 재작성한 프로젝트들이 등장했어요. 3주 남짓 동안 원본 curl에는 300개 넘는 커밋이 쌓였는데, 재작성 쪽은 이 수정을 따라가지 못했다고 해요. 코드를 한 번 옮기는 일과 오래 유지하는 일이 다르다는 점을 보여줘요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "실제로 등장한 curl의 Rust 재작성 프로젝트들",
+      "url": "https://news.hada.io/topic?id=37377&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-18T03:01:24.786Z"
+    },
+    {
+      "title": "Java4Shell: OpenJDK Base64 처리 RCE",
+      "summary": "OpenJDK가 Base64를 처리할 때 원격 코드 실행이 가능한 취약점이 공개됐고, Hacker News에서 추천 589개를 받았어요. Java를 쓰는 프로젝트라면 패치 여부를 확인해 보세요.",
+      "tag": "읽을거리",
+      "source": "Hacker News",
+      "originalTitle": "Java4Shell: RCE in OpenJDK when processing Base64",
+      "url": "https://calif.io/java4shell/",
+      "discussion": "https://news.ycombinator.com/item?id=50538240",
+      "at": "2026-11-18T03:01:24.786Z"
+    }
+  ]
+}
