@@ -1,0 +1,86 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-20T03:01:22.702Z",
+  "summarizer": "claude",
+  "candidateCount": 46,
+  "headline": "Codex 새 모델 GPT-6.2 추가, Claude Code·Gemini 소식",
+  "items": [
+    {
+      "title": "Codex 0.171.0: GPT-6.2 Sol·Astra 추가",
+      "summary": "Codex 모델 목록에 GPT-6.2 Sol과 Astra가 추가됐고, Sol이 기본 선택값이 됐어요. 터미널 화면(TUI) 작업 공간이 기본으로 켜져서 문서·이미지 미리보기와 서브에이전트 기록을 대화 옆에서 볼 수 있어요. 기존 앱 서버에서 비대화형 세션을 이어가는 `codex exec --remote`와 원격 제어용 `/rc`, `/remote` 명령도 생겼어요.",
+      "tag": "코딩",
+      "source": "Codex 업데이트",
+      "originalTitle": "0.171.0",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0",
+      "at": "2026-11-20T03:01:22.702Z"
+    },
+    {
+      "title": "Claude Code v2.1.329 업데이트",
+      "summary": "/tasks에서 예약 작업, /loop 예약 실행, 목표, 대화 분기(fork)를 한곳에서 보고 멈출 수 있게 됐어요. /mcp에는 원격 MCP 서버가 연결을 거부한 이유(서버 메시지)가 표시돼요. 훅이 선언된 위치를 알려주는 신뢰 대화상자 경고도 추가됐어요.",
+      "tag": "코딩",
+      "source": "Claude Code 업데이트",
+      "originalTitle": "v2.1.329",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329",
+      "at": "2026-11-20T03:01:22.702Z"
+    },
+    {
+      "title": "Gemini 4 Neon 공개",
+      "summary": "구글의 중간 등급 모델 Gemini 4 Neon이 Intelligence Index 61점을 받았다고 해요. Opus·Sol과 경쟁하는 모델로 소개됐어요. 같은 글에서 Anthropic이 IPO 공모가를 83달러로 정했다는 소식도 함께 전해요.",
+      "tag": "모델",
+      "source": "Latent Space",
+      "originalTitle": "[AINews] Gemini 4 Neon: GDM's Opus/Sol Contender",
+      "url": "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/",
+      "at": "2026-11-20T03:01:22.702Z"
+    },
+    {
+      "title": "OpenAI의 '성능 팩토리'로 ChatGPT 속도 유지",
+      "summary": "OpenAI가 Codex 기반 워크플로를 엮어 성능 문제를 찾고 고치는 '성능 팩토리'를 만들었다고 소개했어요. 에이전트로 코드 성능을 꾸준히 관리하는 사례라서 참고해 볼 만해요.",
+      "tag": "읽을거리",
+      "source": "OpenAI",
+      "originalTitle": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "at": "2026-11-20T03:01:22.702Z"
+    },
+    {
+      "title": "Claude Code 안전장치에 막힌 보안 작업",
+      "summary": "보안을 점검하던 엔지니어가 Claude Code의 안전장치 때문에 한 줄짜리 취약점 수정 작업이 중단됐다고 적은 글이에요. 보안 작업 예외 승인에는 영업일 기준 수일과 신분증 제출이 필요하다고 해요. Hacker News에서 추천 487개를 받았어요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "Fuck Your AI Safeguards",
+      "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
+      "discussion": "https://news.ycombinator.com/item?id=50562262",
+      "at": "2026-11-20T03:01:22.702Z"
+    },
+    {
+      "title": "이해 가능성을 위한 설계",
+      "summary": "LLM이 코드를 많이 쓸수록 개발자는 코드를 이해하고 검토하는 일이 핵심이 된다는 글이에요. 계약에 의한 설계, 데이터 불변식, 부수 효과 격리로 필요한 부분만 읽어도 동작을 파악하게 만드는 '국소적 추론'을 제안해요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "이해 가능성을 위한 설계",
+      "url": "https://news.hada.io/topic?id=37494&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-20T03:01:22.702Z"
+    },
+    {
+      "title": "Claude Fable 5.2, 블랙홀 물리 문제 두 가지 해결",
+      "summary": "Claude Fable 5.2가 블랙홀 형성 관련 상전이 계산과 모듈러 부트스트랩 한계 증명, 두 가지 문제를 풀었다고 해요. Hacker News에서 추천 410개를 받았어요.",
+      "tag": "연구",
+      "source": "Hacker News",
+      "originalTitle": "Claude solves two open problems in the physics of black holes",
+      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "discussion": "https://news.ycombinator.com/item?id=50563148",
+      "at": "2026-11-20T03:01:22.702Z"
+    },
+    {
+      "title": "LLM을 활용한 리버스 엔지니어링",
+      "summary": "LLM의 도움으로 리버스 엔지니어링을 하는 방법을 다룬 글로, Hacker News에서 추천 299개를 받았어요. AI에게 분석 작업을 맡기는 방식을 참고할 수 있어요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "LLM assisted reverse engineering",
+      "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+      "discussion": "https://news.ycombinator.com/item?id=50553225",
+      "at": "2026-11-20T03:01:22.702Z"
+    }
+  ]
+}
