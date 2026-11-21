@@ -1,0 +1,83 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-21T03:01:49.717Z",
+  "summarizer": "claude",
+  "candidateCount": 48,
+  "headline": "Claude Code 새 기능과 Inkling 2 Mini 공개 소식",
+  "items": [
+    {
+      "title": "Claude Code v2.1.330 업데이트",
+      "summary": "조직 관리 콘솔 계정으로 로그인하는 기능이 추가됐어요. 요청하면 차트를 그려 주는 내장 모드 easel도 들어갔고, macOS와 Linux의 Pro, Max 등에서 쓸 수 있다고 해요. 자동 차트는 /config에서 끌 수 있어요.",
+      "tag": "코딩",
+      "source": "Claude Code 업데이트",
+      "originalTitle": "v2.1.330",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.330",
+      "at": "2026-11-21T03:01:49.717Z"
+    },
+    {
+      "title": "Codex로 일하는 새로운 방식",
+      "summary": "Codex 하네스가 CLI, 데스크톱 앱, ChatGPT, Slack, Agents API 등으로 넓어졌어요. 코드 작성뿐 아니라 관련 대화와 문서를 찾고, 동료 확인을 받아 배포와 결과 확인까지 맡기는 방식이라고 해요. 플러그인과 컨텍스트 수집으로 저장소 밖 자료도 활용해 목표 중심으로 일을 맡길 수 있어요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "Codex로 일하는 새로운 방식 [영상]",
+      "url": "https://news.hada.io/topic?id=37556&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-21T03:01:49.717Z"
+    },
+    {
+      "title": "Inkling 2 Mini 오픈 웨이트 공개",
+      "summary": "Thinking Machines Lab이 264억 파라미터 모델을 공개했어요. 약 20GB 메모리로 노트북에서 로컬 실행이 가능해요. 총 파라미터 1,000억 미만 오픈 웨이트 모델 중 DeepSWE v1.1 48.2%, Vals Index v2.2 46.5%로 선두라고 해요. 다중 턴 대화와 복잡한 제약이 있는 지시 수행은 약점이에요.",
+      "tag": "모델",
+      "source": "GeekNews",
+      "originalTitle": "Inkling 2 Mini - 노트북에서 실행하는 반복형 트랜스포머 모델",
+      "url": "https://news.hada.io/topic?id=37545&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-21T03:01:49.717Z"
+    },
+    {
+      "title": "항상 작동하는 에이전트 구축하기",
+      "summary": "상시 작동 에이전트의 핵심은 새 루프가 아니라 이벤트 수신함, 타이머, 메모리, 권한, 발신함으로 이루어진 주변 구조라고 해요. 한 장기 코딩 벤치마크에서 Opus 5.5의 해결 작업당 비용은 Opus 5보다 78% 낮았어요. 직접 에이전트를 만들 때 참고할 만한 설계 관점이에요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "항상 작동하는 에이전트 구축하기",
+      "url": "https://news.hada.io/topic?id=37550&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-21T03:01:49.717Z"
+    },
+    {
+      "title": "개발자를 아키텍트로 승진시킨 AI",
+      "summary": "AI에 요구사항만 전달하고 아키텍처를 지정하지 않으면 성능과 데이터 설계 결정까지 AI에 맡기게 된다는 글이에요. Google Forms 애드온에서 AI가 짠 설치 로그 코드 때문에 정적인 환영 화면에 15초가 걸린 사례를 들어요. 구현을 맡기기 전에 사람이 아키텍처와 데이터 모델을 먼저 설계해야 한다고 해요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "우리는 개발자들에게 알리지도 않고 아키텍트로 승진시켰다",
+      "url": "https://news.hada.io/topic?id=37548&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-21T03:01:49.717Z"
+    },
+    {
+      "title": "하네스 어댑터 소개",
+      "summary": "Hugging Face가 사용하는 모델을 자신의 하네스에 맞추어 성능과 비용을 개선하는 harness adapters를 소개했어요. 에이전트 도구에 다른 모델을 붙여 쓸 때 참고할 만한 소식이에요.",
+      "tag": "코딩",
+      "source": "Hugging Face",
+      "originalTitle": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+      "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+      "at": "2026-11-21T03:01:49.717Z"
+    },
+    {
+      "title": "AI와 Lean으로 코드 정확성 증명",
+      "summary": "수학으로 소프트웨어가 옳음을 증명하는 일은 전문가의 작업이 필요했어요. 이제 AI와 Lean이 이 과정을 자동화하도록 돕고 있다고 해요. AI가 만든 조잡한 코드를 걸러내는 수단으로 주목받고 있어요.",
+      "tag": "읽을거리",
+      "source": "Latent Space",
+      "originalTitle": "The War Against Slop and an Emerging Weapon to Fight it: Formal Verification",
+      "url": "https://latent.space/p/formal-verification/",
+      "at": "2026-11-21T03:01:49.717Z"
+    },
+    {
+      "title": "Anthropic 모델로 일반화 리만 가설 증명 발표",
+      "summary": "Levent Alpöge가 Anthropic 모델로 일반화 리만 가설을 증명했다고 발표했어요. 결과물은 1,740만 줄의 Lean 코드예요. Scott Aaronson은 유효성을 확신하지는 않지만, Lean 인증을 갖춘 AI 결과가 철회된 사례는 아직 보지 못했다고 해요.",
+      "tag": "연구",
+      "source": "GeekNews",
+      "originalTitle": "‘확률적 앵무새’가 리만 가설을 증명한 모양이다",
+      "url": "https://news.hada.io/topic?id=37554&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-21T03:01:49.717Z"
+    }
+  ]
+}
