@@ -1,0 +1,95 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-11-22",
+  "generatedAt": "2026-11-22T03:01:09.688Z",
+  "summarizer": "claude",
+  "candidateCount": 37,
+  "headline": "리만 가설 증명 Lean 검증, GPT-6.2 점수 공개",
+  "items": [
+    {
+      "title": "리만 가설 증명, Lean 검증 완료",
+      "summary": "Lean과 Mathlib 커뮤니티가 Levent Alpöge가 공개한 리만 가설 증명의 명제와 증명이 모두 올바르다고 인증했어요. 증명은 1,700만 줄 규모의 Lean 라이브러리이고, Lean 공식 커널과 여러 독립 검사기가 유효성을 확인했다고 해요. Claude와 함께 작성했다고 표기된 미러 저장소도 GitHub에서 인기를 얻고 있어요.",
+      "tag": "연구",
+      "source": "GeekNews",
+      "originalTitle": "Lean과 Mathlib 커뮤니티, 리만 가설 증명 검증 완료 발표",
+      "url": "https://news.hada.io/topic?id=37586&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-22T03:01:09.688Z"
+    },
+    {
+      "title": "GPT-6.2 Astra·Sol, SimpleBench 부진",
+      "summary": "일상적 추론을 평가하는 SimpleBench에서 GPT-6.2 Astra는 77.3%(17위), Sol은 69.9%(30위)를 기록했어요. Sol은 6.1의 82.9%보다 낮아졌고, Astra Pro도 86.5%에서 79.2%로 내려갔어요. 선두는 Claude Fable 5.2로 94.9%예요.",
+      "tag": "모델",
+      "source": "GeekNews",
+      "originalTitle": "Astra 6.2와 Sol 6.2, SimpleBench에서 부진",
+      "url": "https://news.hada.io/topic?id=37602&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-22T03:01:09.688Z"
+    },
+    {
+      "title": "DreamCoder: 코딩 하네스 겸 IDE",
+      "summary": "Mastering Emacs 저자가 코딩 하네스와 IDE인 DreamCoder를 공개했어요. Hacker News에서 추천 272개를 받았어요. 새 코딩 도구를 찾고 있다면 살펴볼 만해요.",
+      "tag": "코딩",
+      "source": "Hacker News",
+      "originalTitle": "DreamCoder: Coding harness and IDE from the author of Mastering Emacs",
+      "url": "https://www.masteringemacs.org/article/announcing-dreamcoder",
+      "discussion": "https://news.ycombinator.com/item?id=50581110",
+      "at": "2026-11-22T03:01:09.688Z"
+    },
+    {
+      "title": "AriadneNSD: Claude 스킬로 NS 차트 그리기",
+      "summary": "알고리즘을 NS 차트로 그리는 웹 편집기가 베타로 공개됐어요. 저장 형식 .ns.svg는 README 같은 Markdown 문서에 넣으면 그림으로 보이고, 편집기에서 열면 수정할 수 있어요. \"이 함수 NS 차트로 그려 줘\"라고 요청하는 Claude 스킬도 함께 제공해요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "Show GN: AriadneNSD - 알고리즘을 NS 차트로 그리는 구조 편집기",
+      "url": "https://news.hada.io/topic?id=37589&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-22T03:01:09.688Z"
+    },
+    {
+      "title": "UI SDK: AI가 UI 동작을 조합해 컴포넌트 제작",
+      "summary": "AI 에이전트가 UI의 기본 동작을 조합해 Select, 자동완성, 콤보박스 같은 컴포넌트를 만드는 라이브러리예요. 50개 이상의 동작을 제공하고, 키보드 탐색과 스크린 리더 지원을 재사용해요. React, Vue, Svelte, Solid, Web Components를 지원하고 접근성 검사 도구도 있어요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "UI SDK - AI 에이전트가 UI의 기본 동작을 조합해 컴포넌트를 만드는 라이브러리",
+      "url": "https://news.hada.io/topic?id=37600&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-22T03:01:09.688Z"
+    },
+    {
+      "title": "추론 칩을 바이브코딩으로 만들기",
+      "summary": "바이브코딩으로 추론 칩을 만든 경험담이 Hacker News에서 추천 174개를 받았어요. 소프트웨어 밖의 영역까지 AI에게 맡기는 시도라서 참고할 만해요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "Vibecoding an inference chip",
+      "url": "https://ankitg.me/blog/vibecoding-inference-chip/",
+      "discussion": "https://news.ycombinator.com/item?id=50579297",
+      "at": "2026-11-22T03:01:09.688Z"
+    },
+    {
+      "title": "Slopstrap: 바이브코딩 티 나는 사이트 만들기",
+      "summary": "사이트를 일부러 급하게 바이브코딩한 것처럼 보이게 만드는 Slopstrap이 Hacker News에서 추천 675개를 받았어요. AI가 만든 화면 특유의 모습이 개발자 사이에서 화제라는 뜻이에요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "Slopstrap – Make your site look hastily vibecoded",
+      "url": "https://slopstrap.mikelacher.com/",
+      "discussion": "https://news.ycombinator.com/item?id=50576012",
+      "at": "2026-11-22T03:01:09.688Z"
+    },
+    {
+      "title": "GnuPG GPGME 원격 코드 실행 취약점",
+      "summary": "GPGME 2.3.1이 조작된 OpenPGP 키로 이중 해제를 일으키는 치명적 취약점 CVE-2026-129975를 수정했어요. GPGME를 공유 라이브러리나 정적 링크로 쓰는 소프트웨어가 영향을 받아서 즉시 업데이트를 권고해요. 원격 코드 실행 가능성도 배제할 수 없다고 해요.",
+      "tag": "읽을거리",
+      "source": "GeekNews",
+      "originalTitle": "GnuPG의 원격 코드 실행(RCE) 취약점",
+      "url": "https://news.hada.io/topic?id=37590&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-22T03:01:09.688Z"
+    },
+    {
+      "title": "Inkling-2-Mini를 5.4GB로 압축",
+      "summary": "Inkling-2-Mini의 텍스트 가중치를 18.89GB에서 5.38GB로 줄였어요. GSM8K 67.0%, HumanEval 36.6%를 기록해 9.14GB짜리 Unsloth UD-Q2_K_XL보다 파일이 41% 작으면서 두 점수가 모두 높아요. Apple Silicon 전용 Metal 커널로 M5 Max에서 실행한 측정치가 공개됐어요.",
+      "tag": "모델",
+      "source": "GeekNews",
+      "originalTitle": "5.4 GB 메모리의 Inkling-2-Mini",
+      "url": "https://news.hada.io/topic?id=37595&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-22T03:01:09.688Z"
+    }
+  ]
+}
