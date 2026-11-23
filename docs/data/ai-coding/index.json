@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-11-23",
+    "count": 5,
+    "headline": "추론 업체 개인정보 유출과 에이전트용 Postgres 소식"
+  },
+  {
     "date": "2026-11-22",
     "count": 9,
     "headline": "리만 가설 증명 Lean 검증, GPT-6.2 점수 공개"
