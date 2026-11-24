@@ -1,0 +1,102 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-24T03:01:11.640Z",
+  "summarizer": "claude",
+  "candidateCount": 53,
+  "headline": "Codex 새 기능 추가, GLM-5.4와 경량화 모델 소식",
+  "items": [
+    {
+      "title": "Claude Code v2.1.331 업데이트",
+      "summary": "Amazon Bedrock, Google Cloud, Microsoft Foundry, AWS의 Claude Platform 터미널 세션에서 Code Mode를 쓸 수 있게 됐어요. claude doctor에 API 연결 상태를 알려주는 항목이 생겼어요. 프록시 환경에서 응답 압축을 끌 수 있는 CLAUDE_CODE_DISABLE_RESPONSE_COMPRESSION 설정과, 플러그인 매니페스트의 optionalDependencies도 추가됐어요.",
+      "tag": "코딩",
+      "source": "Claude Code 업데이트",
+      "originalTitle": "v2.1.331",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331",
+      "at": "2026-11-24T03:01:11.640Z"
+    },
+    {
+      "title": "Codex 0.172.0 업데이트",
+      "summary": "검색 결과와 대화 기록의 스레드 링크를 따라가 저장된 대화나 하위 에이전트를 터미널에서 열 수 있어요. 슬래시 명령어 인자를 Tab으로 자동 완성하고, 에이전트 명령 센터에서는 Shift+위/아래로 작업 그룹 사이를 이동해요. 캐시된 도구 목록이 있는 선택적 MCP 서버는 첫 도구 호출 때 시작되고, codex exec resume은 저장된 샌드박스 권한과 작업 폴더를 복원해요.",
+      "tag": "코딩",
+      "source": "Codex 업데이트",
+      "originalTitle": "0.172.0",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0",
+      "at": "2026-11-24T03:01:11.640Z"
+    },
+    {
+      "title": "GLM-5.4: 첫 루프 트랜스포머 코딩 모델",
+      "summary": "GLM-5.4가 '일반화된 코딩'을 내세우며 첫 루프 트랜스포머 모델로 공개됐다고 해요. Hacker News에서 추천 1075개를 받았어요. 후보에는 성능 수치가 적혀 있지 않아 자세한 내용은 원문에서 확인해야 해요.",
+      "tag": "모델",
+      "source": "Hacker News",
+      "originalTitle": "GLM-5.4: Toward generalized coding with our first loop transformer",
+      "url": "https://z.ai/blog/glm-5.4",
+      "discussion": "https://news.ycombinator.com/item?id=50609685",
+      "at": "2026-11-24T03:01:11.640Z"
+    },
+    {
+      "title": "NariQ: Qwen3.8-27B를 10GB로 양자화",
+      "summary": "Qwen3.8-27B를 3비트, 2.5비트, 2비트로 줄인 GGUF 모델이에요. 3비트는 10.12GB, 2.5비트는 8.44GB로 BF16의 53.8GB보다 훨씬 작아요. 두 버전은 장기 에이전트 작업, 수학, 이미지 이해 평가에서 BF16 수준의 성능을 보였다고 해요. 실행하려면 NariQ 전용 llama.cpp 포크가 필요해요.",
+      "tag": "모델",
+      "source": "GeekNews",
+      "originalTitle": "NariQ: BF16 수준의 Qwen3.8-27B를 10GB 파일에 담다",
+      "url": "https://news.hada.io/topic?id=37749&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-24T03:01:11.640Z"
+    },
+    {
+      "title": "평가는 AI 엔지니어링에서 가장 과소평가된 역량",
+      "summary": "모델이나 프롬프트를 바꿨을 때 정말 나아졌는지 알려면, 운영 기록 100개 이상에서 실패 사례를 분류하는 것부터 시작하라고 해요. 기준 데이터셋은 버전 관리하고, 가능하면 결정론적 검사를 먼저 적용하라고 해요. 에이전트는 최종 답뿐 아니라 도구 호출 경로와 효율도 점검해야 한다고 해요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "평가는 AI 엔지니어링에서 가장 과소평가된 역량이다",
+      "url": "https://news.hada.io/topic?id=37745&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-24T03:01:11.640Z"
+    },
+    {
+      "title": "Pine: 이벤트에 반응하는 AI 에이전트 하네스",
+      "summary": "새 파일, 메일, 메시지 같은 이벤트가 생기면 에이전트가 작업을 시작하는 실행 환경이에요. 감시할 대상과 할 일을 말로 지정하고, 메일, Slack, Telegram, 웹훅, RSS 등과 연결할 수 있어요. 여러 에이전트가 역할을 나눠 병렬로 일하고 공유 작업 보드에서 진행 상황을 볼 수 있다고 해요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "Pine - 파일과 메시지, 기기 변화에 반응해 작업하는 AI 에이전트 하네스",
+      "url": "https://news.hada.io/topic?id=37742&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-24T03:01:11.640Z"
+    },
+    {
+      "title": "OpenAI·Cisco, 오픈소스 런타임 Shirudo 공개",
+      "summary": "서비스를 멈추지 않고 Linux 시스템에 임시 보호를 적용하는 eBPF 기반 런타임이에요. 통제된 테스트에서 Codex가 만든 실드가 실행 중인 Elasticsearch에 대한 Java4Shell 공격 시도를 재시작 없이 막았다고 해요. 실드는 서명 검증을 거쳐 로드돼요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "OpenAI와 Cisco, 실행 중인 Linux 시스템을 보호하는 오픈소스 런타임 Shirudo 공개",
+      "url": "https://news.hada.io/topic?id=37740&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-24T03:01:11.640Z"
+    },
+    {
+      "title": "SSH 키를 디스크에 보관하지 말자",
+      "summary": "디스크에 남은 SSH 개인 키는 악성 코드의 디스크 스캔으로 유출될 수 있어요. Bitwarden SSH 에이전트로 키를 쓰도록 바꾸면 디스크의 키 파일을 지울 수 있어요. 커밋 서명용 키를 따로 두는 설정도 함께 소개돼요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "SSH 키를 디스크에 보관하지 말자",
+      "url": "https://news.hada.io/topic?id=37734&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-24T03:01:11.640Z"
+    },
+    {
+      "title": "skill-distill: 좋은 세션을 스킬로 증류",
+      "summary": "잘 끝난 Claude Code나 Codex 세션을 오픈 웨이트 모델이 따라 할 수 있는 스킬로 만들어 주는 프로젝트예요. 같은 작업을 다른 모델로 재현하려는 분께 참고가 될 수 있어요. GitHub에서 별 522개를 받았어요.",
+      "tag": "코딩",
+      "source": "GitHub 인기 프로젝트",
+      "originalTitle": "sybil-solutions/skill-distill — Distill a good Claude Code / Codex session into a skill an open-weight model can follow to reproduce the task",
+      "url": "https://github.com/sybil-solutions/skill-distill",
+      "at": "2026-11-24T03:01:11.640Z"
+    },
+    {
+      "title": "agy-fast: Antigravity용 MCP 가속 플러그인",
+      "summary": "Google Antigravity에서 쓰는 MCP 가속 플러그인이에요. 설명에 따르면 LLM 턴 수를 34%, 토큰 사용량을 31%, 업로드 트래픽을 40% 줄인다고 해요. 기본 화면과 diff에는 영향이 없다고 해요.",
+      "tag": "코딩",
+      "source": "GitHub 인기 프로젝트",
+      "originalTitle": "INK-Q/agy-fast — Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs",
+      "url": "https://github.com/INK-Q/agy-fast",
+      "at": "2026-11-24T03:01:11.640Z"
+    }
+  ]
+}
