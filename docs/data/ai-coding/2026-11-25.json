@@ -1,0 +1,74 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-11-25",
+  "generatedAt": "2026-11-25T03:01:07.525Z",
+  "summarizer": "claude",
+  "candidateCount": 45,
+  "headline": "Claude Code에 MCP 스킬 추가, 로컬 코딩 모델도 공개",
+  "items": [
+    {
+      "title": "Claude Code v2.1.332 업데이트",
+      "summary": "MCP 서버가 제공하는 스킬을 쓸 수 있게 됐어요(베타). / 메뉴에 server:skill 형태로 표시돼요. 스킬이나 명령이 불러오는 셸 명령을 막을 수 있는 PreSkillShellCommand 훅도 추가됐어요. 모델이 바뀌면 /model로 고르기 전까지 하단에 안내 줄이 남아요.",
+      "tag": "코딩",
+      "source": "Claude Code 업데이트",
+      "originalTitle": "v2.1.332",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.332",
+      "at": "2026-11-25T03:01:07.525Z"
+    },
+    {
+      "title": "Ternary Bonsai 2.5 27B 공개",
+      "summary": "PrismML이 Qwen3.8 27B 기반의 로컬 모델을 공개했어요. 모델 크기는 이전과 같은 5.9GB로 유지하면서 에이전트 코딩과 도구 사용을 강화했다고 해요. 자체 평가에서 SWE-bench Verified는 60.8에서 75.6으로, AppWorld는 51.2에서 90.5로 올랐어요. LiveCodeBench v6 점수는 소폭 하락했어요.",
+      "tag": "모델",
+      "source": "GeekNews",
+      "originalTitle": "Ternary Bonsai 2.5 27B - 5.9GB 크기를 유지하며 에이전트 코딩을 강화한 로컬 AI 모델",
+      "url": "https://news.hada.io/topic?id=37796&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-25T03:01:07.525Z"
+    },
+    {
+      "title": "1년간 LLM의 세 번의 변곡점",
+      "summary": "Simon Willison이 AI Engineer Code Summit 기조연설을 바탕으로 정리한 글이에요. 지난 12개월 동안 LLM과 코딩 에이전트의 능력이 크게 달라진 세 번의 전환점을 짚어요. 코딩 에이전트가 어떻게 달라져 왔는지 흐름을 볼 수 있어요.",
+      "tag": "읽을거리",
+      "source": "Simon Willison",
+      "originalTitle": "Three LLM inflection points in twelve months",
+      "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+      "at": "2026-11-25T03:01:07.525Z"
+    },
+    {
+      "title": "2026년 기업용 AI 현황",
+      "summary": "기업용 AI 지출이 2026년 9월 기준 연환산 1,770억 달러로, 전년 대비 5.4배 늘었다고 해요. 코딩과 기업용 챗봇이 773억 달러 규모 AI 앱 시장의 76%를 차지해요. 코드에 접근하고 테스트로 결과를 확인할 수 있는 분야에 지출이 몰린다고 해요.",
+      "tag": "읽을거리",
+      "source": "GeekNews",
+      "originalTitle": "2026년 기업용 AI 현황",
+      "url": "https://news.hada.io/topic?id=37806&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-25T03:01:07.525Z"
+    },
+    {
+      "title": "GPT-6, 단백질 설계 능력 입증",
+      "summary": "OpenAI의 GPT-6 계열 모델이 전문 생물학 모델 없이 추론과 범용 코딩 도구만으로 단백질 구조와 서열을 설계했다고 해요. GPT-6.2가 설계한 미니바인더 322개 중 35개(10.9%)가 표적에 결합하는 징후를 보였어요. 시험한 5개 표적 모두에서 결합 후보가 나왔어요.",
+      "tag": "연구",
+      "source": "GeekNews",
+      "originalTitle": "GPT-6 모델, 내재적 단백질 설계 능력 입증",
+      "url": "https://news.hada.io/topic?id=37808&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-25T03:01:07.525Z"
+    },
+    {
+      "title": "유휴 자원으로 로컬 모델 학습시키는 Songe",
+      "summary": "Songe는 로컬 모델을 쓰는 동안 도구 실행 결과, 오류, 사용자 수정을 기록해 둬요. 에이전트가 쉬는 동안 이를 바탕으로 모델을 학습시켜요. 새 버전은 평가에서 개선이 확인될 때만 적용되고, 이전 버전으로 되돌릴 수도 있어요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "유휴 컴퓨팅 자원으로 로컬 모델을 학습시키는 엔진",
+      "url": "https://news.hada.io/topic?id=37798&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-25T03:01:07.525Z"
+    },
+    {
+      "title": "Anthropic 증류 의심, 어떻게 입증하나",
+      "summary": "Ask HN에 Anthropic API를 모델 증류에 썼다는 의심을 받은 한 회사의 사연이 올라왔어요. 입증할 시간으로 24시간을 받았다고 해요. AI 설정을 바꿀 때 자동으로 돌리는 회귀 벤치마크가 의심 요인일 것으로 짐작하고 있어요. API로 자동 테스트를 돌리는 개발자에게 참고가 돼요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "Ask HN: Anthropic이 우리 회사가 모델 증류를 한다고 하는데, 아니라는 걸 어떻게 입증할 수 있을까요?",
+      "url": "https://news.hada.io/topic?id=37794&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-25T03:01:07.525Z"
+    }
+  ]
+}

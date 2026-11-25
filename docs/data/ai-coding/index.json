@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-11-25",
+    "count": 7,
+    "headline": "Claude Code에 MCP 스킬 추가, 로컬 코딩 모델도 공개"
+  },
+  {
     "date": "2026-11-24",
     "count": 10,
     "headline": "Codex 새 기능 추가, GLM-5.4와 경량화 모델 소식"
