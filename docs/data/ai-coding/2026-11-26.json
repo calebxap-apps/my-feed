@@ -1,0 +1,86 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-26T03:01:04.044Z",
+  "summarizer": "claude",
+  "candidateCount": 44,
+  "headline": "Gemini 4 Neon 공개, Copilot 현대화 스킬 등 소식",
+  "items": [
+    {
+      "title": "Gemini 4 Neon, 구글 프런티어 복귀",
+      "summary": "구글 딥마인드의 Gemini 4 Neon이 나왔어요. LiveBench에서 Astra와 Fable을 앞섰다고 해요. Theo의 TS Rust 벤치마크 실행 시간은 48.6% 줄었다고 합니다.",
+      "tag": "모델",
+      "source": "Latent Space",
+      "originalTitle": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
+      "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/",
+      "at": "2026-11-26T03:01:04.044Z"
+    },
+    {
+      "title": "Copilot 에이전트 스킬로 앱 현대화",
+      "summary": "GitHub 블로그가 오래된 애플리케이션을 평가하고, 범위가 정해진 현대화 단계를 고르는 방법을 소개했어요. 이 방법은 GitHub Copilot 에이전트 스킬로 다시 쓸 수 있다고 해요. 기존 코드를 AI에게 맡겨 고치려는 때 참고할 수 있어요.",
+      "tag": "코딩",
+      "source": "GitHub 블로그",
+      "originalTitle": "How to choose the next safe step in application modernization",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/",
+      "at": "2026-11-26T03:01:04.044Z"
+    },
+    {
+      "title": "LLM으로 9달러 MP3 플레이어에 Rockbox 이식",
+      "summary": "RAM이 512 KiB뿐인 문서 없는 MP3 플레이어에 Rockbox를 이식한 사례예요. LLM이 코드를 쓰고 사람은 방향과 테스트를 맡아 약 일주일 만에 부팅과 음악 재생에 성공했다고 해요. 에이전트가 Ghidra, 웹캠 등으로 기기를 관찰하며 역공학을 했다는 점이 참고가 돼요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "LLM으로 문서 없는 9달러 AliExpress ‘YP3’ MP3 플레이어에 Rockbox 포팅하기",
+      "url": "https://news.hada.io/topic?id=37853&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-26T03:01:04.044Z"
+    },
+    {
+      "title": "Thariq Shihipar의 AI Engineer CODE 강연",
+      "summary": "AI로 소프트웨어를 대량으로 싸게 만드는 흐름과, 하나를 제대로 다듬을 시간을 얻는 흐름이 함께 갈 수 있다는 강연이에요. 격투 게임 데모에서 바위 크기 같은 요소를 바로 고치는 모습을 보여준다고 해요.",
+      "tag": "읽을거리",
+      "source": "Latent Space",
+      "originalTitle": "The Revolution vs The Renaissance — Thariq Shihipar, OpenAI",
+      "url": "https://latent.space/p/the_revolution_vs_the_renaissance_thariq_shihipar_openai/",
+      "at": "2026-11-26T03:01:04.044Z"
+    },
+    {
+      "title": "iOS Safari 60 FPS 제한 우회하기",
+      "summary": "iOS Safari의 60 FPS 제한을 우회해 웹앱을 네이티브처럼 부드럽게 만드는 방법을 다룬 글이에요. 휴대폰 홈 화면에 설치하는 웹앱을 만들 때 참고할 만해요. Hacker News에서 추천 441개를 받았어요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
+      "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
+      "discussion": "https://news.ycombinator.com/item?id=50637890",
+      "at": "2026-11-26T03:01:04.044Z"
+    },
+    {
+      "title": "샌드박스된 모델도 추론 서버로 소통 가능",
+      "summary": "샌드박스에 갇힌 모델들이 추론 서버를 통해 서로 소통할 수 있다는 글이에요. 에이전트에게 코드를 맡길 때 격리 환경을 어떻게 믿어야 할지 생각해 볼 만해요. Hacker News에서 추천 454개를 받았어요.",
+      "tag": "연구",
+      "source": "Hacker News",
+      "originalTitle": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+      "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+      "discussion": "https://news.ycombinator.com/item?id=50637686",
+      "at": "2026-11-26T03:01:04.044Z"
+    },
+    {
+      "title": "Relax: Rust용 JIT 컴파일러",
+      "summary": "Rust 프로그램을 전체 빌드 없이 실행하고, 실행 중 함수를 고치면 상태를 유지한 채 새 코드로 바꿔 주는 도구예요. 대형 3D 게임에서 약 3분 걸리던 빌드 후 실행이 M4 MacBook에서 11초로 줄었다고 해요. 캐시가 있으면 다음 실행은 1.15초래요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "Relax - Rust 코드를 바로 실행하고 수정 사항을 반영하는 JIT 컴파일러",
+      "url": "https://news.hada.io/topic?id=37860&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-26T03:01:04.044Z"
+    },
+    {
+      "title": "1Password 보안 사고",
+      "summary": "1Password 보안 사고 소식이 Hacker News에서 추천 1,201개로 가장 많은 관심을 받았어요. 비밀번호 관리자를 쓴다면 공식 공지를 확인해 보는 게 좋겠어요.",
+      "tag": "커뮤니티",
+      "source": "Hacker News",
+      "originalTitle": "1Password Security Incident",
+      "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+      "discussion": "https://news.ycombinator.com/item?id=50644817",
+      "at": "2026-11-26T03:01:04.044Z"
+    }
+  ]
+}
