@@ -1,0 +1,75 @@
+{
+  "channel": "ai-coding",
+  "mode": "digest",
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27T03:01:29.372Z",
+  "summarizer": "claude",
+  "candidateCount": 39,
+  "headline": "GPT-6.2 사용 한도 축소와 구글 Workspace MCP 의무화 소식",
+  "items": [
+    {
+      "title": "OpenAI, GPT-6.2 사용 한도 줄여",
+      "summary": "OpenAI가 GPT-6.2의 사용 한도를 줄였다고 해요. Astra는 한도에 40% 더 빨리, Sol은 25% 더 빨리 도달한다고 합니다. 코딩 작업에 이 모델을 쓰신다면 하루에 맡길 수 있는 작업량이 줄 수 있어요.",
+      "tag": "모델",
+      "source": "Hacker News",
+      "originalTitle": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+      "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+      "discussion": "https://news.ycombinator.com/item?id=50651117",
+      "at": "2026-11-27T03:01:29.372Z"
+    },
+    {
+      "title": "GPT-6.2, 추론 토큰 사용량 감소",
+      "summary": "두 AI 모델에 같은 작업을 맡겨 비교하는 Agent Duel에서, GPT-6.2 Astra와 Sol은 전작보다 작업당 출력 토큰과 추론 토큰을 적게 썼어요. 네 검정의 p값은 모두 0.05 미만이었어요. 사용 한도 축소와 함께 OpenAI가 비용을 통제하는 것 아니냐는 해석이 나오고 있어요.",
+      "tag": "모델",
+      "source": "GeekNews",
+      "originalTitle": "OpenAI가 비용 통제에 나섰을까? - GPT-6.2의 추론 토큰 감소",
+      "url": "https://news.hada.io/topic?id=37922&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-27T03:01:29.372Z"
+    },
+    {
+      "title": "구글, AI 에이전트에 자사 MCP 의무화",
+      "summary": "2027년 2월 1일부터 AI 에이전트가 Gmail, Drive 등 Workspace 데이터에 접근하려면 구글 공식 MCP 서버나 Workspace CLI를 써야 해요. 공개 Gmail MCP 서버는 검색, 읽기, 초안 생성만 되고 발송, 답장, 전달, 초안 수정은 파트너 전용이에요. 접근 과정에서 만든 임베딩이나 메모리 인덱스는 30일을 넘겨 보관할 수 없어요. 메일을 다루는 에이전트를 만드신다면 미리 확인해 두셔야 해요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "Google, AI 에이전트의 Workspace 접근에 자사 MCP 의무화… 공개 Gmail MCP로는 메일 발송 불가",
+      "url": "https://news.hada.io/topic?id=37919&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-27T03:01:29.372Z"
+    },
+    {
+      "title": "AI 덕분에 셀프 호스팅이 다시 즐거워졌다",
+      "summary": "AI 코딩 에이전트로 Docker Compose 파일과 스크립트를 고치고, NixOS 같은 낯선 환경까지 써 본 경험담이에요. Renovate가 업데이트 PR을 만들고, 병합하면 GitHub Actions나 Forgejo Actions가 빌드와 배포를 처리해요. 휴대폰에서 PR을 병합하는 것만으로 끝날 때도 있다고 해요. 따라 해 볼 만한 작업 흐름이에요.",
+      "tag": "커뮤니티",
+      "source": "GeekNews",
+      "originalTitle": "AI 덕분에 셀프 호스팅이 다시 즐거워졌다",
+      "url": "https://news.hada.io/topic?id=37928&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-27T03:01:29.372Z"
+    },
+    {
+      "title": "여러 코딩 에이전트용 스킬팩 ARCUS-STACK",
+      "summary": "스킬을 SKILL.md 표준으로만 작성해서 Claude Code, Codex, Cursor, OpenCode, Antigravity가 같은 파일을 읽도록 만든 스킬팩이에요. MCP 서버 없이 마크다운 지침만으로 동작하고 MIT 라이선스예요. 계획, 리뷰, 반복 작업을 돕는다고 해요. 에이전트를 여러 개 쓰실 때 설정을 한 벌로 맞출 수 있어요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "Show GN: ARCUS-STACK - 매번하는 반복을 조금 더 똑똑하게, 여러 AI 코딩 에이전트에게 시킬 수 있는 스킬팩",
+      "url": "https://news.hada.io/topic?id=37932&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-27T03:01:29.372Z"
+    },
+    {
+      "title": "Rust 기반 고속 포매터 tidy",
+      "summary": "Prettier와 같은 스타일로 코드를 정리하는 포매터이고, Node.js 없이 단일 실행 파일로 동작해요. 자체 벤치마크에서 12,071개 파일 검사에 280ms가 걸렸고, Prettier의 18.5초보다 약 66배 빠르다고 해요. JS, TS, CSS, HTML, Markdown, JSON, YAML 등을 플러그인 없이 처리해요.",
+      "tag": "코딩",
+      "source": "GeekNews",
+      "originalTitle": "tidy - Prettier 스타일로 코드를 정리하는 Rust 기반 고속 포매터",
+      "url": "https://news.hada.io/topic?id=37927&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-27T03:01:29.372Z"
+    },
+    {
+      "title": "llama.cpp용 AMD 특화 패치",
+      "summary": "llama.cpp에 작은 AMD 특화 패치를 적용해 속도를 높이는 프로젝트예요. eGPU로 연결한 AMD R9700 테스트에서 프리필은 약 700에서 1,300토큰/초로, 토큰 생성은 약 35에서 55토큰/초로 늘었다고 해요. 환경에 따라 결과는 달라질 수 있어요. AMD 그래픽카드로 로컬 모델을 돌리신다면 참고할 만해요.",
+      "tag": "읽을거리",
+      "source": "GeekNews",
+      "originalTitle": "Llama.cpp용 AMD 특화 패치",
+      "url": "https://news.hada.io/topic?id=37917&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "at": "2026-11-27T03:01:29.372Z"
+    }
+  ]
+}
